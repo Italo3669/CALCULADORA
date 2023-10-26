@@ -1,21 +1,25 @@
+.cabeçalho {
+    border-bottom: 3px solid black;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+#logo{
+position: relative;
+bottom: 60px;
+right: 50px;
+height: 200px;
+width: 300px;
+
+
+}
+
 #calculadora{
     position: absolute;
 height: 420px;
 width: 500px;
 right: 300px;
-}
-
-.cabeçalho {
-    border-bottom: 1px solid black;
-    width: 100%;
-    height: 90px;
-}
-
-#logo{
-height: 200px;
-width: 800x;
-left: 600px;
-
 }
 
 #icone{
@@ -36,6 +40,7 @@ color: white;
     position: absolute;
     width: 100%;
     height: 90px;
-    padding: 5px 5px;
+    left: 0px;
+    padding: 1px 1px;
     background-color: black;
 }
