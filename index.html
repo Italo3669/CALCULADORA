@@ -7,7 +7,12 @@
 
     <link rel="stylesheet" href="style/index.css">  <!--referencia a pasta do CSS-->
     <link rel="icon"  href="img/c.png"  type="image/x-icon"> <!--favicon icone do navegador-->
-
+    <style>
+        a{
+            text-decoration: none;
+            color:black;
+        }
+    </style>
     <title>Calculadora Online</title> <!-- titulo do site -->
 
 </head>
@@ -15,27 +20,25 @@
 <body style="background-color:rgb(99, 3, 150)"> <!-- cor na pagina-->
 
 <div class="cabeçalho">
-    <img src="img/logopreto.png" alt="logo calculadora" id="logo">   <!--logo calculator-->
+   <img src="img/logopreto.png" alt="logo calculadora" id="logo">   <!--logo calculator-->
 </div>
 
 <img src="img/simbolos.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->
 
-<div>
-    <ul id="lista"> <!- lista de topicos->
-     <h1> <p><li>Adição</li></p>  <!- topico 1 começo do h1->
-         <p><li>Multiplicação</li></p>  <!- topico 2->
-         <p><li>Subtração</li></p>  <!- topico 3->
-         <p><li>Divisão</li></p> <!- topico 4->
-         <p><li>Porcetagem</li></p>   <!- topico 5->
-        <p> <li>Hipoteca</li></p>  <!- topico 6->
-        <p><li>Juros</li></p> </h1>  <!- topico 7 , finalização do h1->
-    </ul>
+<div id="lista">  <!-- lista de topicos-->
+     <h1><a href="pages/adi.html"> Adição </a>  <br>    <!-- topico 1 começo do h1-->
+         <a href="pages/mul.html"> Multiplicação </a>  <br>  <!-- topico 2-->
+         <a href= pages/sub.html> Subtração</a>  <br>   <!-- topico 3-->
+         <a href="pages/div.html"> Divisão</a>  <br>  <!-- topico 4-->
+         <a href=pages/por.html>Porcentagem </a>  <br>   <!-- topico 5-->
+         <a href="pages/hip.html">Hipoteca</a><br>  <!-- topico 6-->
+        <a href="pages/jur.html">Juros</a> <br>   <!-- topico 7 , finalização do h1-->
 </div>
 <footer>
 <div class="rodape">
     <div>
-        <p id="contato">contato:83 986362762</p>  <!- contato para suporte->
-        <p id="criador">3P.criação</p>  <!- nome dos devs ->
+        <p id="contato">  contato:83 986362762  </p>  <!-- contato para suporte-->
+        <p id="criador">  3P.criação  </p>  <!-- nome dos devs -->
     </div>
 </footer>
 </div>

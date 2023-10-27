@@ -35,5 +35,10 @@ color: white;
 
 #contato{
     text-align: left;
-    color: white
+    color: white;
+}
+#lista {
+    color:black;
+    text-decoration: none;
+    
 }
