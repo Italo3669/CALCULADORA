@@ -42,3 +42,11 @@ color: white;
     text-decoration: none;
     
 }
+.rodape {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    padding: 4px 4px;
+    background-color: black
+}
