@@ -55,6 +55,7 @@
     $adi1 = $_POST["adi1"];
     $adi2 = $_POST["adi2"];
     $resultado = $adi1 + $adi2;
+
     echo "Resultado: $resultado";
 
 ?>
