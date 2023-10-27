@@ -28,6 +28,14 @@ right: 300px;
     width: 100px;
 }
 
+.rodape{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    padding: 4px 4px;
+    background-color: black;
+}
+
 #criador{
 text-align: center;
 color: white;
@@ -37,7 +45,3 @@ color: white;
     text-align: left;
     color: white
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 67835f7a002de3dd6310efdc8090ac1b126793a8
