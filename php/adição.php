@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../style/adi.css"/>   <!--referencia a pasta do CSS-->
-    <link rel="icon"  href="img/c.png"  type="image/x-icon"> <!--favicon icone do navegador-->
+    <link rel="icon"  href="../img/c.png"  type="image/x-icon"> <!--favicon icone do navegador-->
     <title>Calculadora Online</title> <!-- titulo do site -->
 
 </head>
 
 <body style="background-color:rgb(99, 3, 150)">  <!-- cor na pagina-->
 
-<form action="../php/adi.php" method="POST">
+<form action="" method="POST">
 
     <a href=../index.html> <img src="../img/logoroxo.png" alt="logo calculadora" id="logo"> </a>   <!--nome calculator--> 
     <img src="../img/calculadora.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->
@@ -49,3 +49,12 @@
 </body>
 
 </html>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $num1 = $_POST["adi1"];
+    $num2 = $_POST["adi2"];
+    $resultado = $num1 + $num2;
+    echo "Resultado: $resultado";
+}
+?>
