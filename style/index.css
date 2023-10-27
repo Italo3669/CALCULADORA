@@ -16,7 +16,11 @@
 
 }
 
-#adição{
+#boxadição{
+    position: relative;
+    bottom: 400px;
+    width: 50px;
+    height: 50px;
     background-color: white;
     border-radius: 10px;
 }
@@ -43,9 +47,9 @@
 
 .rodape{
     position: relative;
-    top: 75px;
+    top: 80px;
     left: -10px;
-    width: 1304px;
+    width: 100%;
     height: 60px;
     padding: 4px 4px;
     background-color: black;
