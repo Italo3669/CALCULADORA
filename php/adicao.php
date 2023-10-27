@@ -50,3 +50,11 @@
 
 </html>
 
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $num1 = $_POST["adi1"];
+    $num2 = $_POST["adi2"];
+    $resultado = $num1 + $num2;
+    echo "Resultado: $resultado";
+}
+?>
