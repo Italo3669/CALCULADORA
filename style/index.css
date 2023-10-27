@@ -1,7 +1,7 @@
 .cabeçalho {
     position: relative;
     border-bottom: 3px solid black;
-    left: 0px;
+    left: -10px;
     width: 100%;
     height: 70px;
 }
@@ -17,11 +17,20 @@ width: 300px;
 
 }
 
-#calculadora{
+.lista{
+    position: relative;
+    top: 25px;
+    line-height: 1.8;
+    left: 10px;
+}
+
+#simbolos{
     position: absolute;
-height: 420px;
+height: 300px;
 width: 500px;
-right: 300px;
+left: 580px;
+bottom: 200px;
+transform: scale(1.5);
 }
 
 #icone{
@@ -29,9 +38,11 @@ right: 300px;
 }
 
 .rodape{
-    position: absolute;
-    width: 100%;
-    height: 90px;
+    position: relative;
+    top: 75px;
+    left: -10px;
+    width: 1304px;
+    height: 60px;
     padding: 4px 4px;
     background-color: black;
 }
@@ -43,5 +54,7 @@ color: white;
 
 #contato{
     text-align: left;
-    color: white
+    color: white;
+    font-size: 13px;
+    
 }
