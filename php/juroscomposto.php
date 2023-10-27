@@ -26,9 +26,7 @@
     <div>
 
      <h4>   <!-- tamanho do texto-->
-        Valor inicial:<input type="number" name="num1" id="c1">  <!--valor inicial do juros, c1=caixa entrada-->
-        Taxa de Juros: <input type="number" name="num2" id="c2"> <!--taxa de juros, c2=caixa entrada-->
-        N° de meses:  <input type="number" name="num3" id="c3"> <!--numero de meses dos juros, c3=caixa entrada-->
+     em andamento...
      </h4>
        <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
     </div> 
