@@ -7,14 +7,18 @@
 }
 
 #logo{
-position: relative;
-bottom: 60px;
-right: 50px;
-height: 200px;
-bottom: 65px;
-width: 300px;
+    position: relative;
+    bottom: 60px;
+    right: 50px;
+    height: 200px;
+    bottom: 65px;
+    width: 300px;
 
+}
 
+#adição{
+    background-color: white;
+    border-radius: 10px;
 }
 
 .lista{
@@ -26,11 +30,11 @@ width: 300px;
 
 #simbolos{
     position: absolute;
-height: 300px;
-width: 500px;
-left: 580px;
-bottom: 200px;
-transform: scale(1.5);
+    height: 300px;
+    width: 500px;
+    left: 580px;
+    bottom: 200px;
+    transform: scale(1.5);
 }
 
 #icone{
@@ -48,8 +52,8 @@ transform: scale(1.5);
 }
 
 #criador{
-text-align: center;
-color: white;
+    text-align: center;
+    color: white;
 }
 
 #contato{
