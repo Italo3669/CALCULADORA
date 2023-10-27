@@ -14,7 +14,7 @@
 
 <body style="background-color:rgb(99, 3, 150)">  <!-- cor na pagina-->
 
-<form action="../php/sub.php" method="POST">
+<form action="" method="POST">
 
     <a href=../index.html> <img src="../img/logoroxo.png" alt="logo calculadora" id="logo"> </a>   <!--nome calculator--> 
     <img src="../img/calculadora.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->
@@ -35,8 +35,8 @@
 
     <div>
      <h4>   
-        Insira um número: <input type="number" name="adi1" placeholder="-">   <!--caixa de resposta da subtração-->
-        Insira outro número: <input type="number" name="adi2"><br> <!--caixa de resposta da subtração-->
+        Insira um número: <input type="number" name="sub1" placeholder="-">   <!--caixa de resposta da subtração-->
+        Insira outro número: <input type="number" name="sub2"><br> <!--caixa de resposta da subtração-->
      </h4>
      <input type="submit" value="enviar" id="botão1"> <!--Botão de enviar-->
     </div> 
@@ -52,3 +52,13 @@
 </body>
 
 </html>
+
+<?php
+
+    $sub1 = $_POST["sub1"];
+    $sub2 = $_POST["sub2"];
+    $resultado = $sub1 + $sub2;
+
+    echo "Resultado: $resultado";
+
+?>
