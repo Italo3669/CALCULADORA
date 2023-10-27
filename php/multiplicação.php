@@ -48,3 +48,13 @@
 </body>
 
 </html>
+
+<?php
+
+    $mul1 = $_POST["mul1"];
+    $mul2 = $_POST["mul2"];
+    $resultado = $mul1 * $mul2;
+
+    echo "Resultado: $resultado";
+
+?>

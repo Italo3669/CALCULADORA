@@ -51,17 +51,25 @@
 </html>
 
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST"){
 $por1 = $_POST ['por1'];
 $por2 = $_POST ['por2'];
 $num1 = $_POST['num1'];
 $num2 = $_POST['num2'];
-$result1 = ($num1 * 100 ) / $num2;
-$result = ($por1 * $por2 ) / 100;
 
-echo "$result";
+if ($num1 == 0 and $num2 == 0) {
+    $result1 = ($por1 * 100 ) / $por2;
+    echo "O valor $por1 é $result1% do valor $por2.";
+} 
 
-echo "$result1";
+elseif ($por1 == 0 and $por2 == 0){
+    $result = ($num1 * $num2 ) / 100;
+    echo "O valor $num2 é $result% do valor $num1.";
 }
+
+else {
+    echo "Não foi possível calcular";
+}
+
+
 
 ?>
