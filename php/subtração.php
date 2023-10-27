@@ -57,7 +57,7 @@
 
     $sub1 = $_POST["sub1"];
     $sub2 = $_POST["sub2"];
-    $resultado = $sub1 + $sub2;
+    $resultado = $sub1 - $sub2;
 
     echo "Resultado: $resultado";
 
