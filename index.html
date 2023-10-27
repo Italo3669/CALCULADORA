@@ -5,42 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style/index.css">  <!--referencia a pasta do CSS-->
-    <link rel="icon"  href="img/c.png"  type="image/x-icon"> <!--favicon icone do navegador-->
+    <link rel="stylesheet" href="style/index.css">  <!-- Referência a pasta do CSS -->
+    <link rel="icon" href="img/c.png" type="image/x-icon"> <!-- Favicon, ícone do navegador -->
+    
     <style>
-        a{
+        a {
             text-decoration: none;
-            color:black;
-        }
-    </style>
-    <title>Calculadora Online</title> <!-- titulo do site -->
-
+            color: black;
+        } 
+    </style> <!-- Estilização de links -->
+    
+    <title>Calculadora Online</title> <!-- Título da página -->
 </head>
 
-<body style="background-color:rgb(99, 3, 150)"> <!-- cor na pagina-->
+<body style="background-color: rgb(99, 3, 150)"> <!-- Cor de fundo da página -->
 
 <div class="cabeçalho">
-   <img src="img/logopreto.png" alt="logo calculadora" id="logo">   <!--nome calculator-->
+    <img src="img/logo.png" alt="logo calculadora" id="logo"> <!-- Logo da calculadora -->
 </div>
 
-<img src="img/simbolos.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->
+<img src="img/simbolos.png" alt="calculadora" id="calculadora"> <!-- icone dos simbolos -->
 
-<div id="lista">  <!-- lista de topicos-->
-     <h1><a href="php/adição.php"> Adição </a>  <br>    <!-- topico 1 começo do h1-->
-         <a href="php/multiplicação.php"> Multiplicação </a>  <br>  <!-- topico 2-->
-         <a href= php/subtração.php> Subtração</a>  <br>   <!-- topico 3-->
-         <a href="php/divisão.php"> Divisão</a>  <br>  <!-- topico 4-->
-         <a href=php/porcentagem.php>Porcentagem </a>  <br>   <!-- topico 5-->
-         <a href="php/hipoteca.php">Hipoteca</a><br>  <!-- topico 6-->
-        <a href="php/juros.php">Juros</a> <br>   <!-- topico 7 , finalização do h1-->
+<div class="lista"> <!-- Lista de tópicos -->
+    <h1> <!-- Título dos tópicos -->
+        <a href="php/adicao.php">Adição</a> <br> <!-- Tópico 1 -->
+        <a href="php/multiplicação.php">Multiplicação</a> <br> <!-- Tópico 2 -->
+        <a href="php/subtração.php">Subtração</a> <br> <!-- Tópico 3 -->
+        <a href="php/divisão.php">Divisão</a> <br> <!-- Tópico 4 -->
+        <a href="php/porcentagem.php">Porcentagem</a> <br> <!-- Tópico 5 -->
+        <a href="php/hipoteca.php">Hipoteca</a><br> <!-- Tópico 6 -->
+        <a href="php/juros.php">Juros</a> <br> <!-- Tópico 7 --> 
+    </h1>
 </div>
+
 <footer>
-<div class="rodape">
-    <div>
-        <p id="contato">  contato:83 986362762  </p>  <!-- contato para suporte-->
-        <p id="criador">  3P.criação  </p>  <!-- nome dos devs -->
+    <div class="rodape">
+        <div>
+            <p id="contato">Contato: 83 986362762</p> <!-- Informações de contato -->
+            <p id="criador">3P.criação</p> <!-- Nome dos desenvolvedores -->
+        </div>
     </div>
 </footer>
-</div>
+
 </body>
+
 </html>
