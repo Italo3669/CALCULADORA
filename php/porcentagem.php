@@ -51,19 +51,19 @@
 </html>
 
 <?php
-$por1 = $_POST ['por1'];
-$por2 = $_POST ['por2'];
-$num1 = $_POST['num1'];
-$num2 = $_POST['num2'];
+$por1 = isset($_POST['por1']); 
+$por2 = isset($_POST['por2']);
+$num1 = isset($_POST['num1']); 
+$num2 = isset($_POST['num2']);
 
-if ($num1 == 0 and $num2 == 0) {
+if ($por1 != 0 && $por2 != 0) {
     $result1 = ($por1 * 100 ) / $por2;
-    echo "O valor $por1 é $result1% do valor $por2.";
+    echo "$result1%";
 } 
 
-elseif ($por1 == 0 and $por2 == 0){
+elseif ($por1 != 0 && $por2 != 0){
     $result = ($num1 * $num2 ) / 100;
-    echo "O valor $num2 é $result% do valor $num1.";
+    echo "$result%";
 }
 
 else {
