@@ -35,10 +35,14 @@
        <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
     </div> 
 
-<div>
-    <p id="contato">contato:83 986362762</p>  <!-- contato para suporte-->
-    <p id="criador">3P.criação</p>  <!-- nome dos devs -->
-</div>
+<footer>
+    <div class="rodape">
+        <div>
+            <p id="contato">Contato: 83 986362762</p> <!-- Informações de contato -->
+            <p id="criador">3P.criação</p> <!-- Nome dos desenvolvedores -->
+        </div>
+    </div>
+</footer>
 
 </form>
 

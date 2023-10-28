@@ -7,3 +7,12 @@
         text-align: left;
         color: white
     }
+    .rodape{
+        position: relative;
+        top: 150px;
+        left: -8px;
+        min-width: 100.5%;
+        min-height: 100%;
+        padding: 4px 4px;
+        background-color: black;
+    }
