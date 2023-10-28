@@ -35,10 +35,14 @@
        <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
     </div> 
 
-<div>
-    <p id="contato">contato:83 986362762</p>  <!-- contato para suporte-->
-    <p id="criador">3P.criação</p>  <!-- nome dos devs -->
-</div>
+<footer>
+    <div class="rodape">
+        <div>
+            <p id="contato">Contato: 83 986362762</p> <!-- Informações de contato -->
+            <p id="criador">3P.criação</p> <!-- Nome dos desenvolvedores -->
+        </div>
+    </div>
+</footer>
 
 </form>
 
@@ -47,24 +51,18 @@
 </html>
 
 <?php
+$v1 = isset($_POST["v1"]) ? floatval($_POST["v1"]) : null;
+$t2 = isset($_POST["t3"]) ? floatval($_POST["t3"]) : null;
+$n3 = isset($_POST["n3"]) ? floatval($_POST["n3"]) : null;
 
-    $v1 = $_POST["v1"];
-    $t2 = ($_POST["t2"]);
-    $n3 = $_POST["n3"];
-    $taxa = $t2 / 100; 
+if (!empty($v1) && !empty($t2) && !empty($n3)) {
+    $taxa = $t2 / 100;
     $resultado = $v1 * $taxa * $n3;
-
-    if ($v1 != null && $t2 != null && $n3 != null) {
     echo "Resultado: $resultado";
-    }
-
-    elseif ($v1 != null or $t2 != null or $n3 != null) {
-        echo "Preencha todos os campos";
-        }
-
-    else {
-        echo "Preencha todos os campos";
-    }
-
+} elseif ($v1 !== null ||  $t3 !== null ||  $n3 !== null) {
+    echo "Preencha todos os campos corretamente.";
+} else {
+    echo "Preencha todos os campos.";
+}
 ?>
 
