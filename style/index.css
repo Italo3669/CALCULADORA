@@ -13,26 +13,122 @@
     height: 200px;
     bottom: 65px;
     width: 300px;
-
 }
 
-#adição{
-    right: 50px;
+.container1 {
+    position: relative;
+    left: -10px;
+    bottom: 20px;
+    width: 150px;
+    height: 40px;
 }
 
 #boxadição{
-    position: relative;
-    width: 150px;
-    height: 30px;
-    
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
     background-color: white;
-    border-radius: 10px;
+}
+
+#adição{
+    position: absolute;
+    bottom: -10px;
+    left: 5px;
+    z-index: 1;
+}
+.container2 {
+    position: relative;
+    left: -10px;
+    top: 0px;
+    width: 150px;
+    height: 40px;
+}
+
+#boxdivisão{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+}
+
+#divisão{
+    position: absolute;
+    bottom: -10px;
+    left: 5px;
+    z-index: 1;
+}
+
+.container3{
+    position: relative;
+    left: -10px;
+    top: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+#boxhipoteca{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+}
+
+#hipoteca{
+    position: absolute;
+    bottom: -10px;
+    left: 5px;
+    z-index: 1;
+}
+
+.container4{
+    position: relative;
+    left: -10px;
+    bottom: -40px;
+    width: 150px;
+    height: 40px;
+}
+
+#boxsubtração{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+}
+
+#subtração{
+    position: absolute;
+    bottom: -10px;
+    left: 5px;
+    z-index: 1;
+}
+.container5{
+    
+}
+.container6 {
+    position: relative;
+    left: -10px;
+    top: 0px;
+    width: 250px;
+    height: 40px;
+}
+
+#boxmultiplicação{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+}
+
+#multiplicação{
+    position: absolute;
+    bottom: -10px;
+    left: 5px;
 }
 
 .lista{
     position: relative;
     top: 65px;
-    line-height: 1.0;
+    line-height: 2.0;
 }
 
 #simbolos{
@@ -40,7 +136,7 @@
     height: 300px;
     width: 500px;
     left: 580px;
-    bottom: 100px;
+    bottom: 200px;
     transform: scale(1.5);
 }
 
@@ -50,7 +146,7 @@
 
 .rodape{
     position: relative;
-    top: 150px;
+    top: 100px;
     left: -8px;
     min-width: 100.5%;
     min-height: 100%;
