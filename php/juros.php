@@ -51,18 +51,26 @@
 </html>
 
 <?php
-if (isset($_POST["v1"]) && isset($_POST["t3"]) && isset($_POST["n3"])) {
-    $v1 = floatval($_POST["v1"]);
-    $t2 = floatval($_POST["t3"]);
-    $n3 = floatval($_POST["n3"]);
 
-    if (!empty($v1) && !empty($t2) && !empty($n3)) {
+
+    $v1 = isset($_POST['v1']) ? floatval($_POST['v1']) : 0;
+    $t2 = isset($_POST['t2']) ? floatval($_POST['t2']) : 0;
+    $n3 = isset($_POST['n3']) ? floatval($_POST['n3']) : 0;
+
+    if ($v1 != 0 && $t2 != 0 && $n3 != 0) {
         $taxa = $t2 / 100;
         $resultado = $v1 * $taxa * $n3;
-        echo "Resultado: $resultado";
-} 
+        $total = $v1 + $resultado; 
 
-else {        
-    }echo "Preencha todos os campos corretamente.";
+        echo "Terá $resultado de juros e seu valor final será R$$total";
+    } else {
+        echo "Preencha todos os campos corretamente.";
     }
+
 ?>
+
+
+
+
+
+

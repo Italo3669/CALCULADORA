@@ -56,10 +56,19 @@
 
 <?php
 
-    $adi1 = $_POST["adi1"];
-    $adi2 = $_POST["adi2"];
-    $resultado = $adi1 + $adi2;
+    $adi1 = isset ($_POST["adi1"]) ? floatval($_POST["adi1"]) :0;
+    $adi2 = isset ($_POST["adi2"]) ? floatval($_POST["adi2"]) :0;
+    
 
+    if ($adi1 != 0 && $adi2 != 0 ){
+        $resultado = $adi1 + $adi2;
     echo "Resultado: $resultado";
+    }
+
+    else {
+        echo "Preencha os campos corretamente";
+    }
+
+
 
 ?>

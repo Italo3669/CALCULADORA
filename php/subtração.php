@@ -59,10 +59,17 @@
 
 <?php
 
-    $sub1 = $_POST["sub1"];
-    $sub2 = $_POST["sub2"];
-    $resultado = $sub1 - $sub2;
+$sub1 = isset ($_POST["sub1"]) ? floatval($_POST["sub1"]) :0;
+$sub2 = isset ($_POST["sub2"]) ? floatval($_POST["sub2"]) :0;
 
-    echo "Resultado: $resultado";
+
+if ($sub1 != 0 && $sub2 != 0 ){
+    $resultado = $sub1 - $sub2;
+echo "Resultado: $resultado";
+}
+
+else {
+    echo "Preencha os campos corretamente";
+}
 
 ?>
