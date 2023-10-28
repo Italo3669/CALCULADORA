@@ -208,9 +208,9 @@
 
 .rodape{
     position: relative;
-    top: 150px;
+    top: 200px;
     left: -8px;
-    min-width: 100.5%;
+    min-width: 100%;
     min-height: 100%;
     padding: 4px 4px;
     background-color: black;

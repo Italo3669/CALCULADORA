@@ -11,11 +11,11 @@
 
 </head>
 
-<body style="background-color:rgb(99, 3, 150)">  <!-- cor na pagina-->
+<body style="background-image: linear-gradient(to right,rgb(167, 121, 18),rgb(0, 0, 0))">  <!-- cor na pagina-->
 
 <form action="" method="POST">
 
-    <a href=../index.html> <img src="../img/logoroxo.png" alt="logo calculadora" id="logo" id=inserir1> </a>   <!--nome calculator--> 
+    <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo" id=inserir1> </a>   <!--nome calculator--> 
     <img src="../img/calculadora.png" alt="calculadora" id="calculadora" id=inserir2>   <!--icone da calculadora-->
 
     <div>
