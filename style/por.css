@@ -19,3 +19,27 @@
     padding: 4px 4px;
     background-color: black;
 }
+#botão1{
+    color: #FFF;
+        background-color: black;
+        border: none;
+        height: 40px;
+        line-height: 30px;
+        padding: 0 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    #botão2{
+        color: #FFF;
+            background-color: black;
+            border: none;
+            height: 40px;
+            line-height: 30px;
+            padding: 0 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 30px;
+        }
