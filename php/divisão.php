@@ -56,10 +56,17 @@
 
 <?php
 
-$div1 = $_POST["div1"];
-$div2 = $_POST["div2"];
-$resultado = $div1 / $div2;
+    $div1 = isset ($_POST["div1"]) ? floatval($_POST["div1"]) :0;
+    $div2 = isset ($_POST["div2"]) ? floatval($_POST["div2"]) :0;
+    
 
-echo "Resultado: $resultado";
+    if ($div1 != 0 && $div2 != 0 ){
+        $resultado = $div1 / $div2;
+    echo "Resultado: $resultado";
+    }
+
+    else {
+        echo "Preencha os campos corretamente";
+    }
 
 ?>

@@ -59,25 +59,24 @@
 </html>
 
 <?php
-$por1 = isset($_POST['por1']); 
-$por2 = isset($_POST['por2']);
-$num1 = isset($_POST['num1']); 
-$num2 = isset($_POST['num2']);
+$por1 = isset ($_POST["por1"]) ? floatval($_POST["por1"]) :0;
+$por2 = isset ($_POST["por2"]) ? floatval($_POST["por2"]) :0;
+$num1 = isset ($_POST["num1"]) ? floatval($_POST["num1"]) :0;
+$num2 = isset ($_POST["num2"]) ? floatval($_POST["num2"]) :0;
 
-if ($por1 != 0 && $por2 != 0) {
-    $result1 = ($por1 * 100 ) / $por2;
-    echo "$result1%";
-} 
+if ($por1 != 0 && $por2 != 0 && $num1 == 0  && $num2 == 0) {
+    $resultado = ($por1 * $por2) / 100;
+echo "Resultado: $resultado";
+}
 
-elseif ($por1 != 0 && $por2 != 0){
-    $result = ($num1 * $num2 ) / 100;
-    echo "$result%";
+elseif ($num1 != 0 && $num2 != 0 && $por1 == 0 && $por2 == 0 ){
+    $resultado1 = ($num1 * 100) / $num2;
+echo "Resultado: $resultado1";
 }
 
 else {
-    echo "Não foi possível calcular";
+    echo "Preencha os campos corretamente";
 }
-
 
 
 ?>
