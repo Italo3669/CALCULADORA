@@ -18,7 +18,7 @@
 
 #boxadição{
     position: relative;
-    width: 100px;
+    width: 150px;
     height: 30px;
     background-color: white;
     border-radius: 10px;
@@ -26,8 +26,8 @@
 
 .lista{
     position: relative;
-    top: 25px;
-    line-height: 0.8;
+    top: 65px;
+    line-height: 1.0;
 }
 
 #simbolos{
@@ -35,7 +35,7 @@
     height: 300px;
     width: 500px;
     left: 580px;
-    bottom: 200px;
+    bottom: 100px;
     transform: scale(1.5);
 }
 
