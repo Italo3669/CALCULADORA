@@ -14,7 +14,7 @@
 
 <body style="background-color:rgb(99, 3, 150)">  <!-- cor na pagina-->
 
-<form action="../php/mul.php" method="POST">
+<form action="" method="POST">
 
     <a href=../index.html> <img src="../img/logoroxo.png" alt="logo calculadora" id="logo"> </a>   <!--nome calculator--> 
     <img src="../img/calculadora.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->

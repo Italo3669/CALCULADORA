@@ -47,18 +47,18 @@
 </html>
 
 <?php
-$v1 = isset($_POST["v1"]) ? floatval($_POST["v1"]) : null;
-$t2 = isset($_POST["t3"]) ? floatval($_POST["t3"]) : null;
-$n3 = isset($_POST["n3"]) ? floatval($_POST["n3"]) : null;
+if (isset($_POST["v1"]) && isset($_POST["t3"]) && isset($_POST["n3"])) {
+    $v1 = floatval($_POST["v1"]);
+    $t2 = floatval($_POST["t3"]);
+    $n3 = floatval($_POST["n3"]);
 
-if (!empty($v1) && !empty($t2) && !empty($n3)) {
-    $taxa = $t2 / 100;
-    $resultado = $v1 * $taxa * $n3;
-    echo "Resultado: $resultado";
-} elseif ($v1 !== null ||  $t3 !== null ||  $n3 !== null) {
-    echo "Preencha todos os campos corretamente.";
-} else {
-    echo "Preencha todos os campos.";
-}
+    if (!empty($v1) && !empty($t2) && !empty($n3)) {
+        $taxa = $t2 / 100;
+        $resultado = $v1 * $taxa * $n3;
+        echo "Resultado: $resultado";
+} 
+
+else {        
+    }echo "Preencha todos os campos corretamente.";
+    }
 ?>
-
