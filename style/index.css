@@ -16,10 +16,15 @@
 
 }
 
+#adição{
+    right: 50px;
+}
+
 #boxadição{
     position: relative;
     width: 150px;
     height: 30px;
+    
     background-color: white;
     border-radius: 10px;
 }
