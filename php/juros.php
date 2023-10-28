@@ -27,12 +27,12 @@
 
 
      <h4>   <!- tamanho do texto->
-        Valor inicial:<input type="number" name="v1" id="c1">  <!--valor inicial do juros, c1=caixa entrada-->
+        Valor inicial:<input type="number" name="v1" id="c1" >  <!--valor inicial do juros, c1=caixa entrada-->
         Taxa de Juros: <input type="number" name="t2" id="c2"> <!--taxa de juros, c2=caixa entrada-->
-        N° de meses:  <input type="number" name="n3" id="c3"> <!--numero de meses dos juros, c3=caixa entrada-->
+        N° de meses:  <input type="number" name="n3" id="c3" > <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
         
-       <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
+       <input type="submit" value="enviar" id="botão1" >  <!--Botão de enviar-->
     </div> 
 
 <footer>
@@ -51,18 +51,26 @@
 </html>
 
 <?php
-$v1 = isset($_POST["v1"]) ? floatval($_POST["v1"]) : null;
-$t2 = isset($_POST["t3"]) ? floatval($_POST["t3"]) : null;
-$n3 = isset($_POST["n3"]) ? floatval($_POST["n3"]) : null;
 
-if (!empty($v1) && !empty($t2) && !empty($n3)) {
-    $taxa = $t2 / 100;
-    $resultado = $v1 * $taxa * $n3;
-    echo "Resultado: $resultado";
-} elseif ($v1 !== null ||  $t3 !== null ||  $n3 !== null) {
-    echo "Preencha todos os campos corretamente.";
-} else {
-    echo "Preencha todos os campos.";
-}
+
+    $v1 = isset($_POST['v1']) ? floatval($_POST['v1']) : 0;
+    $t2 = isset($_POST['t2']) ? floatval($_POST['t2']) : 0;
+    $n3 = isset($_POST['n3']) ? floatval($_POST['n3']) : 0;
+
+    if ($v1 != 0 && $t2 != 0 && $n3 != 0) {
+        $taxa = $t2 / 100;
+        $resultado = $v1 * $taxa * $n3;
+        $total = $v1 + $resultado; 
+
+        echo "Terá $resultado de juros e seu valor final será R$$total";
+    } else {
+        echo "Preencha todos os campos corretamente.";
+    }
+
 ?>
+
+
+
+
+
 

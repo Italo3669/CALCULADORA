@@ -35,8 +35,8 @@
 
     <div>
      <h4>   
-        Insira um número: <input type="number" name="sub1" placeholder="-">   <!--caixa de resposta da subtração-->
-        Insira outro número: <input type="number" name="sub2"><br> <!--caixa de resposta da subtração-->
+        Insira um número: <input type="number" name="sub1" placeholder="-" id="inserir1">   <!--caixa de resposta da subtração-->
+        Insira outro número: <input type="number" name="sub2" id="inserir2"><br> <!--caixa de resposta da subtração-->
      </h4>
      <input type="submit" value="enviar" id="botão1"> <!--Botão de enviar-->
     </div> 
@@ -59,10 +59,17 @@
 
 <?php
 
-    $sub1 = $_POST["sub1"];
-    $sub2 = $_POST["sub2"];
-    $resultado = $sub1 - $sub2;
+$sub1 = isset ($_POST["sub1"]) ? floatval($_POST["sub1"]) :0;
+$sub2 = isset ($_POST["sub2"]) ? floatval($_POST["sub2"]) :0;
 
-    echo "Resultado: $resultado";
+
+if ($sub1 != 0 && $sub2 != 0 ){
+    $resultado = $sub1 - $sub2;
+echo "Resultado: $resultado";
+}
+
+else {
+    echo "Preencha os campos corretamente";
+}
 
 ?>

@@ -32,8 +32,8 @@
 
     <div>   
      <h4>   
-        Insira seu número: <input type="number" name="mul1" placeholder="*">   <!--caixa de resposta da Multiplicação-->
-        a quantidade: <input type="number" name="mul2"><br> <!--caixa de resposta da multiplicação-->
+        Insira seu número: <input type="number" name="mul1" placeholder="*" id="inserir1">   <!--caixa de resposta da Multiplicação-->
+        a quantidade: <input type="number" name="mul2" id="inserir2"><br> <!--caixa de resposta da multiplicação-->
      </h4>
      <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
     </div> 
@@ -55,10 +55,16 @@
 
 <?php
 
-    $mul1 = $_POST["mul1"];
-    $mul2 = $_POST["mul2"];
+$mul1 = isset ($_POST["mul1"]) ? floatval($_POST["mul1"]) :0;
+$mul2 = isset ($_POST["mul2"]) ? floatval($_POST["mul2"]) :0;
+
+
+if ($mul1 != 0 && $mul2 != 0 ){
     $resultado = $mul1 * $mul2;
+echo "Resultado: $resultado";
+}
 
-    echo "Resultado: $resultado";
-
+else {
+    echo "Preencha os campos corretamente";
+}
 ?>

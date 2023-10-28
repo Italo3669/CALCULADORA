@@ -32,8 +32,8 @@
 
     <div>
      <h4>   
-        Insira o divisor: <input type="number" name="div1" placeholder="/">   <!--caixa de resposta da divisão-->
-        Insira o dividendo : <input type="number" name="div2"><br>  <!--caixa de resposta da Divisão-->
+        Insira o divisor: <input type="number" name="div1" placeholder="/" id=inserir1>   <!--caixa de resposta da divisão-->
+        Insira o dividendo : <input type="number" name="div2" id=inserir2><br>  <!--caixa de resposta da Divisão-->
      </h4>
      <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
     </div> 
@@ -56,10 +56,17 @@
 
 <?php
 
-$div1 = $_POST["div1"];
-$div2 = $_POST["div2"];
-$resultado = $div1 / $div2;
+    $div1 = isset ($_POST["div1"]) ? floatval($_POST["div1"]) :0;
+    $div2 = isset ($_POST["div2"]) ? floatval($_POST["div2"]) :0;
+    
 
-echo "Resultado: $resultado";
+    if ($div1 != 0 && $div2 != 0 ){
+        $resultado = $div1 / $div2;
+    echo "Resultado: $resultado";
+    }
+
+    else {
+        echo "Preencha os campos corretamente";
+    }
 
 ?>

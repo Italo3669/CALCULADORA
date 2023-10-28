@@ -32,8 +32,8 @@
 
     <div>
      <h4>   
-        Insira um número: <input type="number" name="adi1" placeholder="+">   <!--caixa de resposta da adição-->
-        Insira outro número: <input type="number" name="adi2"><br> <!--caixa de resposta da adição-->
+        Insira um número: <input type="number" name="adi1" placeholder="+" id=inserir1>   <!--caixa de resposta da adição-->
+        Insira outro número: <input type="number" name="adi2" id=inserir2><br> <!--caixa de resposta da adição-->
      </h4>
      <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
     </div> 
@@ -56,10 +56,19 @@
 
 <?php
 
-    $adi1 = $_POST["adi1"];
-    $adi2 = $_POST["adi2"];
-    $resultado = $adi1 + $adi2;
+    $adi1 = isset ($_POST["adi1"]) ? floatval($_POST["adi1"]) :0;
+    $adi2 = isset ($_POST["adi2"]) ? floatval($_POST["adi2"]) :0;
+    
 
+    if ($adi1 != 0 && $adi2 != 0 ){
+        $resultado = $adi1 + $adi2;
     echo "Resultado: $resultado";
+    }
+
+    else {
+        echo "Preencha os campos corretamente";
+    }
+
+
 
 ?>

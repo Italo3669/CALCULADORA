@@ -1,3 +1,24 @@
+#c1 {
+    font-size: 14px;  /*tamanho da fonte interna*/
+    border-radius: 50px; /*tamnho e formato das bordas*/
+    width: 90px; /*tamanho do input*/
+    text-align: center; /* texto no meio do input*/
+    border-color: black ; /*cor das bordas*/
+}
+#c2 {
+    font-size: 14px;
+    border-radius: 50px;
+    width: 90px;
+    text-align: center;
+    border-color: black ;
+}
+#c3 {
+    font-size: 14px;
+    border-radius: 50px;
+    width: 90px;
+    text-align: center;
+    border-color: black ;
+}
 #criador{
     text-align: center;
     color: white;
@@ -16,3 +37,15 @@
         padding: 4px 4px;
         background-color: black;
     }
+    #botão1{
+        color: #FFF;
+            background-color: black;
+            border: none;
+            height: 40px;
+            line-height: 30px;
+            padding: 0 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 30px;
+        }
