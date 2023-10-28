@@ -215,6 +215,10 @@
     padding: 4px 4px;
     background-color: black;
 }
+#githubb{
+    width: 10px;
+    height: 10px
+}
 
 #criador{
     text-align: center;
