@@ -18,9 +18,8 @@
 
 #boxadição{
     position: relative;
-    bottom: 400px;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
     background-color: white;
     border-radius: 10px;
 }
@@ -28,7 +27,7 @@
 .lista{
     position: relative;
     top: 25px;
-    line-height: 1.8;
+    line-height: 0.8;
     left: 10px;
 }
 
@@ -48,7 +47,7 @@
 .rodape{
     position: relative;
     top: 80px;
-    left: -10px;
+    left: ;
     min-width: 100%;
     height: 60px;
     padding: 4px 4px;
