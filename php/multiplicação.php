@@ -32,8 +32,8 @@
 
     <div>   
      <h4>   
-        Insira seu número: <input type="number" name="mul1" placeholder="*">   <!--caixa de resposta da Multiplicação-->
-        a quantidade: <input type="number" name="mul2"><br> <!--caixa de resposta da multiplicação-->
+        Insira seu número: <input type="number" name="mul1" placeholder="*" id="inserir1">   <!--caixa de resposta da Multiplicação-->
+        a quantidade: <input type="number" name="mul2" id="inserir2"><br> <!--caixa de resposta da multiplicação-->
      </h4>
      <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
     </div> 

@@ -32,8 +32,8 @@
 
     <div>
      <h4>   
-        Insira um número: <input type="number" name="adi1" placeholder="+">   <!--caixa de resposta da adição-->
-        Insira outro número: <input type="number" name="adi2"><br> <!--caixa de resposta da adição-->
+        Insira um número: <input type="number" name="adi1" placeholder="+" id=inserir1>   <!--caixa de resposta da adição-->
+        Insira outro número: <input type="number" name="adi2" id=inserir2><br> <!--caixa de resposta da adição-->
      </h4>
      <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
     </div> 
