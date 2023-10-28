@@ -23,6 +23,10 @@
 
     </div>
 
+    <h3>A porcentagem, representada pelo símbolo "%", é uma medida utilizada para expressar uma proporção ou relação em relação a um todo de 100 partes iguais. É uma maneira de descrever uma parte de algo em relação ao seu todo. A palavra "porcentagem" deriva de "por cento", que significa "por cada cento".   
+    </h3>
+    <b >Por exemplo, 25% é o mesmo que 25/100, que é igual a 1/4.</b>
+
     <div>
      <h4>   
          quanto é: <input type="number" name="por1" placeholder="%">   <!--caixa de resposta da porcentagem-->
@@ -39,10 +43,14 @@
         <input type="submit" value="enviar" id="botão2"> <!--Botão de enviar-->
     </div>
 
-<div>
-    <p id="contato">contato:83 986362762</p>  <!-- contato para suporte-->
-    <p id="criador">3P.criação</p>  <!-- nome dos devs -->
-</div>
+<footer>
+    <div class="rodape">
+        <div>
+            <p id="contato">Contato: 83 986362762</p> <!-- Informações de contato -->
+            <p id="criador">3P.criação</p> <!-- Nome dos desenvolvedores -->
+        </div>
+    </div>
+</footer>
 
 </form>
 
