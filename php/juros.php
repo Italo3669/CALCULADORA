@@ -54,9 +54,13 @@
     $taxa = $t2 / 100; 
     $resultado = $v1 * $taxa * $n3;
 
-    if ($v1 == 0 && $t2 == 0 && $n3 == 0) {
+    if ($v1 != null && $t2 != null && $n3 != null) {
     echo "Resultado: $resultado";
     }
+
+    elseif ($v1 != null or $t2 != null or $n3 != null) {
+        echo "Preencha todos os campos";
+        }
 
     else {
         echo "Preencha todos os campos";
