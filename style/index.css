@@ -1,4 +1,4 @@
-.cabeçalho {
+.cabeçalho { /*Cabeçalho do Site*/
     position: relative;
     border-bottom: 3px solid white;
     left: -10px;
@@ -6,7 +6,7 @@
     height: 70px;
 }
 
-#logo{
+#logo{ /*Logo do Site "Calculator" */
     position: relative;
     bottom: 60px;
     right: 50px;
@@ -15,7 +15,7 @@
     width: 300px;
 }
 
-.container1 {
+.container1 { /* Container da caixa que fica o nome "Adição" */
     position: relative;
     left: -10px;
     bottom: 60px;
@@ -23,20 +23,20 @@
     height: 40px;
 }
 
-#boxadição{
+#boxadição{ /*Caixa que fica o nome "Adição"*/
     width: 100%;
     height: 100%;
     border-radius: 0 7px 7px 0;
     background-color: white;
 }
 
-#adição{
+#adição{ /*Nome "Adição"*/
     position: absolute;
     bottom: -10px;
     left: 5px;
     z-index: 1;
 }
-.container2 {
+.container2 { /* Container da caixa que fica o nome "Divisão" */
     position: relative;
     left: -10px;
     bottom: 40px;
@@ -44,21 +44,21 @@
     height: 40px;
 }
 
-#boxdivisão{
+#boxdivisão{ /*Caixa que fica o nome "Divisão"*/
     width: 100%;
     height: 100%;
     border-radius: 0 7px 7px 0;
     background-color: white;
 }
 
-#divisão{
+#divisão{ /*Nome "Divisão"*/
     position: absolute;
     bottom: -10px;
     left: 5px;
     z-index: 1;
 }
 
-.container3{
+.container3{ /* Container da caixa que fica o nome "Hipoteca" */
     position: relative;
     left: -10px;
     bottom: 20px;
@@ -66,21 +66,21 @@
     height: 40px;
 }
 
-#boxhipoteca{
+#boxhipoteca{ /*Caixa que fica o nome "Hipoteca"*/
     width: 100%;
     height: 100%;
     border-radius: 0 7px 7px 0;
     background-color: white;
 }
 
-#hipoteca{
+#hipoteca{ /*Nome "Hipoteca"*/
     position: absolute;
     bottom: -10px;
     left: 5px;
     z-index: 1;
 }
 
-.container4{
+.container4{ /* Container da caixa que fica o nome "Subtração" */
     position: relative;
     left: -10px;
     top: 0px;
@@ -88,21 +88,21 @@
     height: 40px;
 }
 
-#boxsubtração{
+#boxsubtração{ /*Caixa que fica o nome "Subtração"*/
     width: 100%;
     height: 100%;
     border-radius: 0 7px 7px 0;
     background-color: white;
 }
 
-#subtração{
+#subtração{ /*Nome "Subtração"*/
     position: absolute;
     bottom: -10px;
     left: 5px;
     z-index: 1;
 }
 
-.container5{
+.container5{ /* Container da caixa que fica o nome "Porcentagem" */
     position: relative;
     left: -10px;
     top: 20px;
@@ -110,21 +110,21 @@
     height: 40px;
 }
 
-#boxporcentagem{
+#boxporcentagem{ /*Caixa que fica o nome "Porcentagem"*/
     width: 100%;
     height: 100%;
     border-radius: 0 7px 7px 0;
     background-color: white;
 }
 
-#porcentagem{
+#porcentagem{ /*Nome "Porcentagem"*/
     position: absolute;
     bottom: -10px;
     left: 5px;
     z-index: 1;
 }
 
-.container6 {
+.container6 { /* Container da caixa que fica o nome "Multiplicação" */
     position: relative;
     left: -10px;
     top: 40px;
@@ -132,20 +132,20 @@
     height: 40px;
 }
 
-#boxmultiplicação{
+#boxmultiplicação{ /*Caixa que fica o nome "Multiplicação"*/
     width: 100%;
     height: 100%;
     border-radius: 0 7px 7px 0;
     background-color: white;
 }
 
-#multiplicação{
+#multiplicação{ /*Nome "Multiplicação"*/
     position: absolute;
     bottom: -10px;
     left: 5px;
 }
 
-.container7 {
+.container7 { /* Container da caixa que fica o nome "Juros Simples" */
     position: relative;
     left: -10px;
     top: 60px;
@@ -153,20 +153,20 @@
     height: 40px;
 }
 
-#boxjuros{
+#boxjuros{ /*Caixa que fica o nome "Juros Simples"*/
     width: 100%;
     height: 100%;
     border-radius: 0 7px 7px 0;
     background-color: white;
 }
 
-#juros{
+#juros{ /*Nome "Juros Simples"*/
     position: absolute;
     bottom: -10px;
     left: 5px;
 }
 
-.container8 {
+.container8 { /* Container da caixa que fica o nome "Juros Composto" */
     position: relative;
     left: -10px;
     top: 80px;
@@ -174,26 +174,26 @@
     height: 40px;
 }
 
-#boxjuroscomposto{
+#boxjuroscomposto{ /*Caixa que fica o nome "Juros Composto"*/
     width: 100%;
     height: 100%;
     border-radius: 0 7px 7px 0;
     background-color: white;
 }
 
-#juroscomposto{
+#juroscomposto{ /*Nome "Juros Composto"*/
     position: absolute;
     bottom: -10px;
     left: 5px;
 }
 
-.lista{
+.lista{ /*Lista de nomes das operações aritméticas*/
     position: relative;
     top: 65px;
     line-height: 2.0;
 }
 
-#simbolos{
+#simbolos{ /*Imagem com Símbolos para decoração das página*/
     position: absolute;
     height: 300px;
     width: 500px;
@@ -202,11 +202,11 @@
     transform: scale(1.5);
 }
 
-#icone{
+#icone{ /*Ícone do Site*/
     width: 100px;
 }
 
-.rodape{
+.rodape{ /*Rodapé do Site*/
     position: relative;
     top: 150px;
     left: -8px;
@@ -216,13 +216,13 @@
     background-color: black;
 }
 
-#criador{
+#criador{ /*Criadores do Site dentro do rodapé*/
     text-align: center;
     color: white;
     font-size: 13px;
 }
 
-#contato{
+#contato{ /*Contato do Site dentro do rodapé*/
     text-align: left;
     color: white;
     font-size: 13px;   
