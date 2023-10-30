@@ -202,34 +202,32 @@
     transform: scale(1.5);
 }
 
-#icone{ /*Ícone do Site*/
+#icone{ /*ícone do Site*/
     width: 100px;
 }
 
-.rodape{ /*Rodapé do Site*/
+main{
     position: relative;
-    top: 200px;
-    left: -8px;
-    min-width: 100%;
-    min-height: 100%;
-    padding: 4px 4px;
-    background-color: black;
+    height: 30vh;
+    width: 95vw;
+    right: 0px;
 }
 
-#githubb{ /*Github do Projeto dentro do rodapé*/
-    width: 10px;
-    height: 10px
-
+footer {
+    position: absolute;
+    width: 99%;
+    height: 10vh;
+    color: white;
 }
 
-#criador{ /*Criadores do Site dentro do rodapé*/
+#footer-content{
+    background-color: rgb(18, 18, 20);
+    display: flex;
+    padding: 1.5rem 0.5rem;
+}
+#footer-criador{
+    font-size: 15px;
+    position: relative;
     text-align: center;
-    color: white;
-    font-size: 13px;
-}
-
-#contato{ /*Contato do Site dentro do rodapé*/
-    text-align: left;
-    color: white;
-    font-size: 13px;   
+    left: 43%;
 }
