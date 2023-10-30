@@ -24,9 +24,14 @@
     </div>
 
     <div>
+        <h4>
+        Os juros simples são uma forma de cálculo de juros em que os juros são calculados apenas sobre o valor principal do empréstimo ou investimento durante todo o período de tempo. Nesse sistema, os juros não são reinvestidos nem capitalizados ao longo do tempo. Isso significa que os juros são calculados sempre com base no valor inicial do principal, sem levar em consideração os juros acumulados anteriormente.
+        <br>
+        Por exemplo, calcula - se:<br>
+        1000 (Valor inicial) * 2 (Taxa de juros) * 4 (Número de meses) = 1080 (Valor total = Valor inicial + Juros)
+        </h4>
 
-
-     <h4>   <!- tamanho do texto->
+     <h4>   <!-- tamanho do texto-->
         Valor inicial:<input type="number" name="v1" id="c1" >  <!--valor inicial do juros, c1=caixa entrada-->
         Taxa de Juros: <input type="number" name="t2" id="c2"> <!--taxa de juros, c2=caixa entrada-->
         N° de meses:  <input type="number" name="n3" id="c3" > <!--numero de meses dos juros, c3=caixa entrada-->
@@ -62,8 +67,12 @@
         $resultado = $v1 * $taxa * $n3;
         $total = $v1 + $resultado; 
 
-        echo "Terá $resultado de juros e seu valor final será R$$total";
-    } else {
+        echo "Valor inicial:R$$V1";
+        echo "Juros:R$$resultado";
+        echo "Valor final:R$$total";
+
+    } 
+    else {
         echo "Preencha todos os campos corretamente.";
     }
 

@@ -22,6 +22,9 @@
         <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
 
     </div>
+    <h3>
+    Uma hipoteca é um tipo de empréstimo garantido por um bem imóvel, como uma casa ou um terreno. Ela é comumente usada para financiar a compra de propriedades. Quando você obtém uma hipoteca, está essencialmente pegando dinheiro emprestado de um credor (geralmente um banco ou uma instituição financeira) para comprar a propriedade, e o imóvel em si é usado como garantia para o empréstimo.
+    </h3>
 
 <footer>
     <div class="rodape">
