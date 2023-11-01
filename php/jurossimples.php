@@ -68,9 +68,9 @@
         $resultado = $v1 * $taxa * $n3;
         $total = $v1 + $resultado; 
 
-        echo "Valor inicial:R$$V1" . "\n";
-        echo "Juros:R$$resultado" . "\n";
-        echo "Valor final:R$$total" . "\n";
+        echo "Valor inicial:R$$v1";
+        echo "Juros:R$$resultado";
+        echo "Valor final:R$$total";
 
     } 
     else {
