@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../style/adi.css">   <!--referencia a pasta do CSS-->
-    <link rel="icon"  href="../img/c.png"  type="image/x-icon"> <!--favicon icone do navegador-->
+<<<<<<< HEAD
+    <link rel="stylesheet" href="../style/adi.css"/>   <!--referencia a pasta do CSS-->
+    <link rel="icon"  href="../img/c.png"  type="image/x-icon"/> <!--favicon icone do navegador-->
+=======
+    <link rel="stylesheet" href="../style/adi.css"/>   <!--referencia a pasta do CSS-->
+    <link rel="icon"  href="../img/c.png"  type="image/x-icon"/> <!--favicon icone do navegador-->
+>>>>>>> 9038b028207d90bab9e44d207591f1b030dc9346
     <title>Calculadora Online</title> <!-- titulo do site -->
 
 </head>

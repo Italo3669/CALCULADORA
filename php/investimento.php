@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../style/mul.css"/>   <!--referencia a pasta do CSS-->
+    <link rel="stylesheet" href="../style/investimento.css"/>   <!--referencia a pasta do CSS-->
     <link rel="icon"  href="../img/c.png"  type="image/x-icon"> <!--favicon icone do navegador-->
 
     <title>Calculadora Online</title> <!-- titulo do site -->
