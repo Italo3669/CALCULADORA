@@ -30,8 +30,10 @@
     Os impostos (Dependendo do tipo de investimento, podem haver impostos a serem pagos sobre os rendimentos.)<br/>
     Prazo de investimento (período pelo qual você deseja manter o investimento é importante para calcular os rendimentos ao longo do tempo).<br/>
     E o principal, que é o valor investido (O valor inicial que você está investindo).<br/>
-    Eis a fórmula: VF = VI * (1 + CDI - Inflação)^n * (1 - Imposto) <br/>
+    Eis a fórmula: VF = VI * (1 + CDI - Inflação)^n * (1 - Imposto). <br/>
     De modo que: VF (Valor final), VI (Valor inicial), CDI (Taxa de rendimento, em porcentagem),<br/>Inflação (Taxa de inflação, em porcentagem), N (Período do investimento) e Imposto (Taxa sobre o rendimento, em porcentagem).<br/>
+
+    </h3>
     <!--informações da pagina-->
 
     <div>   
@@ -50,7 +52,7 @@
             <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
         </div>
         <div id="footer-redessociais">
-            <a href="https://github.com/Italo3669/CALCULADORA"> <img src="img/logogithub.png" alt="github" id="githubp"> </a> <br> <p>Github</p>
+            <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/logogithub.png" alt="github" id="githubp"> </a> <br> <p>Github</p>
         </div>
     </div>
 </footer>
