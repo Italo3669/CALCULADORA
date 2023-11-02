@@ -10,6 +10,13 @@
 
     <title>Calculadora Online</title> <!-- titulo do site -->
 
+    <script>
+        function formatNumber(input) {
+            // Substitui vírgulas por pontos para garantir que o número seja interpretado corretamente
+            input.value = input.value.replace(",", '.');
+        }
+    </script>
+
 </head>
 
 <body style="background-image: linear-gradient(to right,rgb(167, 121, 18),rgb(0, 0, 0))">  <!-- cor na pagina-->
@@ -41,6 +48,7 @@
         Valor inicial do investimento: <input type="number" name="valor" id="c1" >  <!--valor inicial do juros, c1=caixa entrada-->
         Valor investido por mês: <input type="number" name="cdi" id="c2"> <!--taxa de juros, c2=caixa entrada-->
         Tempo investido em meses:  <input type="number" name="tempo" id="c3" > <!--numero de meses dos juros, c3=caixa entrada-->
+        Rentabilidade:  <input type="number" name="ren" id="c4" > <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
 
      <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
@@ -67,15 +75,17 @@
 $valor = isset ($_POST["valor"]) ? floatval($_POST["valor"]) :0;
 $cdi = isset ($_POST["cdi"]) ? floatval($_POST["cdi"]) :0;
 $tempo = isset ($_POST["tempo"]) ? floatval($_POST["tempo"]) :0;
+$ren = isset ($_POST["ren"]) ? floatval($_POST["ren"]) :0;
 
-if ($valor != 0 && $cdi != 0 && $tempo != 0) {
+if ($valor != 0 && $cdi != 0 && $tempo != 0 && $ren != 0) {
+    $imposto = $ren / 100;
     $cdi1 = $valor + ($cdi * $tempo);
-    $imposto = 56/100 * $cdi1 ;
-    $resultado = ($cdi1 - $imposto) / 12;
-    $resultado1 = $resultado + $cdi1;
+    $imposto = $cdi1 * $imposto;
+    $resultado = $imposto + $cdi1;
+
 echo "Valor Inicial: $cdi1<br/>";    
-echo "Lucro obtido: $resultado<br/>";
-echo "Valor final investido: $resultado1";
+echo "Lucro obtido: $imposto<br/>";
+echo "Valor final investido: $resultado";
 }
 
 else {
