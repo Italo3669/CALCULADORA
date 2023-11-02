@@ -1,3 +1,20 @@
+.cabeçalho2 { /*Cabeçalho do Site*/
+    position: relative;
+    border-bottom: 3px solid white;
+    left: -10px;
+    width: 99vw;
+    height: 70px;
+}
+
+#logo2 {
+    position: relative;
+    bottom: 60px;
+    right: 50px;
+    height: 200px;
+    bottom: 65px;
+    width: 300px;
+}
+
 #inserir1 {
     font-size: 14px;
     border-radius: 50px;
@@ -31,7 +48,7 @@
         background-color: black;
     }
     #botão1{
-        color: #FFF;
+        color: white;
             background-color: black;
             border: none;
             height: 40px;
