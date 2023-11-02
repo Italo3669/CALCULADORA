@@ -70,9 +70,12 @@ $tempo = isset ($_POST["tempo"]) ? floatval($_POST["tempo"]) :0;
 
 if ($valor != 0 && $cdi != 0 && $tempo != 0) {
     $cdi1 = $valor + ($cdi * $tempo);
-    $imposto = 0.56 * $cdi1 ;
-    $resultado = $cdi1 + $imposto;
-echo "Valor Final do Investimento: $resultado";
+    $imposto = 56/100 * $cdi1 ;
+    $resultado = ($cdi1 - $imposto) / 12;
+    $resultado1 = $resultado + $cdi1;
+echo "Valor Inicial: $cdi1<br/>";    
+echo "Lucro obtido: $resultado<br/>";
+echo "Valor final investido: $resultado1";
 }
 
 else {
