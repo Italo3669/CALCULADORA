@@ -2,7 +2,7 @@
     position: relative;
     border-bottom: 3px solid white;
     left: -10px;
-    width: 100%;
+    width: 99vw;
     height: 70px;
 }
 
@@ -206,28 +206,33 @@
     width: 100px;
 }
 
-main{
-    position: relative;
-    height: 30vh;
-    width: 95vw;
-    right: 0px;
-}
-
 footer {
-    position: absolute;
-    width: 99%;
-    height: 10vh;
+    position: relative;
+    height: 15vh;
     color: white;
+    left: -10px;
+    top: 40px;
 }
 
 #footer-content{
+    position: sticky;
+    width: 97.7vw;
+    height: -10vh;
     background-color: rgb(18, 18, 20);
     display: flex;
     padding: 1.5rem 0.5rem;
 }
+
 #footer-criador{
     font-size: 15px;
     position: relative;
     text-align: center;
     left: 45%;
+}
+
+#footer-redessociais {
+    font-size: 15px;
+    position: relative;
+    left: 87%;
+    bottom: 10px;
 }
