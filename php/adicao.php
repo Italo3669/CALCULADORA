@@ -25,7 +25,7 @@
     <h3> adição é uma operação matemática básica que envolve a combinação de dois ou mais números para encontrar o resultado, resultado esse que chamamos de soma. Na adição pode - se somar os valores de qualquer modo, uma vez que a ordem nao afeta o resultado.
     É uma das formas mais primitivas de se usar a matemática, quando se houve a necessidade de integrar um valor ao outro.</h3>
     <b>Para somar usa - se " + ".<br>
-    Você faz (valor qualquer) + (valor qualquer) = (soma).<br>
+    Você faz: (valor qualquer) + (valor qualquer) = (soma).<br>
     Exemplo: 7 + 5 = 12.<br></b>  <!--informações da pagina-->
 
     </div>
