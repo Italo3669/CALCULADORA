@@ -24,11 +24,23 @@
 
     </div>
 
+    <h3>Investimento é qualquer valor capar de gerar lucro com prazos curtos, médios e longos. O investimento varia muito dado o objetivo a ser alcançado, seja a curto prazo  para servir como uma reserva de emergência. Seja a médio prazo para uma viajem ou casamento. E até mesmo a longom prazo, como a aposentadoria por exemplo.<br/>
+    Deve ser levado em consideração a CDI (taxa de referência de juros no Brasil que é frequentemente usada em investimentos.)<br/>
+    A inflação (A inflação afeta o poder de compra do dinheiro ao longo do tempo).<br/>
+    Os impostos (Dependendo do tipo de investimento, podem haver impostos a serem pagos sobre os rendimentos.)<br/>
+    Prazo de investimento (período pelo qual você deseja manter o investimento é importante para calcular os rendimentos ao longo do tempo).<br/>
+    E o principal, que é o valor investido (O valor inicial que você está investindo).<br/>
+    Eis a fórmula: VF = VI * (1 + CDI - Inflação)^n * (1 - Imposto) <br/>
+    De modo que: VF (Valor final), VI (Valor inicial), CDI (Taxa de rendimento, em porcentagem),<br/>Inflação (Taxa de inflação, em porcentagem), N (Período do investimento) e Imposto (Taxa sobre o rendimento, em porcentagem).<br/>
+    <!--informações da pagina-->
+
     <div>   
-     <h4>   
-        Insira seu número: <input type="number" name="mul1" placeholder="*" id="inserir1">   <!--caixa de resposta da Multiplicação-->
-        a quantidade: <input type="number" name="mul2" id="inserir2"><br> <!--caixa de resposta da multiplicação-->
-     </h4>
+    <h4>   <!-- tamanho do texto-->
+        Valor inicial do investimento: <input type="number" name="valor" id="c1" >  <!--valor inicial do juros, c1=caixa entrada-->
+        Valor investido por mês: <input type="number" name="cdi" id="c2"> <!--taxa de juros, c2=caixa entrada-->
+        Tempo investido em meses:  <input type="number" name="tempo" id="c3" > <!--numero de meses dos juros, c3=caixa entrada-->
+    </h4>   <!-- tamanho do texto-->
+
      <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
     </div> 
 
@@ -48,3 +60,22 @@
 </body>
 
 </html>
+
+<?php
+$valor = isset ($_POST["valor"]) ? floatval($_POST["valor"]) :0;
+$cdi = isset ($_POST["cdi"]) ? floatval($_POST["cdi"]) :0;
+$tempo = isset ($_POST["tempo"]) ? floatval($_POST["tempo"]) :0;
+
+if ($valor != 0 && $cdi != 0 && $tempo != 0) {
+    $cdi1 = $valor + ($cdi * $tempo);
+    $imposto = 0.56 * $cdi1 ;
+    $resultado = $cdi1 + $imposto;
+echo "Valor Final do Investimento: $resultado";
+}
+
+else {
+    echo "Preencha os campos corretamente";
+}
+
+
+?>
