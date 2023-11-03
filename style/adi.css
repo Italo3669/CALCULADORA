@@ -13,6 +13,18 @@
     bottom: 65px;
     width: 300px;
 }
+#botão1{
+    color: #FFF;
+        background-color: black;
+        border: none;
+        height: 40px;
+        line-height: 30px;
+        padding: 0 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 30px;
+    }
 
 footer {
     position: relative;
@@ -38,10 +50,10 @@ footer {
     top: 20px;
     left: 45%;
 }
-
 #footer-redessociais {
     font-size: 15px;
     position: relative;
     left: 87%;
     bottom: 10px;
 }
+
