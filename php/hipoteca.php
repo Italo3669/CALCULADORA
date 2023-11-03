@@ -15,7 +15,9 @@
 
 <form action="" method="POST">
 
-    <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo" id=inserir1> </a>   <!--nome calculator--> 
+    <div class="cabeçalho2">
+        <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
+    </div>  
     <img src="../img/calculadora.png" alt="calculadora" id="calculadora" id=inserir2>   <!--icone da calculadora-->
 
     <div>

@@ -15,7 +15,9 @@
 
 <body style="background-image: linear-gradient(to right,rgb(167, 121, 18),rgb(0, 0, 0))">  <!-- cor na pagina-->
 
-    <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo"> </a>   <!--nome calculator--> 
+    <div class="cabeçalho2">
+        <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
+    </div>  
     <img src="../img/calculadora.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->
 
     <div>
@@ -50,7 +52,7 @@
             </div>
         </div> <!-- Fechamento do Conteúdo do rodapé-->
     </footer> <!-- Fechamento do Rodapé -->
-    
+
 </form>
 
 </body>

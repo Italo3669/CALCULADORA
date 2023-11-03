@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../style/div.css"/>   <!--referencia a pasta do CSS-->
+    <link rel="stylesheet" href="../style/divisao.css"/>   <!--referencia a pasta do CSS-->
     <link rel="icon"  href="../img/c.png"  type="image/x-icon"> <!--favicon icone do navegador-->  
 
     <title>Calculadora Online</title> <!-- titulo do site -->
@@ -16,7 +16,9 @@
 
 <form action="" method="POST">
 
-    <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo"> </a>   <!--nome calculator--> 
+    <div class="cabeçalho2">
+        <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
+    </div> 
     <img src="../img/calculadora.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->
 
     <div>
