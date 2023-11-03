@@ -38,24 +38,24 @@
     <div>   
     <h4>  <!-- tamanho do texto-->
         CDBs (102% do CDI):
-        Valor inicial do investimento: <input type="number" name="valor" id="c1" >  <!--valor inicial do juros, c1=caixa entrada-->
-        Valor investido por mês: <input type="number" name="cdi" id="c2"> <!--taxa de juros, c2=caixa entrada-->
-        Tempo investido em meses:  <input type="number" name="tempo" id="c3" > <!--numero de meses dos juros, c3=caixa entrada-->
+        Valor inicial do investimento: <input type="number" name="valor" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->
+        Valor investido por mês: <input type="number" name="cdi" id="inserir2"> <!--taxa de juros, c2=caixa entrada-->
+        Tempo investido em meses:  <input type="number" name="tempo" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
 
      <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
     </div> 
 
-<footer>
-    <div id="footer-content">
-        <div id="footer-criador">
-            <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
-        </div>
-        <div id="footer-redessociais">
-            <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/logogithub.png" alt="github" id="githubp"> </a> <br> <p>Github</p>
-        </div>
-    </div>
-</footer>
+    <footer> <!-- Rodapé -->
+        <div id="footer-content"> <!-- Conteúdo do rodapé -->
+            <div id="footer-criador"> <!-- Separação do conteúdo (Criadores) -->
+                <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
+            </div>
+            <div id="footer-redessociais"> <!-- Separação do conteúdo (Redes Sociais) -->
+                <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/logogithub.png" alt="github" id="githubp"> </a>
+            </div>
+        </div> <!-- Fechamento do Conteúdo do rodapé-->
+    </footer> <!-- Fechamento do Rodapé -->
 
 </form>
 

@@ -32,24 +32,25 @@
         </h4>
 
      <h4>   <!-- tamanho do texto-->
-        Valor inicial:<input type="number" name="v1" id="c1" >  <!--valor inicial do juros, c1=caixa entrada-->
-        Taxa de Juros: <input type="number" name="t2" id="c2"> <!--taxa de juros, c2=caixa entrada-->
-        N° de meses:  <input type="number" name="n3" id="c3" > <!--numero de meses dos juros, c3=caixa entrada-->
+        Valor inicial:<input type="number" name="v1" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->
+        Taxa de Juros: <input type="number" name="t2" id="inserir2"> <!--taxa de juros, c2=caixa entrada-->
+        N° de meses:  <input type="number" name="n3" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
         
        <input type="submit" value="enviar" id="botão1" >  <!--Botão de enviar-->
     </div> 
 
-<footer>
-    <div id="footer-content">
-        <div id="footer-criador">
-            <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
-        </div>
-        <div id="footer-redessociais">
-            <a href="https://github.com/Italo3669/CALCULADORA"> <img src="img/logogithub.png" alt="github" id="githubp"> </a> <br> <p>Github</p>
-        </div>
-    </div>
-</footer>
+    <footer> <!-- Rodapé -->
+        <div id="footer-content"> <!-- Conteúdo do rodapé -->
+            <div id="footer-criador"> <!-- Separação do conteúdo (Criadores) -->
+                <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
+            </div>
+            <div id="footer-redessociais"> <!-- Separação do conteúdo (Redes Sociais) -->
+                <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/logogithub.png" alt="github" id="githubp"> </a>
+            </div>
+        </div> <!-- Fechamento do Conteúdo do rodapé-->
+    </footer> <!-- Fechamento do Rodapé -->
+    
 </form>
 
 </body>
