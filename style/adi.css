@@ -13,6 +13,20 @@
     bottom: 65px;
     width: 300px;
 }
+#inserir1 {
+    font-size: 14px;
+    border-radius: 50px;
+    width: 90px;
+    text-align: center;
+    border-color: black ;
+}
+#inserir2 {
+    font-size: 14px;
+    border-radius: 50px;
+    width: 90px;
+    text-align: center;
+    border-color: black ;
+}
 #botão1{
     color: #FFF;
         background-color: black;
