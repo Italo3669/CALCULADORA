@@ -9,14 +9,6 @@
     <link rel="icon"  href="../img/c.png"  type="image/x-icon"> <!--favicon icone do navegador-->
 
     <title>Calculadora Online</title> <!-- titulo do site -->
-
-    <script>
-        function formatNumber(input) {
-            // Substitui vírgulas por pontos para garantir que o número seja interpretado corretamente
-            input.value = input.value.replace(",", '.');
-        }
-    </script>
-
 </head>
 
 <body style="background-image: linear-gradient(to right,rgb(167, 121, 18),rgb(0, 0, 0))">  <!-- cor na pagina-->
