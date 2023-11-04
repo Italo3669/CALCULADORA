@@ -13,6 +13,28 @@
     bottom: 65px;
     width: 300px;
 }
+#botao1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s; /* Adiciona a  animação */
+}
+    #botao1:hover {
+        color:black;
+        background-color: white;
+        transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
+
+    }
+    #equacao {
+        width: 250px;
+        height: 250px;
+      
+    }
 footer {
     position: relative;
     height: 15vh;

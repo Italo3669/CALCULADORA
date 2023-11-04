@@ -41,29 +41,44 @@
     text-align: center;
     border-color: black ;
 }
-#botão1{
-    color: #FFF;
-        background-color: black;
-        border: none;
-        height: 40px;
-        line-height: 30px;
-        padding: 0 20px;
-        text-transform: uppercase;
-        font-weight: bold;
-        cursor: pointer;
-        border-radius: 30px;
+#botao1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s; /* Adiciona a  animação */
+}
+    #botao1:hover {
+        color:black;
+        background-color: white;
+        transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
+
     }
-    #botão2{
-        color: #FFF;
-            background-color: black;
-            border: none;
-            height: 40px;
-            line-height: 30px;
-            padding: 0 20px;
-            text-transform: uppercase;
-            font-weight: bold;
-            cursor: pointer;
-            border-radius: 30px;
+    #botao2 {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: black;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s, transform 0.3s; /* Adiciona a  animação */
+    }
+        #botao2:hover {
+            color:black;
+            background-color: white;
+            transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
+    
+        }
+        #equacao {
+            width: 250px;
+            height: 250px;
+          
         }
 footer {
     position: relative;

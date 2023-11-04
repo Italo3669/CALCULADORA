@@ -18,13 +18,14 @@
     <div class="cabeçalho2">
         <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
     </div>  
-    <img src="../img/calculadora.png" alt="calculadora" id="calculadora" id=inserir2>   <!--icone da calculadora-->
+   
 
     <div>
         <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
 
     </div>
     <h3>
+        HIPOTECA</br>
     Uma hipoteca é um tipo de empréstimo garantido por um bem imóvel, como uma casa ou um terreno. Ela é normalmente usada para financiar a compra de propriedades. Quando você obtém uma hipoteca, está essencialmente pegando dinheiro emprestado de um credor (geralmente um banco ou uma instituição financeira) para comprar a propriedade, e o imóvel em si é usado como garantia para o empréstimo.<br/>
     Se você gosta de filmes norte - americanos já ouviu muito a expressão: "E, você lembrou de pagar a hipoteca?".<br/>
     Entretanto, no Brasil, muitos bancos pararam de trabalhar com essa modalidade. Uma vez que tem muitas barreiras legais,<br/>fator que torna essa operação muito inneficiente e pouco rentável para as grandes instituições financeiras.<br/>
@@ -41,9 +42,11 @@
         Quantidade de anos:  <input type="number" name="ano" id="c3" > <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
 
-    <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
+    <input type="submit" value="enviar" id="botao1"> </br> <!--Botão de enviar-->
 
 
+
+    <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
 
     
     <footer> <!-- Rodapé -->

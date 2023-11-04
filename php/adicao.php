@@ -19,8 +19,6 @@
    <div class="cabeçalho2">
     <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
    </div>  
-    <img src="../img/calculadora.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->
-
     <div>
         <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
 
@@ -41,6 +39,7 @@
      <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar-->
     </div> 
 
+    <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
 
     <footer> <!-- Rodapé -->
         <div id="footer-content"> <!-- Conteúdo do rodapé -->

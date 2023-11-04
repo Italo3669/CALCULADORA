@@ -39,9 +39,10 @@
         N° de meses:  <input type="number" name="n3" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
         
-       <input type="submit" value="enviar" id="botão1" >  <!--Botão de enviar-->
+       <input type="submit" value="enviar" id="botao1" >  <!--Botão de enviar-->
     </div> 
 
+    <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
     <footer> <!-- Rodapé -->
         <div id="footer-content"> <!-- Conteúdo do rodapé -->
             <div id="footer-criador"> <!-- Separação do conteúdo (Criadores) -->

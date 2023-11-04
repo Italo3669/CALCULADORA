@@ -18,7 +18,7 @@
     <div class="cabeçalho2">
         <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
     </div>  
-    <img src="../img/calculadora.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->
+    
 
     <div>
         <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
@@ -45,9 +45,10 @@
         Tempo investido em meses:  <input type="number" name="tempo" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
 
-     <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
+     <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar-->
     </div> 
 
+    <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
     <footer> <!-- Rodapé -->
         <div id="footer-content"> <!-- Conteúdo do rodapé -->
             <div id="footer-criador"> <!-- Separação do conteúdo (Criadores) -->
