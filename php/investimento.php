@@ -9,22 +9,16 @@
     <link rel="icon"  href="../img/c.png"  type="image/x-icon"> <!--favicon icone do navegador-->
 
     <title>Calculadora Online</title> <!-- titulo do site -->
-
-    <script>
-        function formatNumber(input) {
-            // Substitui vírgulas por pontos para garantir que o número seja interpretado corretamente
-            input.value = input.value.replace(",", '.');
-        }
-    </script>
-
 </head>
 
 <body style="background-image: linear-gradient(to right,rgb(167, 121, 18),rgb(0, 0, 0))">  <!-- cor na pagina-->
 
 <form action="" method="POST">
 
-    <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo"> </a>   <!--nome calculator--> 
-    <img src="../img/calculadora.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->
+    <div class="cabeçalho2">
+        <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
+    </div>  
+    
 
     <div>
         <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
@@ -44,26 +38,27 @@
     <!--informações da pagina-->
 
     <div>   
-    <h4>   <!-- tamanho do texto-->
-        Valor inicial do investimento: <input type="number" name="valor" id="c1" >  <!--valor inicial do juros, c1=caixa entrada-->
-        Valor investido por mês: <input type="number" name="cdi" id="c2"> <!--taxa de juros, c2=caixa entrada-->
-        Tempo investido em meses:  <input type="number" name="tempo" id="c3" > <!--numero de meses dos juros, c3=caixa entrada-->
-        Rentabilidade:  <input type="number" name="ren" id="c4" > <!--numero de meses dos juros, c3=caixa entrada-->
+    <h4>  <!-- tamanho do texto-->
+        CDBs (102% do CDI):
+        Valor inicial do investimento: <input type="number" name="valor" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->
+        Valor investido por mês: <input type="number" name="cdi" id="inserir2"> <!--taxa de juros, c2=caixa entrada-->
+        Tempo investido em meses:  <input type="number" name="tempo" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
 
-     <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
+     <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar-->
     </div> 
 
-<footer>
-    <div id="footer-content">
-        <div id="footer-criador">
-            <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
-        </div>
-        <div id="footer-redessociais">
-            <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/logogithub.png" alt="github" id="githubp"> </a> <br> <p>Github</p>
-        </div>
-    </div>
-</footer>
+    <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
+    <footer> <!-- Rodapé -->
+        <div id="footer-content"> <!-- Conteúdo do rodapé -->
+            <div id="footer-criador"> <!-- Separação do conteúdo (Criadores) -->
+                <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
+            </div>
+            <div id="footer-redessociais"> <!-- Separação do conteúdo (Redes Sociais) -->
+                <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/logogithub.png" alt="github" id="githubp"> </a>
+            </div>
+        </div> <!-- Fechamento do Conteúdo do rodapé-->
+    </footer> <!-- Fechamento do Rodapé -->
 
 </form>
 
@@ -75,10 +70,10 @@
 $valor = isset ($_POST["valor"]) ? floatval($_POST["valor"]) :0;
 $cdi = isset ($_POST["cdi"]) ? floatval($_POST["cdi"]) :0;
 $tempo = isset ($_POST["tempo"]) ? floatval($_POST["tempo"]) :0;
-$ren = isset ($_POST["ren"]) ? floatval($_POST["ren"]) :0;
 
-if ($valor != 0 && $cdi != 0 && $tempo != 0 && $ren != 0) {
-    $imposto = $ren / 100;
+
+if ($valor != 0 && $cdi != 0 && $tempo != 0) {
+    $imposto =  58/100;
     $cdi1 = $valor + ($cdi * $tempo);
     $imposto = $cdi1 * $imposto;
     $resultado = $imposto + $cdi1;

@@ -16,8 +16,10 @@
 
 <form action="" method="POST">
 
-    <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo"> </a>   <!--nome calculator--> 
-    <img src="../img/calculadora.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->
+    <div class="cabeçalho2">
+        <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
+    </div> 
+    
 
     <div>
         <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
@@ -35,19 +37,19 @@
         Insira seu número: <input type="number" name="mul1" placeholder="*" id="inserir1">   <!--caixa de resposta da Multiplicação-->
         a quantidade: <input type="number" name="mul2" id="inserir2"><br> <!--caixa de resposta da multiplicação-->
      </h4>
-     <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
+     <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar-->
     </div> 
-
-<footer>
-    <div id="footer-content">
-        <div id="footer-criador">
-            <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
-        </div>
-        <div id="footer-redessociais">
-            <a href="https://github.com/Italo3669/CALCULADORA"> <img src="img/logogithub.png" alt="github" id="githubp"> </a> <br> <p>Github</p>
-        </div>
-    </div>
-</footer>
+    <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
+    <footer> <!-- Rodapé -->
+        <div id="footer-content"> <!-- Conteúdo do rodapé -->
+            <div id="footer-criador"> <!-- Separação do conteúdo (Criadores) -->
+                <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
+            </div>
+            <div id="footer-redessociais"> <!-- Separação do conteúdo (Redes Sociais) -->
+                <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/logogithub.png" alt="github" id="githubp"> </a>
+            </div>
+        </div> <!-- Fechamento do Conteúdo do rodapé-->
+    </footer> <!-- Fechamento do Rodapé -->
 
 </form>
 

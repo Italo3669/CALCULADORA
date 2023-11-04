@@ -1,0 +1,67 @@
+.cabeçalho2 { /*Cabeçalho do Site*/
+    position: relative;
+    border-bottom: 3px solid white;
+    left: -10px;
+    width: 99vw;
+    height: 70px;
+}
+#logo2{ /*Logo do Site "Calculator" */
+    position: relative;
+    bottom: 60px;
+    right: 50px;
+    height: 200px;
+    bottom: 65px;
+    width: 300px;
+}
+#botao1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s; /* Adiciona a  animação */
+}
+    #botao1:hover {
+        color:black;
+        background-color: white;
+        transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
+
+    }
+    #equacao {
+        width: 250px;
+        height: 250px;
+      
+    }
+footer {
+    position: relative;
+    height: 15vh;
+    color: white;
+    left: -10px;
+    top: 200px;
+}
+
+#footer-content{
+    position: sticky;
+    width: 97.7vw;
+    height: -10vh;
+    background-color: rgb(18, 18, 20);
+    display: flex;
+    padding: 1.5rem 0.5rem;
+}
+
+#footer-criador{
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    left: 45%;
+}
+#footer-redessociais {
+    font-size: 15px;
+    position: relative;
+    left: 87%;
+    bottom: 10px;
+}

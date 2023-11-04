@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../style/adi.css"/>   <!--referencia a pasta do CSS-->
+    <link rel="stylesheet" href="../style/adi.css"/>   <!--referencia a pasta do CSS-->   
     <link rel="icon"  href="../img/c.png"  type="image/x-icon"/> <!--favicon icone do navegador-->
 
     <title>Calculadora Online</title> <!-- titulo do site -->
@@ -19,8 +19,6 @@
    <div class="cabeçalho2">
     <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
    </div>  
-    <img src="../img/calculadora.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->
-
     <div>
         <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
 
@@ -38,9 +36,10 @@
         Insira um número: <input type="number" name="adi1" placeholder="+" id=inserir1>   <!--caixa de resposta da adição-->
         Insira outro número: <input type="number" name="adi2" id=inserir2><br> <!--caixa de resposta da adição-->
      </h4>
-     <input type="submit" value="enviar" id="botão1">  <!--Botão de enviar-->
+     <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar-->
     </div> 
 
+    <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
 
     <footer> <!-- Rodapé -->
         <div id="footer-content"> <!-- Conteúdo do rodapé -->
@@ -60,7 +59,6 @@
 </html>
 
 <?php
-
     $adi1 = isset ($_POST["adi1"]) ? floatval($_POST["adi1"]) :0;
     $adi2 = isset ($_POST["adi2"]) ? floatval($_POST["adi2"]) :0;
     
@@ -73,7 +71,4 @@
     else {
         echo "Preencha os campos corretamente";
     }
-
-
-
 ?>
