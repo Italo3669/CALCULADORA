@@ -55,10 +55,15 @@
 
     <div class="conteudo">
         <h3>
-        Uma hipoteca é um tipo de empréstimo garantido por um bem imóvel, como uma casa ou um terreno. Ela é normalmente usada para financiar a compra de propriedades. Quando você obtém uma hipoteca, está essencialmente pegando dinheiro emprestado de um credor (geralmente um banco ou uma instituição financeira) para comprar a propriedade, e o imóvel em si é usado como garantia para o empréstimo.<br/>
+        Uma hipoteca é um tipo de empréstimo garantido por um bem imóvel, como uma casa ou um terreno.<br>
+         Ela é normalmente usada para financiar a compra de propriedades. <br>
+         Quando você obtém uma hipoteca, está essencialmente pegando dinheiro emprestado de um credor<br>
+        (geralmente um banco ou uma instituição financeira) para comprar a propriedade,<br>
+         e o imóvel em si é usado como garantia para o empréstimo.<br/>
         Se você gosta de filmes norte - americanos já ouviu muito a expressão: "E, você lembrou de pagar a hipoteca?".<br/>
         Entretanto, no Brasil, muitos bancos pararam de trabalhar com essa modalidade. Uma vez que tem muitas barreiras legais,<br/>fator que torna essa operação muito inneficiente e pouco rentável para as grandes instituições financeiras.<br/>
         O calculo é feito usando a formula M = P [ r(1 + i)^r ] / [ (1 + r)^n – 1], acompanhe abaixo a nommeação:<br/>
+        <br>
         M = é o pagamento mensal da hipoteca.<br/>
         P = o valor do empréstimo.<br/>
         R = é a taxa de juros mensais (a taxa de juros anual dividida por 12 meses e convertida para uma forma decimal).<br/>

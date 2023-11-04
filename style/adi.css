@@ -45,9 +45,20 @@
 
     }
 #equacao {
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
+    float: right; /* Alinha a imagem no canto direito */
+    margin: 10px;
+    right: 0;
+    margin-top: -15%;
   
+}
+.conteudo{
+    color: white;
+    width: 650px; /* Define a largura desejada para o retângulo */
+    margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
+    padding: 30px;
+    margin-top: 5%;
 }
 footer {
     position: relative;

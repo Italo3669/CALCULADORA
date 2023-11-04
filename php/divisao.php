@@ -50,7 +50,10 @@
 ?>
 
     <div class="conteudo">
-        <h3>A divisão é uma operação matemática fundamental que envolve a distribuição de um número em partes iguais. Usa - se ela para saber   quantas vezes um número (divisor) cabe dentro do outro (dividendo). o resultado da divisão chama - se quociente e pode ser inteiro ou   não. Um número inteiro é quando o dividendo é divisível pelo divisor, resultando sempre em 1.
+        <h3>A divisão é uma operação matemática fundamental que envolve a distribuição de um número em partes iguais.<br>
+         Usa - se ela para saber   quantas vezes um número (divisor) cabe dentro do outro (dividendo).<br>
+        o resultado da divisão chama - se quociente e pode ser inteiro ou   não.<br>
+         Um número inteiro é quando o dividendo é divisível pelo divisor, resultando sempre em 1.<br>
         Ou também pode gerar valores decimais ou fraccionário.</h3>
         <b>Para dividir usa - se a " / ".<br>
         Exemplo: 27 (divisor) / 9 (dividendo) = 3 (quociente).<br>

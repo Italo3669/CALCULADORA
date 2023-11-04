@@ -51,8 +51,10 @@
 ?>
 
     <div class="conteudo">
-    <h3>A subtração é uma operação matemática fundamental que envolve a retirada ou diminuição de um número de outro número para encontrar a diferença entre eles.  o número do qual você está retirando outro número é chamado de "minuendo" e o número que está sendo retirado é chamado de "subtraendo". O resultado da operação é chamado de “diferença”.
-    Com o passar dos tempos criou -se a necessidade de diminuir as quantidades, como por exemplo: quando se matava uma galinha do galinheiro.
+    <h3>A subtração é uma operação matemática fundamental que envolve a retirada ou diminuição<br> de um número de outro número para encontrar a diferença entre eles. <br>
+     o número do qual você está retirando outro número é chamado de "minuendo" e o número que está sendo retirado é chamado de "subtraendo".<br>
+      O resultado da operação é chamado de “diferença”.<br>
+    Com o passar dos tempos criou -se a necessidade de diminuir as quantidades, como por exemplo: quando se matava uma galinha do galinheiro.<br>
     Ou de pagamento de dividas e ainda ficava - se devendo.</h3>
     <b>Para subtrair usa - se " - ".<br>
     Exemplo: 10 galinhas (minuendo) - 1 galinhas (subtraendo) = 9 galinhas (diferença).<br>

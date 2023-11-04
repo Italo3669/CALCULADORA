@@ -42,6 +42,12 @@ footer {
     left: -10px;
     top: 200px;
 }
+.conteudo{
+    color: white;
+    width: 650px; /* Define a largura desejada para o retângulo */
+    margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
+    padding: 30px;
+}
 
 #footer-content{
     position: sticky;
