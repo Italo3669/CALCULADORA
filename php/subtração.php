@@ -23,7 +23,34 @@
     <div>
         <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
 
-    </div>
+    <div>
+     <h4>   
+        Insira um número: <input type="number" name="sub1" placeholder="-" id="inserir1">   <!--caixa de resposta da subtração-->
+        Insira outro número: <input type="number" name="sub2" id="inserir2"><br> <!--caixa de resposta da subtração-->
+     </h4>
+
+
+     <input type="submit" value="enviar" id="botao1"> <!--Botão de enviar-->
+    </div> <br>
+
+<?php
+
+    $sub1 = isset ($_POST["sub1"]) ? floatval($_POST["sub1"]) :0;
+    $sub2 = isset ($_POST["sub2"]) ? floatval($_POST["sub2"]) :0;
+
+
+    if ($sub1 != 0 && $sub2 != 0 ){
+    $resultado = $sub1 - $sub2;
+    echo "Resultado: $resultado";
+    }
+
+    else {
+    echo "Preencha os campos corretamente";
+    }
+
+?>
+
+    <div class="conteudo">
     <h3>A subtração é uma operação matemática fundamental que envolve a retirada ou diminuição de um número de outro número para encontrar a diferença entre eles.  o número do qual você está retirando outro número é chamado de "minuendo" e o número que está sendo retirado é chamado de "subtraendo". O resultado da operação é chamado de “diferença”.
     Com o passar dos tempos criou -se a necessidade de diminuir as quantidades, como por exemplo: quando se matava uma galinha do galinheiro.
     Ou de pagamento de dividas e ainda ficava - se devendo.</h3>
@@ -33,16 +60,6 @@
      Logo ainda estou devendo R$ -15,00</b>   <!--informações da pagina-->
 
     </div>
-
-    <div>
-     <h4>   
-        Insira um número: <input type="number" name="sub1" placeholder="-" id="inserir1">   <!--caixa de resposta da subtração-->
-        Insira outro número: <input type="number" name="sub2" id="inserir2"><br> <!--caixa de resposta da subtração-->
-     </h4>
-
-
-     <input type="submit" value="enviar" id="botao1"> <!--Botão de enviar-->
-    </div> 
 
     <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
 
@@ -62,20 +79,3 @@
 </body>
 
 </html>
-
-<?php
-
-$sub1 = isset ($_POST["sub1"]) ? floatval($_POST["sub1"]) :0;
-$sub2 = isset ($_POST["sub2"]) ? floatval($_POST["sub2"]) :0;
-
-
-if ($sub1 != 0 && $sub2 != 0 ){
-    $resultado = $sub1 - $sub2;
-echo "Resultado: $resultado";
-}
-
-else {
-    echo "Preencha os campos corretamente";
-}
-
-?>

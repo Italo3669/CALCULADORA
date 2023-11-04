@@ -24,39 +24,13 @@
     <div>
         <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
 
-    </div>
-    <h3>A divisão é uma operação matemática fundamental que envolve a distribuição de um número em partes iguais. Usa - se ela para saber   quantas vezes um número (divisor) cabe dentro do outro (dividendo). o resultado da divisão chama - se quociente e pode ser inteiro ou   não. Um número inteiro é quando o dividendo é divisível pelo divisor, resultando sempre em 1.
-        Ou também pode gerar valores decimais ou fraccionário.</h3>
-      <b>Para dividir usa - se a " / ".<br>
-        Exemplo: 27 (divisor) / 9 (dividendo) = 3 (quociente).<br>
-        Logo o número 9 cabe três vezes dentro de 27.</b> <!--informações da pagina-->
-    </div>
-
     <div>
      <h4>   
         Insira o divisor: <input type="number" name="div1" placeholder="/" id=inserir1>   <!--caixa de resposta da divisão-->
         Insira o dividendo : <input type="number" name="div2" id=inserir2><br>  <!--caixa de resposta da Divisão-->
      </h4>
      <input type="submit" value="enviar" class="botao1">  <!--Botão de enviar-->
-    </div> 
-
-    <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
-    <footer> <!-- Rodapé -->
-        <div id="footer-content"> <!-- Conteúdo do rodapé -->
-            <div id="footer-criador"> <!-- Separação do conteúdo (Criadores) -->
-                <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
-            </div>
-            <div id="footer-redessociais"> <!-- Separação do conteúdo (Redes Sociais) -->
-                <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/logogithub.png" alt="github" id="githubp"> </a>
-            </div>
-        </div> <!-- Fechamento do Conteúdo do rodapé-->
-    </footer> <!-- Fechamento do Rodapé -->
-
-</form>
-
-</body>
-
-</html>
+    </div> <br>
 
 <?php
 
@@ -74,3 +48,30 @@
     }
 
 ?>
+
+    <div class="conteudo">
+        <h3>A divisão é uma operação matemática fundamental que envolve a distribuição de um número em partes iguais. Usa - se ela para saber   quantas vezes um número (divisor) cabe dentro do outro (dividendo). o resultado da divisão chama - se quociente e pode ser inteiro ou   não. Um número inteiro é quando o dividendo é divisível pelo divisor, resultando sempre em 1.
+        Ou também pode gerar valores decimais ou fraccionário.</h3>
+        <b>Para dividir usa - se a " / ".<br>
+        Exemplo: 27 (divisor) / 9 (dividendo) = 3 (quociente).<br>
+        Logo o número 9 cabe três vezes dentro de 27.</b> <!--informações da pagina-->
+    </div>
+
+    <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
+
+    <footer> <!-- Rodapé -->
+        <div id="footer-content"> <!-- Conteúdo do rodapé -->
+            <div id="footer-criador"> <!-- Separação do conteúdo (Criadores) -->
+                <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
+            </div>
+            <div id="footer-redessociais"> <!-- Separação do conteúdo (Redes Sociais) -->
+                <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/logogithub.png" alt="github" id="githubp"> </a>
+            </div>
+        </div> <!-- Fechamento do Conteúdo do rodapé-->
+    </footer> <!-- Fechamento do Rodapé -->
+
+</form>
+
+</body>
+
+</html>

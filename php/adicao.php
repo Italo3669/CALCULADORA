@@ -21,23 +21,38 @@
    </div>  
     <div>
         <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
-
-    </div>
-    <h3> adição é uma operação matemática básica que envolve a combinação de dois ou mais números para encontrar o resultado, resultado esse que chamamos de soma. Na adição pode - se somar os valores de qualquer modo, uma vez que a ordem nao afeta o resultado.
-    É uma das formas mais primitivas de se usar a matemática, quando se houve a necessidade de integrar um valor ao outro.</h3>
-    <b>Para somar usa - se " + ".<br>
-    Você faz: (valor qualquer) + (valor qualquer) = (soma).<br>
-    Exemplo: 7 + 5 = 12.<br></b>  <!--informações da pagina-->
-
-    </div>
-
     <div>
      <h4>   
         Insira um número: <input type="number" name="adi1" placeholder="+" id=inserir1>   <!--caixa de resposta da adição-->
         Insira outro número: <input type="number" name="adi2" id=inserir2><br> <!--caixa de resposta da adição-->
      </h4>
      <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar-->
-    </div> 
+    </div> <br>
+
+<?php
+
+    $adi1 = isset ($_POST["adi1"]) ? floatval($_POST["adi1"]) :0;
+    $adi2 = isset ($_POST["adi2"]) ? floatval($_POST["adi2"]) :0;
+    
+
+    if ($adi1 != 0 && $adi2 != 0 ){
+        $resultado = $adi1 + $adi2;
+    echo "Resultado: $resultado";
+    }
+
+    else {
+        echo "Preencha os campos corretamente";
+    }
+?>
+
+    <div class="conteudo">
+        <h3> adição é uma operação matemática básica que envolve a combinação</br>
+         de dois ou mais números para encontrar o resultado, resultado esse que chamamos de soma.</br> Na adição pode - se somar os valores de qualquer modo, uma vez que a ordem nao afeta o resultado.<br>
+        É uma das formas mais primitivas de se usar a matemática,<br> quando se houve a necessidade de integrar um valor ao outro.</h3>
+        <b>Para somar usa - se " + ".<br>
+        Você faz: (valor qualquer) + (valor qualquer) = (soma).<br>
+        Exemplo: 7 + 5 = 12.<br></b>  <!--informações da pagina-->
+    </div>
 
     <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
 
@@ -57,18 +72,3 @@
 </body>
 
 </html>
-
-<?php
-    $adi1 = isset ($_POST["adi1"]) ? floatval($_POST["adi1"]) :0;
-    $adi2 = isset ($_POST["adi2"]) ? floatval($_POST["adi2"]) :0;
-    
-
-    if ($adi1 != 0 && $adi2 != 0 ){
-        $resultado = $adi1 + $adi2;
-    echo "Resultado: $resultado";
-    }
-
-    else {
-        echo "Preencha os campos corretamente";
-    }
-?>
