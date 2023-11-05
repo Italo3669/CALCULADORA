@@ -7,7 +7,14 @@
 
     <link rel="stylesheet" href="../style/adi.css"/>   <!--referencia a pasta do CSS-->   
     <link rel="icon"  href="../img/c.png"  type="image/x-icon"/> <!--favicon icone do navegador-->
-
+    
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        } 
+    </style> <!-- Estilização de links -->
+    
     <title>Calculadora Online</title> <!-- titulo do site -->
 
 </head>
@@ -17,18 +24,26 @@
 <form action="" method="POST">
 
    <div class="cabeçalho2">
-    <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
-   </div>  
+        <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
+        <p id="veja-tambem">veja também:</p>   <!-- outras funcionalidade do site -->
+        
+        <div class="container2">
+            <div id="boxdivisão"> </div>
+                <a href="../php/divisao.php" id="divisão"> Divisão</a> <br> <!-- Tópico 4 -->
+        </div>
+
+        <div class="container3">
+            <div id="boxhipoteca"> </div>
+                <a href="../php/hipoteca.php" id="hipoteca"> Hipoteca</a> <br> <!-- Tópico 6 -->
+        </div>
+    </div>
     <div>
-        <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
-    <div>
-     <h4>   
+     <h4 id="inserir">   
         Insira um número: <input type="number" name="adi1" placeholder="+" id=inserir1>   <!--caixa de resposta da adição-->
         Insira outro número: <input type="number" name="adi2" id=inserir2><br> <!--caixa de resposta da adição-->
      </h4>
-     <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar-->
-    </div> <br>
-
+     <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar--> <br>
+     </div>
 <?php
 
     $adi1 = isset ($_POST["adi1"]) ? floatval($_POST["adi1"]) :0;

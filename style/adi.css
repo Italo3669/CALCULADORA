@@ -3,7 +3,7 @@
     border-bottom: 3px solid white;
     left: -10px;
     width: 99vw;
-    height: 70px;
+    height: 60px;
 }
 #logo2{ /*Logo do Site "Calculator" */
     position: relative;
@@ -13,6 +13,65 @@
     bottom: 65px;
     width: 300px;
 }
+#veja-tambem{ /*Nome "Veja Também no cabeçalho */
+    position: relative;
+    color: white;
+    font-size: 17px;
+    left: 55%;
+    width: 20vw;
+    bottom: 202px;
+}
+
+.container2 { /* Container da caixa que fica o nome "Divisão" */
+    position: relative;
+    left: 63%;
+    bottom: 245px;
+    width: 100px;
+    height: 30px;
+}
+
+#boxdivisão{ /*Caixa que fica o nome "Divisão"*/
+    width: 100%;
+    height: 100%;
+    border-radius: 7px 7px 7px 7px;
+    background-color: white;
+}
+
+#divisão{ /*Nome "Divisão"*/
+    position: absolute;
+    bottom: 5px;
+    left: 25px;
+    z-index: 1;
+}
+
+.container3{ /* Container da caixa que fica o nome "Hipoteca" */
+    position: relative;
+    left: 79%;
+    bottom: 245px;
+    width: 100px;
+    height: 30px;
+}
+
+#boxhipoteca{ /*Caixa que fica o nome "Hipoteca"*/
+    width: 100%;
+    height: 100%;
+    border-radius: 7px 7px 7px 7px;
+    background-color: white;
+}
+
+#hipoteca{ /*Nome "Hipoteca"*/
+    position: absolute;
+    bottom: 5px;
+    left: 25px;
+    z-index: 1;
+}
+
+#inserir { /* Para mexer nos dois inserir */
+    position: relative;
+    top: 110px;
+    font-size: 20px;
+}
+
 #inserir1 {
     font-size: 14px;
     border-radius: 50px;
@@ -27,11 +86,14 @@
     text-align: center;
     border-color: black ;
 }
+
 #botao1 {
+    position: relative;
     display: inline-block;
     padding: 10px 20px;
     background-color: black;
     color: #fff;
+    top: 90px;
     border: none;
     border-radius: 10px;
     text-align: center;
