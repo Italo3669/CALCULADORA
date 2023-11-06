@@ -74,19 +74,3 @@
 </body>
 
 </html>
-
-<?php
-
-$mul1 = isset ($_POST["mul1"]) ? floatval($_POST["mul1"]) :0;
-$mul2 = isset ($_POST["mul2"]) ? floatval($_POST["mul2"]) :0;
-
-
-if ($mul1 != 0 && $mul2 != 0 ){
-    $resultado = $mul1 * $mul2;
-echo "Resultado: $resultado";
-}
-
-else {
-    echo "Preencha os campos corretamente";
-}
-?>
