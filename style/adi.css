@@ -16,10 +16,10 @@
 #veja-tambem{ /*Nome "Veja Também no cabeçalho */
     position: relative;
     color: white;
-    font-size: 17px;
+    font-size: 20px;
     left: 55%;
     width: 20vw;
-    bottom: 202px;
+    bottom: 200px;
 }
 
 .container2 { /* Container da caixa que fica o nome "Divisão" */
@@ -46,7 +46,7 @@
 
 .container3{ /* Container da caixa que fica o nome "Hipoteca" */
     position: relative;
-    left: 79%;
+    left: 70%;
     bottom: 245px;
     width: 100px;
     height: 30px;
