@@ -21,7 +21,7 @@
     width: 20vw;
     bottom: 210px;
 }
-.container9 { /* Container da caixa que fica o nome "Divisão" */
+.container9 { /* Container da caixa que fica o nome "Investimentos" */
     position: relative;
     left: 76%;
     bottom: 260px;
@@ -29,19 +29,19 @@
     height: 30px;
 }
 
-#boxinvestimentos{ /*Caixa que fica o nome "Divisão"*/
+#boxinvestimentos{ /*Caixa que fica o nome "Investimentos"*/
     width: 100%;
     height: 100%;
     border-radius: 7px 7px 7px 7px;
     background-color: white;
 }
 
-#investimento{ /*Nome "Divisão"*/
+#investimento{ /*Nome "Investimentos"*/
     position: absolute;
     bottom: 5px;
     left: 8px;
 }
-.container8{ /* Container da caixa que fica o nome "Hipoteca" */
+.container8{ /* Container da caixa que fica o nome "Juros Composto" */
     position: relative;
     left: 85%;
     bottom: 290px;
@@ -49,14 +49,14 @@
     height: 30px;
 }
 
-#boxjuroscomposto{ /*Caixa que fica o nome "Hipoteca"*/
+#boxjuroscomposto{ /*Caixa que fica o nome "Juros Composto"*/
     width: 100%;
     height: 100%;
     border-radius: 7px 7px 7px 7px;
     background-color: white;
 }
 
-#juroscomposto{ /*Nome "Hipoteca"*/
+#juroscomposto{ /*Nome "Juros Composto"*/
     position: absolute;
     bottom: 6px;
     left: 24px;
