@@ -3,7 +3,7 @@
     border-bottom: 3px solid white;
     left: -10px;
     width: 99vw;
-    height: 70px;
+    height: 60px;
 }
 #logo2{ /*Logo do Site "Calculator" */
     position: relative;
@@ -17,14 +17,14 @@
     position: relative;
     color: white;
     font-size: 23px;
-    left: 65%;
+    left: 69%;
     width: 20vw;
-    bottom: 210px;
+    bottom: 215px;
 }
 .container9 { /* Container da caixa que fica o nome "Investimentos" */
     position: relative;
-    left: 76%;
-    bottom: 260px;
+    left: 80%;
+    bottom: 265px;
     width: 100px;
     height: 30px;
 }
@@ -43,9 +43,9 @@
 }
 .container8{ /* Container da caixa que fica o nome "Juros Composto" */
     position: relative;
-    left: 85%;
-    bottom: 290px;
-    width: 150px;
+    left: 89%;
+    bottom: 295px;
+    width: 130px;
     height: 30px;
 }
 
@@ -59,7 +59,7 @@
 #juroscomposto{ /*Nome "Juros Composto"*/
     position: absolute;
     bottom: 6px;
-    left: 24px;
+    left: 15px;
 }
 #inserir { /* Para mexer nos dois inserir */
     position: relative;

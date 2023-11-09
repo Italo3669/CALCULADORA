@@ -29,12 +29,12 @@
         
         <div class="container4">
             <div id="boxsubtração"> </div>
-                <a href="php/subtração.php" id="subtração"> Subtração</a> <br> <!-- Tópico 3 -->
+                <a href="../php/subtração.php" id="subtração"> Subtração</a> <br> <!-- Tópico 3 -->
         </div>
 
         <div class="container5">
         <div id="boxporcentagem"> </div>
-             <a href="php/porcentagem.php" id="porcentagem"> Porcentagem</a> <br> <!-- Tópico 5 -->
+             <a href="../php/porcentagem.php" id="porcentagem"> Porcentagem</a> <br> <!-- Tópico 5 -->
         </div>
     </div> 
    

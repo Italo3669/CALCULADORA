@@ -3,7 +3,7 @@
     border-bottom: 3px solid white;
     left: -10px;
     width: 99vw;
-    height: 70px;
+    height: 60px;
 }
 #logo2{ /*Logo do Site "Calculator" */
     position: relative;
@@ -19,12 +19,12 @@
     font-size: 23px;
     left: 69%;
     width: 20vw;
-    bottom: 210px;
+    bottom: 215px;
 }
 .container4 { /* Container da caixa que fica o nome "Subtração" */
     position: relative;
     left: 80%;
-    bottom: 260px;
+    bottom: 265px;
     width: 100px;
     height: 30px;
 }
@@ -45,7 +45,7 @@
 .container5{ /* Container da caixa que fica o nome "Porcentagem" */
     position: relative;
     left: 89%;
-    bottom: 290px;
+    bottom: 295px;
     width: 100px;
     height: 30px;
 }

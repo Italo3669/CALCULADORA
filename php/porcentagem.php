@@ -7,6 +7,14 @@
 
     <link rel="stylesheet" href="../style/por.css"/>   <!--referencia a pasta do CSS-->
     <link rel="icon"  href="../img/c.png"  type="image/x-icon"> <!--favicon icone do navegador-->
+    
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        } 
+    </style> <!-- Estilização de links -->
+
     <title>Calculadora Online</title> <!-- titulo do site -->
 
 </head>
@@ -15,17 +23,22 @@
 
 <form action="" method="POST">
 
-    <div class="cabeçalho2">
+    <div class="cabeçalho2"> <!--Cabeçalho da página !-->
         <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
+        <p id="veja-tambem">veja também:</p>   <!-- outras funcionalidade do site -->
+        
+        <div class="container1"> 
+        <div id="boxadição"> </div>
+            <a href="../php/adicao.php" id="adição"> Adição </a> <br> <!-- Tópico 1 -->
+        </div>
+
+        <div class="container2">
+            <div id="boxdivisão"> </div>
+                <a href="../php/divisao.php" id="divisão"> Divisão</a> <br> <!-- Tópico 4 -->
+        </div>
     </div> 
 
-
-    <div>
-        <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
-
-    </div>
-
-    <div>
+    <div id="inserir">
      <h4>   
          quanto é: <input type="number" name="por1" placeholder="%" id="inserir1">   <!--caixa de resposta da porcentagem-->
          de: <input type="number" name="por2" id="inserir2"><br> <!--caixa de resposta da porcentagem-->
@@ -33,7 +46,7 @@
      <input type="submit" value="enviar" id="botao1"> <!--Botão de enviar-->
     </div> 
 
-    <div>
+    <div id="inserir34">
         <h4>
             o valor:<input type="number" name="num1" id="inserir3">  <!--caixa de resposta da porcetagem-->
             é qual porcentagem de:<input type="number" name="num2" id="inserir4">  <!--caixa de resposta da porcentagem-->

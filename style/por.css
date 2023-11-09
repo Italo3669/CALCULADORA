@@ -3,7 +3,7 @@
     border-bottom: 3px solid white;
     left: -10px;
     width: 99vw;
-    height: 70px;
+    height: 60px;
 }
 #logo2{ /*Logo do Site "Calculator" */
     position: relative;
@@ -12,6 +12,61 @@
     height: 200px;
     bottom: 65px;
     width: 300px;
+}
+#veja-tambem{ /*Nome "Veja Também no cabeçalho */
+    position: relative;
+    color: white;
+    font-size: 23px;
+    left: 69%;
+    width: 20vw;
+    bottom: 215px;
+}
+.container1 { /* Container da caixa que fica o nome "Adição" */
+    position: relative;
+    left: 80%;
+    bottom: 265px;
+    width: 100px;
+    height: 30px;
+}
+
+#boxadição{ /*Caixa que fica o nome "Adição"*/
+    width: 100%;
+    height: 100%;
+    border-radius: 7px 7px 7px 7px;
+    background-color: white;
+}
+
+#adição{ /*Nome "Adição"*/
+    position: absolute;
+    bottom: 5px;
+    left: 26px;
+    z-index: 1;
+}
+.container2 { /* Container da caixa que fica o nome "Divisão" */
+    position: relative;
+    left: 89%;
+    bottom: 295px;
+    width: 100px;
+    height: 30px;
+}
+
+#boxdivisão{ /*Caixa que fica o nome "Divisão"*/
+    width: 100%;
+    height: 100%;
+    border-radius: 7px 7px 7px 7px;
+    background-color: white;
+}
+
+#divisão{ /*Nome "Divisão"*/
+    position: absolute;
+    bottom: 5px;
+    left: 26px;
+    z-index: 1;
+}
+#inserir { /* Para mexer nos dois inserir */
+    position: relative;
+    top: 110px;
+    font-size: 20px;
 }
 #inserir1 {
     font-size: 14px;
@@ -26,6 +81,11 @@
     width: 90px;
     text-align: center;
     border-color: black ;
+}
+#inserir34{ /*Mexer nos inserir "3" e "4"*/
+    position: relative;
+    top: 120px;
+    font-size: 20px;
 }
 #inserir3 {
     font-size: 14px;
@@ -42,10 +102,12 @@
     border-color: black ;
 }
 #botao1 {
+    position: relative;
     display: inline-block;
     padding: 10px 20px;
     background-color: black;
     color: #fff;
+    bottom: 15px;
     border: none;
     border-radius: 10px;
     text-align: center;
@@ -59,12 +121,14 @@
 
     }
     #botao2 {
+        position: relative;
         display: inline-block;
         padding: 10px 20px;
         background-color: black;
         color: #fff;
         border: none;
         border-radius: 10px;
+        bottom: 15px;
         text-align: center;
         text-decoration: none;
         transition: background-color 0.3s, transform 0.3s; /* Adiciona a  animação */
@@ -76,8 +140,14 @@
     
         }
         #equacao {
-            width: 250px;
-            height: 250px;
+            position: relative;
+            width: 400px;
+            height: 300px;
+            float: right; /* Alinha a imagem no canto direito */
+            margin: 10px;
+            bottom: 100px;
+            right: 0;
+            margin-top: -15%;
           
         }
         .conteudo{
@@ -85,6 +155,7 @@
             width: 650px; /* Define a largura desejada para o retângulo */
             margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
             padding: 30px;
+            margin-top: 5%;
         }
 footer {
     position: relative;

@@ -29,12 +29,12 @@
         
         <div class="container9">
         <div id="boxinvestimentos"> </div>
-            <a href="php/investimento.php" id="investimento"> Investimento</a> <br> <!-- topico 9 -->
+            <a href="../php/investimento.php" id="investimento"> Investimento</a> <br> <!-- topico 9 -->
         </div>
 
         <div class="container8">
         <div id="boxjuroscomposto"> </div>
-            <a href="php/juroscomposto.php" id="juroscomposto"> Juros Composto</a> <br> <!-- topico 8 -->
+            <a href="../php/juroscomposto.php" id="juroscomposto"> Juros Composto</a> <br> <!-- topico 8 -->
         </div>
     </div>
 

@@ -7,6 +7,13 @@
 
     <link rel="stylesheet" href="../style/sub.css"/>   <!--referencia a pasta do CSS-->
     <link rel="icon"  href="../img/c.png"  type="image/x-icon"> <!--favicon icone do navegador-->
+    
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        } 
+    </style> <!-- Estilização de links -->
 
     <title>Calculadora Online</title> <!-- titulo do site -->
 
@@ -16,15 +23,22 @@
 
 <form action="" method="POST">
 
-    <div class="cabeçalho2">
+    <div class="cabeçalho2"> <!--Cabeçalho da página !-->
         <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
+        <p id="veja-tambem">veja também:</p>   <!-- outras funcionalidade do site -->
+        
+        <div class="container6">
+        <div id="boxmultiplicação"> </div>
+            <a href="../php/multiplicação.php" id="multiplicação"> Multiplicação</a> <br> <!-- topico 9 -->
+        </div>
+
+        <div class="container7">
+        <div id="boxjuros"> </div>
+            <a href="../php/jurossimples.php" id="juros"> Juros Simples</a> <br> <!-- Tópico 7 --> 
+        </div>
     </div> 
-
-    <div>
-        <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
-
-    <div>
-     <h4>   
+     
+    <h4 id="inserir">   
         Insira um número: <input type="number" name="sub1" placeholder="-" id="inserir1">   <!--caixa de resposta da subtração-->
         Insira outro número: <input type="number" name="sub2" id="inserir2"><br> <!--caixa de resposta da subtração-->
      </h4>
