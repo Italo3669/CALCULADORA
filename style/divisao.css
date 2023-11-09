@@ -13,6 +13,61 @@
     bottom: 65px;
     width: 300px;
 }
+#veja-tambem{ /*Nome "Veja Também no cabeçalho */
+    position: relative;
+    color: white;
+    font-size: 23px;
+    left: 69%;
+    width: 20vw;
+    bottom: 210px;
+}
+.container4 { /* Container da caixa que fica o nome "Subtração" */
+    position: relative;
+    left: 80%;
+    bottom: 260px;
+    width: 100px;
+    height: 30px;
+}
+
+#boxsubtração{ /*Caixa que fica o nome "Subtração"*/
+    width: 100%;
+    height: 100%;
+    border-radius: 7px 7px 7px 7px;
+    background-color: white;
+}
+
+#subtração{ /*Nome "Subtração"*/
+    position: absolute;
+    bottom: 6px;
+    left: 19px;
+    z-index: 1;
+}
+.container5{ /* Container da caixa que fica o nome "Porcentagem" */
+    position: relative;
+    left: 89%;
+    bottom: 290px;
+    width: 100px;
+    height: 30px;
+}
+
+#boxporcentagem{ /*Caixa que fica o nome "Porcentagem"*/
+    width: 100%;
+    height: 100%;
+    border-radius: 7px 7px 7px 7px;
+    background-color: white;
+}
+
+#porcentagem{ /*Nome "Porcentagem"*/
+    position: absolute;
+    bottom: 6px;
+    left: 10px;
+}
+#inserir { /* Para mexer nos dois inserir */
+    position: relative;
+    top: 110px;
+    font-size: 20px;
+}
+
 #inserir1 {
     font-size: 14px;
     border-radius: 50px;
@@ -20,7 +75,6 @@
     text-align: center;
     border-color: black ;
 }
-
 #inserir2 {
     font-size: 14px;
     border-radius: 50px;
@@ -28,33 +82,41 @@
     text-align: center;
     border-color: black ;
 }
-.botao1 {
+#botao1 {
+    position: relative;
     display: inline-block;
     padding: 10px 20px;
     background-color: black;
     color: #fff;
+    top: 90px;
     border: none;
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
     transition: background-color 0.3s, transform 0.3s; /* Adiciona a  animação */
 }
- .botao1:hover {
+    #botao1:hover {
         color:black;
         background-color: white;
         transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
 
     }
     #equacao {
-        width: 250px;
-        height: 250px;
-      
-    }
+        position: relative;
+        width: 400px;
+        height: 300px;
+        float: right; /* Alinha a imagem no canto direito */
+        margin: 10px;
+        right: 0;
+        bottom: 100px;
+        margin-top: -15%;
+    } 
     .conteudo{
         color: white;
         width: 650px; /* Define a largura desejada para o retângulo */
         margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
         padding: 30px;
+        margin-top: 5%;
     }
 footer {
     position: relative;

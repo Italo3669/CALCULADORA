@@ -23,7 +23,7 @@
 
 <form action="" method="POST">
 
-   <div class="cabeçalho2">
+   <div class="cabeçalho2"> <!--Cabeçalho da página !-->
         <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
         <p id="veja-tambem">veja também:</p>   <!-- outras funcionalidade do site -->
         
@@ -49,7 +49,7 @@
     $adi1 = isset ($_POST["adi1"]) ? floatval($_POST["adi1"]) :0;
     $adi2 = isset ($_POST["adi2"]) ? floatval($_POST["adi2"]) :0;
     
-
+    
     if ($adi1 != 0 && $adi2 != 0 ){
         $resultado = $adi1 + $adi2;
     echo "Resultado: $resultado";

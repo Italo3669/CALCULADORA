@@ -7,6 +7,13 @@
 
     <link rel="stylesheet" href="../style/divisao.css"/>   <!--referencia a pasta do CSS-->
     <link rel="icon"  href="../img/c.png"  type="image/x-icon"> <!--favicon icone do navegador-->  
+    
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        } 
+    </style> <!-- Estilização de links -->
 
     <title>Calculadora Online</title> <!-- titulo do site -->
 
@@ -16,21 +23,27 @@
 
 <form action="" method="POST">
 
-    <div class="cabeçalho2">
+    <div class="cabeçalho2"> <!--Cabeçalho da página !-->
         <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
+        <p id="veja-tambem">veja também:</p>   <!-- outras funcionalidade do site -->
+        
+        <div class="container4">
+            <div id="boxsubtração"> </div>
+                <a href="php/subtração.php" id="subtração"> Subtração</a> <br> <!-- Tópico 3 -->
+        </div>
+
+        <div class="container5">
+        <div id="boxporcentagem"> </div>
+             <a href="php/porcentagem.php" id="porcentagem"> Porcentagem</a> <br> <!-- Tópico 5 -->
+        </div>
     </div> 
    
-
-    <div>
-        <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
-
-    <div>
-     <h4>   
+     <h4 id="inserir">   
         Insira o divisor: <input type="number" name="div1" placeholder="/" id=inserir1>   <!--caixa de resposta da divisão-->
         Insira o dividendo : <input type="number" name="div2" id=inserir2><br>  <!--caixa de resposta da Divisão-->
      </h4>
-     <input type="submit" value="enviar" class="botao1">  <!--Botão de enviar-->
-    </div> <br>
+     <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar-->
+     <br>
 
 <?php
 
