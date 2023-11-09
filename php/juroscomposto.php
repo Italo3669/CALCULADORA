@@ -56,7 +56,7 @@
 
     <div clss="conteudo">
         <h4>   <!-- tamanho do texto-->
-        Juros compostos são uma forma de calcular os juros de um investimento ou empréstimo, em que os juros são aplicados não apenas ao valor inicial, mas também aos juros acumulados ao longo do tempo.<br/>
+        Juros compostos são uma forma de calcular os juros de um investimento ou empréstimo, em que os juros são aplicados<br>não apenas ao valor inicial, mas também aos juros acumulados ao longo do tempo.<br/>
         A principal diferença entre juros  composto e juros simples é:<br/>
         Juros simples: incidem apenas sobre o valor inicial (capital)<br/>
         Juros compostos: incidem sobre o montante total (capital mais juros acumulados).<br/>
