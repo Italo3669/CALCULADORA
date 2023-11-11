@@ -38,6 +38,8 @@
         </div>
     </div> 
 
+    <h1 id="por">PORCENTAGEM</h1>
+
     <div id="inserir">
      <h4>   
          quanto é: <input type="number" name="por1" placeholder="%" id="inserir1">   <!--caixa de resposta da porcentagem-->

@@ -15,19 +15,27 @@
 
 <form action="" method="POST">
 
-    <div class="cabeçalho2">
+<div class="cabeçalho2"> <!--Cabeçalho da página !-->
         <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
-    </div>  
+        <p id="veja-tambem">veja também:</p>   <!-- outras funcionalidade do site -->
+        
+        <div class="container4">
+            <div id="boxjuroscomposto"> </div>
+                <a href="../php/juroscomposto.php" id="subtração"> Subtração</a> <br> <!-- Tópico 3 -->
+        </div>
+
+        <div class="container5">
+        <div id="boxporcentagem"> </div>
+             <a href="../php/porcentagem.php" id="porcentagem"> Porcentagem</a> <br> <!-- Tópico 5 -->
+        </div>
+    </div> 
     
 
-    <div>
-        <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
 
-    </div>
+    <h1 id="investimento">INVESTIMENTO</h1>
 
     <div>   
     <h4>  <!-- tamanho do texto-->
-        CDBs (102% do CDI):
         Valor inicial do investimento: <input type="number" name="valor" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->
         Valor investido por mês: <input type="number" name="cdi" id="inserir2"> <!--taxa de juros, c2=caixa entrada-->
         Tempo investido em meses:  <input type="number" name="tempo" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->

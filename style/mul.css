@@ -85,3 +85,18 @@ footer {
     left: 87%;
     bottom: 10px;
 }
+
+#equacao {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    float: right; /* Alinha a imagem no canto direito */
+    margin: 10px;
+    right: 0;
+    bottom: 100px;
+    margin-top: -15%;
+}
+
+#mul {
+    color: white;
+}

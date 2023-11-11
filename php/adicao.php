@@ -37,13 +37,16 @@
                 <a href="../php/hipoteca.php" id="hipoteca"> Hipoteca</a> <br> <!-- Tópico 6 -->
         </div>
     </div>
+
+    <h1 id="adicao"> ADIÇÃO</h1>
+
     <div>
-     <h4 id="inserir">   
+    <h4 id="inserir">   
         Insira um número: <input type="number" name="adi1" placeholder="+" id=inserir1>   <!--caixa de resposta da adição-->
         Insira outro número: <input type="number" name="adi2" id=inserir2><br> <!--caixa de resposta da adição-->
-     </h4>
-     <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar--> <br>
-     </div>
+    </h4>
+    <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar--> <br>
+    </div>
 <?php
 
     $adi1 = isset ($_POST["adi1"]) ? floatval($_POST["adi1"]) :0;

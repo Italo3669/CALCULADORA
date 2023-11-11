@@ -27,7 +27,7 @@
 
     <div>
 
-    
+    <h1 id="jurosc">JUROS COMPOSTO</h1>    
 
      <h4>   <!-- tamanho do texto-->
         Capital: <input type="number" name="cap" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->

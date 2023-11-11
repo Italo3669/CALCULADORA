@@ -38,6 +38,8 @@
         </div>
     </div>
 
+        <h1 id="hipoteca">HIPOTECA</h1>
+
     <h4 id="inserir">   <!-- tamanho do texto-->
         Valor do empréstimo: <input type="number" name="valor" id="c1" >  <!--valor inicial do juros, c1=caixa entrada-->
         Taxa de juros anual: <input type="number" name="taxa" id="c2"> <!--taxa de juros, c2=caixa entrada-->

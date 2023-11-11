@@ -18,12 +18,16 @@
     <div class="cabeçalho2">
         <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
     </div>  
-    <img src="../img/calculadora.png" alt="calculadora" id="calculadora">   <!--icone da calculadora-->
+    
+    
 
-    <div>
+    <div0>
         <p>veja tambem:</p>   <!-- outras funcionalidade do site -->
 
-    </div>
+    </div0>
+
+    <h1 id="juross">JUROS SIMPLES</h1> 
+
     <div>
      <h4>   <!-- tamanho do texto-->
         Valor inicial:<input type="number" name="v1" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->
