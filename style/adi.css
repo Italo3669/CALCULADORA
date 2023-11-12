@@ -1,25 +1,27 @@
 .cabeçalho2 { /*Cabeçalho do Site*/
+    background-color: white;
     position: relative;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid black;
     left: -10px;
+    bottom: 7px;
     width: 99vw;
-    height: 60px;
+    height: 80px;
 }
 #logo2{ /*Logo do Site "Calculator" */
     position: relative;
-    bottom: 60px;
+    bottom: 55px;
     right: 50px;
     height: 200px;
-    bottom: 65px;
     width: 300px;
 }
 #veja-tambem{ /*Nome "Veja Também no cabeçalho */
     position: relative;
-    color: white;
+    color: black;
     font-size: 23px;
+    font-weight: 600;
     left: 69%;
     width: 20vw;
-    bottom: 215px;
+    bottom: 205px;
 }
 
 .container2 { /* Container da caixa que fica o nome "Divisão" */
