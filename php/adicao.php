@@ -19,7 +19,7 @@
 
 </head>
 
-<body style="background-image: linear-gradient(to right,rgb(57, 91, 56),rgb(30, 107, 81))">  <!-- cor na pagina-->
+<body style="background-image: linear-gradient(to right,rgb(57, 91, 56),rgb(30, 107, 81))"> <!-- Cor de fundo da página -->
 
 <form action="" method="POST">
 

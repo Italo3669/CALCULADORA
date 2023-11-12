@@ -19,22 +19,19 @@
 
 </head>
 
-<body style="background-image: linear-gradient(to right,rgb(167, 121, 18),rgb(0, 0, 0))">  <!-- cor na pagina-->
+<body style="background-image: linear-gradient(to right,rgb(57, 91, 56),rgb(30, 107, 81))"> <!-- Cor de fundo da página -->
 
 <form action="" method="POST">
 
-    <div class="cabeçalho2"> <!--Cabeçalho da página !-->
+<div class="cabeçalho2"> <!--Cabeçalho da página !-->
         <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
         <p id="veja-tambem">veja também:</p>   <!-- outras funcionalidade do site -->
         
-        <div class="container9">
-        <div id="boxinvestimentos"> </div>
-            <a href="../php/investimento.php" id="investimento"> Investimento</a> <br> <!-- topico 9 -->
-        </div>
-
-        <div class="container8">
-        <div id="boxjuroscomposto"> </div>
-            <a href="../php/juroscomposto.php" id="juroscomposto"> Juros Composto</a> <br> <!-- topico 8 -->
+        <div class="containerlista"> 
+            <div class="row">
+                <a class="texto" href="php/divisao.php"> Divisão</a> <br>
+                <a class="texto" href="php/hipoteca.php"> Hipoteca</a> <br>
+            </div>
         </div>
     </div>
 

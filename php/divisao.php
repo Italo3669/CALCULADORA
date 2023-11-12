@@ -19,22 +19,19 @@
 
 </head>
 
-<body style="background-image: linear-gradient(to right,rgb(167, 121, 18),rgb(0, 0, 0))">  <!-- cor na pagina-->
+<body style="background-image: linear-gradient(to right,rgb(57, 91, 56),rgb(30, 107, 81))"> <!-- Cor de fundo da página -->
 
 <form action="" method="POST">
 
-    <div class="cabeçalho2"> <!--Cabeçalho da página !-->
+<div class="cabeçalho2"> <!--Cabeçalho da página !-->
         <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
         <p id="veja-tambem">veja também:</p>   <!-- outras funcionalidade do site -->
         
-        <div class="container4">
-            <div id="boxsubtração"> </div>
-                <a href="../php/subtração.php" id="subtração"> Subtração</a> <br> <!-- Tópico 3 -->
-        </div>
-
-        <div class="container5">
-        <div id="boxporcentagem"> </div>
-             <a href="../php/porcentagem.php" id="porcentagem"> Porcentagem</a> <br> <!-- Tópico 5 -->
+        <div class="containerlista"> 
+            <div class="row">
+                <a class="texto" href="php/divisao.php"> Divisão</a> <br>
+                <a class="texto" href="php/hipoteca.php"> Hipoteca</a> <br>
+            </div>
         </div>
     </div> 
 
