@@ -27,14 +27,11 @@
         <a href=../index.html> <img src="../img/logo.png" alt="logo calculadora" id="logo2"> </a>   <!--nome calculator--> 
         <p id="veja-tambem">veja também:</p>   <!-- outras funcionalidade do site -->
         
-        <div class="container2">
-            <div id="boxdivisão"> </div>
-                <a href="../php/divisao.php" id="divisão"> Divisão</a> <br> <!-- Tópico 4 -->
-        </div>
-
-        <div class="container3">
-            <div id="boxhipoteca"> </div>
-                <a href="../php/hipoteca.php" id="hipoteca"> Hipoteca</a> <br> <!-- Tópico 6 -->
+        <div class="containerlista"> 
+            <div class="row">
+                <a class="texto" href="php/divisao.php"> Divisão</a> <br>
+                <a class="texto" href="php/hipoteca.php"> Hipoteca</a> <br>
+            </div>
         </div>
     </div>
 
@@ -74,6 +71,7 @@
 
     <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
 
+    <div class="containerrodape">
     <footer> <!-- Rodapé -->
         <div id="footer-content"> <!-- Conteúdo do rodapé -->
             <div id="footer-criador"> <!-- Separação do conteúdo (Criadores) -->
@@ -84,6 +82,7 @@
             </div>
         </div> <!-- Fechamento do Conteúdo do rodapé-->
     </footer> <!-- Fechamento do Rodapé -->
+    </div>
 
 </form>
 

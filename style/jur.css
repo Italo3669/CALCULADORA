@@ -13,6 +13,11 @@
     bottom: 65px;
     width: 300px;
 }
+
+#juross {
+    color: white;
+}
+
 #inserir1 {
     font-size: 14px;  /*tamanho da fonte interna*/
     border-radius: 50px; /*tamnho e formato das bordas*/
@@ -56,44 +61,6 @@
         height: 250px;
       
     }
-
-.conteudo{
-    color: white;
-    width: 650px; /* Define a largura desejada para o retângulo */
-    margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
-    padding: 30px;
-}
-footer {
-    position: relative;
-    height: 15vh;
-    color: white;
-    left: -10px;
-    top: 200px;
-}
-
-#footer-content{
-    position: sticky;
-    width: 97.7vw;
-    height: -10vh;
-    background-color: rgb(18, 18, 20);
-    display: flex;
-    padding: 1.5rem 0.5rem;
-}
-
-#footer-criador{
-    font-size: 15px;
-    position: relative;
-    text-align: center;
-    top: 20px;
-    left: 45%;
-}
-#footer-redessociais {
-    font-size: 15px;
-    position: relative;
-    left: 87%;
-    bottom: 10px;
-}
-
 #equacao {
     position: relative;
     width: 400px;
@@ -104,7 +71,46 @@ footer {
     bottom: 100px;
     margin-top: -15%;
 }
-
-#juross {
+.conteudo{
     color: white;
+    width: 650px; /* Define a largura desejada para o retângulo */
+    margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
+    padding: 30px;
+}
+.containerrodape{
+    position: absolute;
+    background-color: black;
+    top: 800px;
+    height: 100px;
+}
+    
+footer {
+    position: absolute;
+    height: 10vh;
+    color: white;
+    left: -9px;
+    top: 0;
+}
+    
+#footer-content{
+    position: sticky;
+    width: 97.7vw;
+    height: -10vh;
+    background-color: rgb(18, 18, 20);
+    display: flex;
+    padding: 1.5rem 0.5rem;
+}
+    
+#footer-criador{
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    left: 45%;
+}
+    
+#footer-redessociais {
+    position: relative;
+    left: 85%;
+    bottom: 10px;
 }

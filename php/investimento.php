@@ -82,6 +82,8 @@
     </div>
 
     <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
+    
+    <div class="containerrodape">
     <footer> <!-- Rodapé -->
         <div id="footer-content"> <!-- Conteúdo do rodapé -->
             <div id="footer-criador"> <!-- Separação do conteúdo (Criadores) -->
@@ -92,6 +94,7 @@
             </div>
         </div> <!-- Fechamento do Conteúdo do rodapé-->
     </footer> <!-- Fechamento do Rodapé -->
+    </div>
 
 </form>
 

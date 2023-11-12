@@ -13,6 +13,11 @@
     bottom: 65px;
     width: 300px;
 }
+
+#jurosc {
+    color: white;
+}
+
 #inserir1 {
     font-size: 14px;
     border-radius: 50px;
@@ -44,47 +49,6 @@
         transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
 
     }
-    #equacao {
-        width: 250px;
-        height: 250px;
-      
-    }
-footer {
-    position: relative;
-    height: 15vh;
-    color: white;
-    left: -10px;
-    top: 200px;
-}
-.conteudo{
-    color: white;
-    width: 650px; /* Define a largura desejada para o retângulo */
-    margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
-    padding: 30px;
-}
-
-#footer-content{
-    position: sticky;
-    width: 97.7vw;
-    height: -10vh;
-    background-color: rgb(18, 18, 20);
-    display: flex;
-    padding: 1.5rem 0.5rem;
-}
-
-#footer-criador{
-    font-size: 15px;
-    position: relative;
-    text-align: center;
-    top: 20px;
-    left: 45%;
-}
-#footer-redessociais {
-    font-size: 15px;
-    position: relative;
-    left: 87%;
-    bottom: 10px;
-}
 
 #equacao {
     position: relative;
@@ -95,9 +59,43 @@ footer {
     bottom: 100px;
     right: 0;
     margin-top: -15%;
-  
+      
 }
 
-#jurosc {
+.containerrodape{
+    position: absolute;
+    background-color: black;
+    top: 800px;
+    height: 100px;
+}
+        
+footer {
+    position: absolute;
+    height: 10vh;
     color: white;
+    left: -9px;
+    top: 0;
+}
+        
+#footer-content{
+    position: sticky;
+    width: 97.7vw;
+    height: -10vh;
+    background-color: rgb(18, 18, 20);
+    display: flex;
+    padding: 1.5rem 0.5rem;
+}
+        
+#footer-criador{
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    left: 45%;
+}
+        
+#footer-redessociais {
+    position: relative;
+    left: 85%;
+    bottom: 10px;
 }

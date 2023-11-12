@@ -21,6 +21,11 @@
     width: 20vw;
     bottom: 215px;
 }
+
+#por {
+    color: white;
+}
+
 .container1 { /* Container da caixa que fica o nome "Adição" */
     position: relative;
     left: 80%;
@@ -133,38 +138,45 @@
         text-decoration: none;
         transition: background-color 0.3s, transform 0.3s; /* Adiciona a  animação */
     }
-        #botao2:hover {
-            color:black;
-            background-color: white;
-            transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
+    #botao2:hover {
+        color:black;
+        background-color: white;
+        transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
     
-        }
-        #equacao {
-            position: relative;
-            width: 400px;
-            height: 300px;
-            float: right; /* Alinha a imagem no canto direito */
-            margin: 10px;
-            bottom: 100px;
-            right: 0;
-            margin-top: -15%;
+    }
+    #equacao {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        float: right; /* Alinha a imagem no canto direito */
+        margin: 10px;
+        bottom: 100px;
+        right: 0;
+        margin-top: -15%;
           
-        }
-        .conteudo{
-            color: white;
-            width: 650px; /* Define a largura desejada para o retângulo */
-            margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
-            padding: 30px;
-            margin-top: 5%;
-        }
-footer {
-    position: relative;
-    height: 15vh;
-    color: white;
-    left: -10px;
-    top: 200px;
+    }
+    .conteudo{
+        color: white;
+        width: 650px; /* Define a largura desejada para o retângulo */
+        margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
+        padding: 30px;
+        margin-top: 5%;
+    }
+.containerrodape{
+    position: absolute;
+    background-color: black;
+    top: 800px;
+    height: 100px;
 }
-
+                    
+footer {
+    position: absolute;
+    height: 10vh;
+    color: white;
+    left: -9px;
+    top: 0;
+}
+                    
 #footer-content{
     position: sticky;
     width: 97.7vw;
@@ -173,7 +185,7 @@ footer {
     display: flex;
     padding: 1.5rem 0.5rem;
 }
-
+                    
 #footer-criador{
     font-size: 15px;
     position: relative;
@@ -181,13 +193,9 @@ footer {
     top: 20px;
     left: 45%;
 }
+                    
 #footer-redessociais {
-    font-size: 15px;
     position: relative;
-    left: 87%;
+    left: 85%;
     bottom: 10px;
-}
-
-#por {
-    color: white;
 }

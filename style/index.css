@@ -21,7 +21,7 @@ body{
 #bemvindo{
     text-align: center;
     color: white;
-    font-weight: 700;
+    font-weight: 700px;
 }
 
 .containerlista {
@@ -132,4 +132,3 @@ footer {
     left: 85%;
     bottom: 10px;
 }
-

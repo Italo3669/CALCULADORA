@@ -61,6 +61,9 @@
     bottom: 6px;
     left: 15px;
 }
+#hipoteca{
+    color: white;
+}
 #inserir { /* Para mexer nos dois inserir */
     position: relative;
     top: 110px;
@@ -118,14 +121,21 @@
         padding: 30px;
         margin-top: 5%;
     }
-footer {
-    position: relative;
-    height: 15vh;
-    color: white;
-    left: -10px;
-    top: 200px;
+.containerrodape{
+    position: absolute;
+    background-color: black;
+    top: 1000px;
+    height: 100px;
 }
-
+    
+footer {
+    position: absolute;
+    height: 10vh;
+    color: white;
+    left: -9px;
+    top: 0;
+}
+    
 #footer-content{
     position: sticky;
     width: 97.7vw;
@@ -134,7 +144,7 @@ footer {
     display: flex;
     padding: 1.5rem 0.5rem;
 }
-
+    
 #footer-criador{
     font-size: 15px;
     position: relative;
@@ -142,13 +152,9 @@ footer {
     top: 20px;
     left: 45%;
 }
+    
 #footer-redessociais {
-    font-size: 15px;
     position: relative;
-    left: 87%;
+    left: 85%;
     bottom: 10px;
-}
- 
-#hipoteca{
-    color: white;
 }
