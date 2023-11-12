@@ -14,81 +14,67 @@
             color: black;
         } 
     </style> <!-- Estilização de links -->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+    </style>
     
     <title>Calculadora Online</title> <!-- Título da página -->
 </head>
 
-<body style="background-image: linear-gradient(to right,rgb(167, 121, 18),rgb(0, 0, 0))"> <!-- Cor de fundo da página -->
+<body style="background-image: linear-gradient(to right,rgb(57, 91, 56),rgb(30, 107, 81))"> <!-- Cor de fundo da página -->
 
 <div class="cabeçalho">
     <img src="img/logo.png" alt="logo calculadora" id="logo">  <!-- Logo da calculadora -->
 </div>
-<div class="container">
+
+<p id="bemvindo">Bem vindo a calculadora online!</p> <br>  <!--titulo do site-->
+
+<h3>
+    <div class="containerlista"> 
+        <div class="row">
+            <a class="texto" href="php/adicao.php"> Adição </a> <br> <!-- Tópico 1 -->    
+            <a class="texto" href="php/divisao.php"> Divisão</a> <br> <!-- Tópico 4 -->
+            <a class="texto" href="php/hipoteca.php"> Hipoteca</a> <br> <!-- Tópico 6 -->
+        </div>
+        
+        <div class="row">
+            <a class="texto" href="php/subtração.php"> Subtração</a> <br> <!-- Tópico 3 --> 
+            <a class="texto" href="php/porcentagem.php"> Porcentagem</a> <br> <!-- Tópico 5 -->
+            <a class="texto" href="php/multiplicação.php"> Multiplicação</a> <br> <!-- Tópico 2 -->
+        </div>
+        
+        <div class="row">
+        <a class="texto" href="php/jurossimples.php"> Juros Simples</a> <br> <!-- Tópico 7 --> 
+        <a class="texto" href="php/juroscomposto.php"> Juros Composto</a> <br> <!-- topico 8 -->
+        <a class="texto" href="php/investimento.php"> Investimento</a> <br> <!-- topico 9 -->
+        </div>
+    </div>
+</h3>
+
+<div class="containertexto">
+    <h3 id="frase">Sendo a principal função de qualquer <br> 
+        calculadora, o sistema deve calcular e <br>
+        dar o resultado com exatidão dado os números <br> 
+        inseridos pelo usuário. É dever <br>
+        do software entender a operação escolhida e <br> 
+        saber o que fazer com os valores <br>
+    </h3>
+    <img id="bonequinho" src="img/bonequinho.gif" alt="bonequinho">
+
 </div>
-Bem vindo a calculadora online! <br>  <!--titulo do site-->
 
-<img src="img/simbolos.png" alt="simbolos" id="simbolos">  <!-- icone dos simbolos -->
-
-<div class="lista">   <!-- Lista de tópicos -->
-    <h1>   <!-- Título dos tópicos -->
-    
-    <div class="container1"> 
-        <div id="boxadição"> </div>
-            <a href="php/adicao.php" id="adição"> Adição </a> <br> <!-- Tópico 1 -->
-        </div>
-    
-    <div class="container2">
-            <div id="boxdivisão"> </div>
-                <a href="php/divisao.php" id="divisão"> Divisão</a> <br> <!-- Tópico 4 -->
-        </div>
-        
-    <div class="container3">
-            <div id="boxhipoteca"> </div>
-                <a href="php/hipoteca.php" id="hipoteca"> Hipoteca</a> <br> <!-- Tópico 6 -->
-        </div>
-        
-    <div class="container4">
-            <div id="boxsubtração"> </div>
-                <a href="php/subtração.php" id="subtração"> Subtração</a> <br> <!-- Tópico 3 -->
-        </div>
-
-    <div class="container5">
-        <div id="boxporcentagem"> </div>
-             <a href="php/porcentagem.php" id="porcentagem"> Porcentagem</a> <br> <!-- Tópico 5 -->
-    </div>
-        
-    <div class="container6">
-        <div id="boxmultiplicação"> </div>
-            <a href="php/multiplicação.php" id="multiplicação"> Multiplicação</a> <br> <!-- Tópico 2 -->
-    </div>
-        
-    <div class="container7">
-        <div id="boxjuros"> </div>
-            <a href="php/jurossimples.php" id="juros"> Juros Simples</a> <br> <!-- Tópico 7 --> 
-    </div>
-        
-    <div class="container8">
-        <div id="boxjuroscomposto"> </div>
-            <a href="php/juroscomposto.php" id="juroscomposto"> Juros Composto</a> <br> <!-- topico 8 -->
-    </div>
-
-    <div class="container9">
-        <div id="boxinvestimentos"> </div>
-            <a href="php/investimento.php" id="investimento"> Investimento</a> <br> <!-- topico 9 -->
-    </div>
-
-    </h1>  <!-- fechamento Título dos tópicos -->
-
-<footer> <!-- Rodapé -->
-    <div id="footer-content"> <!-- Conteúdo do rodapé -->
-        <div id="footer-criador"> <!-- Separação do conteúdo (Criadores) -->
-            <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
-        </div>
-        <div id="footer-redessociais"> <!-- Separação do conteúdo (Redes Sociais) -->
-            <a href="https://github.com/Italo3669/CALCULADORA"> <img src="img/logogithub.png" alt="github" id="githubp"> </a>
-        </div>
-    </div> <!-- Fechamento do Conteúdo do rodapé-->
-</footer> <!-- Fechamento do Rodapé -->
+<div class="containerrodape">
+    <footer> <!-- Rodapé -->
+        <div id="footer-content"> <!-- Conteúdo do rodapé -->
+            <div id="footer-criador"> <!-- Separação do conteúdo (Criadores) -->
+                <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
+            </div>
+            <div id="footer-redessociais"> <!-- Separação do conteúdo (Redes Sociais) -->
+                <a href="https://github.com/Italo3669/CALCULADORA"> <img src="img/logogithub.png" alt="github" id="githubp"> </a>
+            </div>
+        </div> <!-- Fechamento do Conteúdo do rodapé-->
+    </footer> <!-- Fechamento do Rodapé -->
+</div>
 
 </body>
 

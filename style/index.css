@@ -1,210 +1,64 @@
+body{
+    font-family: 'poppins-bold', sans-serif !important;
+}
 .cabeçalho { /*Cabeçalho do Site*/
+    background-color: white;
     position: relative;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid black;
     left: -10px;
+    bottom: 7px;
     width: 99vw;
-    height: 60px;
+    height: 80px;
 }
 
 #logo{ /*Logo do Site "Calculator" */
     position: relative;
-    bottom: 60px;
+    bottom: 55px;
     right: 50px;
     height: 200px;
-    bottom: 65px;
     width: 300px;
 }
+#bemvindo{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
 
-.container1 { /* Container da caixa que fica o nome "Adição" */
+.containerlista {
     position: relative;
-    left: -10px;
-    bottom: 60px;
-    width: 280px;
-    height: 40px;
+    bottom: 160px;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
 }
 
-#boxadição{ /*Caixa que fica o nome "Adição"*/
-    width: 100%;
-    height: 100%;
-    border-radius: 0 7px 7px 0;
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens de uma linha quebrem para a próxima linha */
+    justify-content: center;
+}
+
+.texto {
+    margin: 20px; /* Reduz a margem */
+    padding: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    border-radius: 25px;
+    transition: transform 0.3s;
+    height: 45px;
+    width: 250px; /* Reduz a largura */
+    max-width: 100%; /* Garante que os textos não ultrapassem o contêiner */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    align-items: center;
     background-color: white;
+    box-shadow: 0 30px 45px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
 }
 
-#adição{ /*Nome "Adição"*/
-    position: absolute;
-    bottom: -10px;
-    left: 85px;
-    z-index: 1;
-}
-.container2 { /* Container da caixa que fica o nome "Divisão" */
-    position: relative;
-    left: -10px;
-    bottom: 40px;
-    width: 280px;
-    height: 40px;
-}
-
-#boxdivisão{ /*Caixa que fica o nome "Divisão"*/
-    width: 100%;
-    height: 100%;
-    border-radius: 0 7px 7px 0;
-    background-color: white;
-}
-
-#divisão{ /*Nome "Divisão"*/
-    position: absolute;
-    bottom: -10px;
-    left: 80px;
-    z-index: 1;
-}
-.container3{ /* Container da caixa que fica o nome "Hipoteca" */
-    position: relative;
-    left: -10px;
-    bottom: 20px;
-    width: 280px;
-    height: 40px;
-}
-
-#boxhipoteca{ /*Caixa que fica o nome "Hipoteca"*/
-    width: 100%;
-    height: 100%;
-    border-radius: 0 7px 7px 0;
-    background-color: white;
-}
-
-#hipoteca{ /*Nome "Hipoteca"*/
-    position: absolute;
-    bottom: -10px;
-    left: 70px;
-    z-index: 1;
-}
-
-.container4{ /* Container da caixa que fica o nome "Subtração" */
-    position: relative;
-    left: -10px;
-    top: 0px;
-    width: 280px;
-    height: 40px;
-}
-
-#boxsubtração{ /*Caixa que fica o nome "Subtração"*/
-    width: 100%;
-    height: 100%;
-    border-radius: 0 7px 7px 0;
-    background-color: white;
-}
-
-#subtração{ /*Nome "Subtração"*/
-    position: absolute;
-    bottom: -10px;
-    left: 65px;
-    z-index: 1;
-}
-
-.container5{ /* Container da caixa que fica o nome "Porcentagem" */
-    position: relative;
-    left: -10px;
-    top: 20px;
-    width: 280px;
-    height: 40px;
-}
-
-#boxporcentagem{ /*Caixa que fica o nome "Porcentagem"*/
-    width: 100%;
-    height: 100%;
-    border-radius: 0 7px 7px 0;
-    background-color: white;
-}
-
-#porcentagem{ /*Nome "Porcentagem"*/
-    position: absolute;
-    bottom: -10px;
-    left: 45px;
-    z-index: 1;
-}
-
-.container6 { /* Container da caixa que fica o nome "Multiplicação" */
-    position: relative;
-    left: -10px;
-    top: 40px;
-    width: 280px;
-    height: 40px;
-}
-
-#boxmultiplicação{ /*Caixa que fica o nome "Multiplicação"*/
-    width: 100%;
-    height: 100%;
-    border-radius: 0 7px 7px 0;
-    background-color: white;
-}
-
-#multiplicação{ /*Nome "Multiplicação"*/
-    position: absolute;
-    bottom: -10px;
-    left: 45px;
-}
-
-.container7 { /* Container da caixa que fica o nome "Juros Simples" */
-    position: relative;
-    left: -10px;
-    top: 60px;
-    width: 280px;
-    height: 40px;
-}
-
-#boxjuros{ /*Caixa que fica o nome "Juros Simples"*/
-    width: 100%;
-    height: 100%;
-    border-radius: 0 7px 7px 0;
-    background-color: white;
-}
-
-#juros{ /*Nome "Juros Simples"*/
-    position: absolute;
-    bottom: -10px;
-    left: 45px;
-}
-
-.container8 { /* Container da caixa que fica o nome "Juros Composto" */
-    position: relative;
-    left: -10px;
-    top: 80px;
-    width: 280px;
-    height: 40px;
-}
-
-#boxjuroscomposto{ /*Caixa que fica o nome "Juros Composto"*/
-    width: 100%;
-    height: 100%;
-    border-radius: 0 7px 7px 0;
-    background-color: white;
-}
-
-#juroscomposto{ /*Nome "Juros Composto"*/
-    position: absolute;
-    bottom: -10px;
-    left: 30px;
-}
-
-.container9{
-    position: relative;
-    left: -10px;
-    top: 100px;
-    width: 280px;
-    height: 40px;
-}
-
-#boxinvestimentos{
-    width: 100%;
-    height: 100%;
-    border-radius: 0 7px 7px 0;
-    background-color: white;
-}
-
-#investimento{
-    position: absolute;
-    bottom: -10px;
-    left: 50px;
+.texto:hover {
+    transform: scale(1.1);
 }
 
 .lista{ /*Lista de nomes das operações aritméticas*/
@@ -213,25 +67,47 @@
     line-height: 2.0;
 }
 
-#simbolos{ /*Imagem com Símbolos para decoração das página*/
-    position: relative;
-    height: 300px;
-    width: 375px;
-    left: 750px;
-    top: 150px;
-    transform: scale(1.9);
-}
-
 #icone{ /*ícone do Site*/
     width: 100px;
 }
 
-footer {
+.containertexto{
     position: relative;
-    height: 15vh;
+    background-color: white;
+    bottom: 190px;
+    border-radius: 50px;
+    width: 90vw;
+    left: 50px;
+}
+
+#bonequinho{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 900px;
+    bottom: -30px;
+}
+#frase{
+    position: relative;
+    height: 300px;
+    left: 40px;
+    top: 60px;
+    font-size: 24px;
+}
+
+.containerrodape{
+    position: absolute;
+    background-color: black;
+    top: 2000px;
+    height: 100px;
+}
+
+footer {
+    position: absolute;
+    height: 10vh;
     color: white;
-    left: -10px;
-    top: 200px;
+    left: -9px;
+    top: 0;
 }
 
 #footer-content{
@@ -252,9 +128,8 @@ footer {
 }
 
 #footer-redessociais {
-    font-size: 15px;
     position: relative;
-    left: 87%;
+    left: 85%;
     bottom: 10px;
 }
 
