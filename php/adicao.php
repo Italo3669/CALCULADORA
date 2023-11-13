@@ -52,7 +52,9 @@
     
     if ($adi1 != 0 && $adi2 != 0 ){
         $resultado = $adi1 + $adi2;
-    echo "Resultado: $resultado";
+        
+        echo "Resultado: $resultado";
+    
     }
 
     else {
