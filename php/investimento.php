@@ -74,13 +74,15 @@
 ?>
 
     <div class="conteudo">
-        <h3>Investimento é qualquer valor capar de gerar lucro com prazos curtos, médios e longos. O investimento varia muito dado o objetivo a ser alcançado, seja a curto prazo  para servir como uma reserva de emergência. Seja a médio prazo para uma viajem ou casamento. E até mesmo a longom prazo, como a aposentadoria por exemplo.<br/>
+        <h3>Investimento é qualquer valor capar de gerar lucro com prazos curtos, médios e longos.<br> O investimento varia muito dado o objetivo a ser alcançado, seja a curto prazo  para servir como uma<br> reserva de emergência. Seja a médio prazo para uma viajem ou casamento.<br> E até mesmo a longom prazo, como a aposentadoria por exemplo.<br/>
         Deve ser levado em consideração a CDI (taxa de referência de juros no Brasil que é frequentemente usada em investimentos.)<br/>
         A inflação (A inflação afeta o poder de compra do dinheiro ao longo do tempo).<br/>
-        Os impostos (Dependendo do tipo de investimento, podem haver impostos a serem pagos sobre os rendimentos.)<br/>
+        Os impostos (Dependendo do tipo de investimento, podem haver impostos a <br>serem pagos sobre os rendimentos.)<br/>
         Prazo de investimento (período pelo qual você deseja manter o investimento é importante para calcular os rendimentos ao longo do tempo).<br/>
         E o principal, que é o valor investido (O valor inicial que você está investindo).<br/>
+        <br>
         Eis a fórmula: VF = VI * (1 + CDI - Inflação)^n * (1 - Imposto). <br/>
+        <br>
         De modo que: VF (Valor final), VI (Valor inicial), CDI (Taxa de rendimento, em porcentagem),<br/>Inflação (Taxa de inflação, em porcentagem), N (Período do investimento) e Imposto (Taxa sobre o rendimento, em porcentagem).<br/>
         </h3> <!--informações da pagina-->
     </div>
