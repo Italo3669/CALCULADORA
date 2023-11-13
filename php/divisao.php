@@ -56,7 +56,9 @@
     }
 
     else {
+        echo '<div class:"else">';
         echo "Preencha os campos corretamente";
+        echo '</div>';
     }
 
 ?>
