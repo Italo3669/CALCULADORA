@@ -52,13 +52,15 @@
     
     if ($adi1 != 0 && $adi2 != 0 ){
         $resultado = $adi1 + $adi2;
-        
+        echo '<div class="resultado">';
         echo "Resultado: $resultado";
-    
+        echo '</div>';
     }
 
     else {
+        echo '<div class="else">';
         echo "Preencha os campos corretamente";
+        echo '</div>';
     }
 ?>
 
