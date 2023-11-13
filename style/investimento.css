@@ -103,10 +103,18 @@ body{
   
 }
 
+.conteudo{
+    color: white;
+    width: 650px; /* Define a largura desejada para o retângulo */
+    margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
+    padding: 30px;
+    margin-top: 5%;
+}
+
 .containerrodape{
     position: absolute;
     background-color: black;
-    top: 800px;
+    top: 1100px;
     height: 100px;
 }
     
