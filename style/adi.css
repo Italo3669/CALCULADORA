@@ -171,5 +171,9 @@ footer {
     width: 100px;
 }
 .else {
-    color:white;
+    color:black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
 }
