@@ -25,13 +25,13 @@ body{
     font-weight: 600;
     left: 66%;
     width: 20vw;
-    bottom: 205px;
+    bottom: 200px;
 }
 
 .containerlista{
     position: relative;
-    bottom: 266px;
-    left: 1000px;
+    bottom: 262px;
+    left: 75vw;
     width: 305px;
 }
 
@@ -62,8 +62,6 @@ body{
 .texto:hover{
     transform: scale(1.1);
 }
-
-
 
 #juross {
     color: white;

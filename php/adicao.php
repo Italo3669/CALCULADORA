@@ -29,8 +29,9 @@
         
         <div class="containerlista"> 
             <div class="row">
+
                 <a class="texto" href="../php/subtração.php"> Subtração</a> <br>
-                <a class="texto" href="php/porcentagem.php"> Porcentagem</a> <br>
+                <a class="texto" href="../php/porcentagem.php"> Porcentagem</a> <br>
             </div>
         </div>
     </div>
