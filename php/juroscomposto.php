@@ -29,8 +29,8 @@
         
         <div class="containerlista"> 
             <div class="row">
-                <a class="texto" href="php/divisao.php"> Divisão</a> <br>
-                <a class="texto" href="php/hipoteca.php"> Hipoteca</a> <br>
+                <a class="texto" href="../php/hipoteca.php"> Hipoteca</a> <br>
+                <a class="texto" href="../php/investimento.php"> Investimento</a> <br>
             </div>
         </div>
     </div>
