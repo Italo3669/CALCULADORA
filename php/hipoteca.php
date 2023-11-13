@@ -56,11 +56,15 @@
     $ano1 = $ano * 12;
     $resultado = ($valor * ($taxa1 * (1 + $taxa1)**$ano1)) / ((1 + $taxa1)**$ano1 - 1);
     
+    echo '<div class="resultado">';
     echo "Pagamento mensal da hipoteca: $resultado";
+    echo '</div>';
     }
 
     else {
-    echo "Preencha os campos corretamente";
+        echo '<div class="else">';
+        echo "Preencha os campos corretamente";
+        echo '</div>';
     }
 ?>
 

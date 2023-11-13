@@ -61,13 +61,17 @@
     $imposto = $cdi1 * $imposto;
     $resultado = $imposto + $cdi1;
 
+    echo '<div class="resultado">';
     echo "Valor Inicial: $cdi1<br/>";    
     echo "Lucro obtido: $imposto<br/>";
     echo "Valor final investido: $resultado";
+    echo '</div>';
     }
 
     else {
-    echo "Preencha os campos corretamente";
+        echo '<div class="else">';
+        echo "Preencha os campos corretamente";
+        echo '</div>';
     }
 
 

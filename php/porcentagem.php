@@ -67,11 +67,17 @@
 
     elseif ($num1 != 0 && $num2 != 0 && $por1 == 0 && $por2 == 0 ){
     $resultado1 = ($num1 * 100) / $num2;
+
+    echo '<div class="resultado">';
     echo "Resultado: $resultado1";
+    echo '</div>';
     }
 
     else {
-    echo "Preencha os campos corretamente";
+        echo '<div class="else">';
+        echo "Preencha os campos corretamente";
+        echo '</div>';
+
     }
 
 ?>

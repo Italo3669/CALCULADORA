@@ -52,11 +52,13 @@
 
     if ($div1 != 0 && $div2 != 0 ){
         $resultado = $div1 / $div2;
-    echo "Resultado: $resultado";
+        echo '<div class="resultado">';
+        echo "Resultado: $resultado";
+        echo '</div>';
     }
 
     else {
-        echo '<div class:"else">';
+        echo '<div class="else">';
         echo "Preencha os campos corretamente";
         echo '</div>';
     }

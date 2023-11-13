@@ -56,11 +56,17 @@
 
     if ($cap != 0 && $tax != 0 && $tem != 0 ){
     $resultado = $cap * (1 + $tax/100)**$tem;
+   
+    echo '<div class="resultado">';    
     echo "Montante: $resultado";
+    echo '</div>';
     }
 
     else {
-    echo "Preencha os campos corretamente";
+        echo '<div class="else">';
+        echo "Preencha os campos corretamente";
+        echo '</div>';
+
     }
 ?>
 

@@ -160,3 +160,18 @@ footer {
     left: 85%;
     bottom: 10px;
 } 
+
+.resultado{
+    color:black;
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+}
+.else {
+    color:black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+}

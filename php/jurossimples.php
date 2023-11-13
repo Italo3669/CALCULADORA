@@ -58,13 +58,17 @@
         $resultado = $v1 * $taxa * $n3;
         $total = $v1 + $resultado; 
 
+        echo '<div class = "resultado">';
         echo "Valor inicial:R$$v1";
         echo "Juros:R$$resultado";
         echo "Valor final:R$$total";
+        echo '</div>';
 
     } 
     else {
-        echo "Preencha todos os campos corretamente.";
+        echo '<div class="else">';
+        echo "Preencha os campos corretamente";
+        echo '</div>';
     }
 
 ?>
