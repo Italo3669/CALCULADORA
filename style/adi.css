@@ -1,5 +1,6 @@
 body{
     font-family: 'poppins-bold', sans-serif !important;
+    ;
 }
 
 .cabeçalho2 { /*Cabeçalho do Site*/
@@ -119,6 +120,24 @@ body{
     margin-top: -15%;
   
 }
+.resultado{
+    text-align: center;
+    color:black;
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+    width: 15%;
+}
+.else {
+    text-align: center;
+    position: relative;
+    color:black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    width: 20%;
+    border: black;
+}
 .conteudo{
     color: white;
     width: 650px; /* Define a largura desejada para o retângulo */
@@ -163,17 +182,4 @@ footer {
     left: 85%;
     bottom: 10px;
 }
-.resultado{
-    color:black;
-    padding: 5px;
-    background-color: white;
-    border-radius: 15px;
-    width: 100px;
-}
-.else {
-    color:black;
-    padding: 10px;
-    background-color: white;
-    border-radius: 15px;
-    width: 100px;
-}
+
