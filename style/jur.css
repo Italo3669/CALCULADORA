@@ -23,16 +23,17 @@ body{
     color: black;
     font-size: 23px;
     font-weight: 600;
-    left: 66%;
+    left: 59%;
     width: 20vw;
-    bottom: 200px;
+    bottom: 202px;
 }
 
 .containerlista{
     position: relative;
     bottom: 262px;
-    left: 75vw;
-    width: 305px;
+    left: 70vw;
+    width: 320px;
+    height: 100px;
 }
 
 .row {
@@ -42,14 +43,14 @@ body{
 }
 
 .texto {
-    margin: 10px; /* Reduz a margem */
+    margin: 7px; /* Reduz a margem */
     padding: 5px;
     border: 1px solid #ccc;
     display: inline-block;
     border-radius: 25px;
     transition: transform 0.3s;
-    height: 20px;
-    width: 100px; /* Reduz a largura */
+    height: 25px;
+    width: 130px; /* Reduz a largura */
     max-width: 100%; /* Garante que os textos não ultrapassem o contêiner */
     text-align: center; /* Centraliza o texto horizontalmente */
     align-items: center;
