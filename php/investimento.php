@@ -40,9 +40,9 @@
 
     <div>   
     <h4 id="inserir">  <!-- tamanho do texto-->
-        Valor inicial do investimento: <input type="number" name="valor" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->
-        Valor investido por mês: <input type="number" name="cdi" id="inserir2"> <!--taxa de juros, c2=caixa entrada-->
-        Tempo investido em meses:  <input type="number" name="tempo" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
+        Valor inicial do investimento: <input type="number" name="valor" id="inserir1" ><br>  <!--valor inicial do juros, c1=caixa entrada-->
+        Valor investido por mês: <input type="number" name="cdi" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
+        Tempo investido em meses:  <input type="number" name="tempo" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
 
      <input type="submit" value="Enviar" id="botao1">  <!--Botão de enviar--><br>

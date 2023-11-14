@@ -81,9 +81,11 @@ body{
     border-radius: 50px; /*tamnho e formato das bordas*/
     width: 90px; /*tamanho do input*/
     text-align: center; /* texto no meio do input*/
-    border-color: black ; /*cor das bordas*/
+    border-color: black; /*cor das bordas*/
 }
 #inserir2 {
+    position: relative;
+    left: 3.3%;
     font-size: 14px;
     border-radius: 50px;
     width: 90px;
@@ -91,6 +93,8 @@ body{
     border-color: black ;
 }
 #inserir3 {
+    position: relative;
+    left: 0.6%;
     font-size: 14px;
     border-radius: 50px;
     width: 90px;
