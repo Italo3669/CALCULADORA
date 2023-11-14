@@ -213,8 +213,18 @@ footer {
     padding: 5px;
     background-color: white;
     border-radius: 15px;
-    width: 100px;
+    width: 15%;
 }
+
+.resultado{
+    text-align: center;
+    color:black;
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+    width: 15%;
+}
+
 .else {
     text-align: center;
     position: relative;

@@ -39,9 +39,9 @@
 
     <div>
      <h4 id="inserir">   <!-- tamanho do texto-->
-        Valor inicial:<input type="number" name="v1" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->
-        Taxa de Juros: <input type="number" name="t2" id="inserir2"> <!--taxa de juros, c2=caixa entrada-->
-        N° de meses:  <input type="number" name="n3" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
+        Valor inicial<input type="number" name="v1" id="inserir1" ><br> <!--valor inicial do juros, c1=caixa entrada-->
+        Taxa de Juros <input type="number" name="t2" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
+        N° de meses  <input type="number" name="n3" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
         
        <input type="submit" value="Enviar" id="botao1" >  <!--Botão de enviar--><br>
