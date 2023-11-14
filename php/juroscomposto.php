@@ -56,17 +56,23 @@
 
     if ($cap != 0 && $tax != 0 && $tem != 0 ){
     $resultado = $cap * (1 + $tax/100)**$tem;
+   
+    echo '<div class="resultado">';    
     echo "Montante: $resultado";
+    echo '</div>';
     }
 
     else {
-    echo "Preencha os campos corretamente";
+        echo '<div class="else">';
+        echo "Preencha os campos corretamente";
+        echo '</div>';
+
     }
 ?>
 
-    <div clss="conteudo">
+    <div class="conteudo">
         <h4>   <!-- tamanho do texto-->
-        Juros compostos são uma forma de calcular os juros de um investimento ou empréstimo, em que os juros são aplicados<br>não apenas ao valor inicial, mas também aos juros acumulados ao longo do tempo.<br/>
+        Juros compostos são uma forma de calcular os juros de um investimento ou empréstimo, em que os juros são aplicados<br>não apenas ao valor inicial, mas também aos juros acumulados ao longo do tempo.
         A principal diferença entre juros  composto e juros simples é:<br/>
         Juros simples: incidem apenas sobre o valor inicial (capital)<br/>
         Juros compostos: incidem sobre o montante total (capital mais juros acumulados).<br/>

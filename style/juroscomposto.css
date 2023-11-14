@@ -114,6 +114,14 @@ body{
       
 }
 
+.conteudo{
+    color: white;
+    width: 650px; /* Define a largura desejada para o retângulo */
+    margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
+    padding: 30px;
+    margin-top: 5%;
+}
+
 .containerrodape{
     position: absolute;
     background-color: black;
@@ -150,4 +158,19 @@ footer {
     position: relative;
     left: 85%;
     bottom: 10px;
+}
+
+.resultado{
+    color:black;
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+}
+.else {
+    color:black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
 }

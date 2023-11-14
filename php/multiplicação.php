@@ -53,11 +53,17 @@
 
     if ($mul1 != 0 && $mul2 != 0 ){
     $resultado = $mul1 * $mul2;
+
+    echo '<div class="resultado">';    
     echo "Resultado: $resultado";
+    echo '</div>';
     }
 
     else {
-    echo "Preencha os campos corretamente";
+        echo '<div class="else">';
+        echo "Preencha os campos corretamente";
+        echo '</div>';
+
     }
 ?>    
 

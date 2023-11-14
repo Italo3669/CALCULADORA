@@ -54,11 +54,16 @@
 
     if ($sub1 != 0 && $sub2 != 0 ){
     $resultado = $sub1 - $sub2;
+
+    echo '<div class="resultado">';
     echo "Resultado: $resultado";
+    echo '</div>';
     }
 
     else {
-    echo "Preencha os campos corretamente";
+        echo '<div class="else">';
+        echo "Preencha os campos corretamente";
+        echo '</div>';
     }
 
 ?>
