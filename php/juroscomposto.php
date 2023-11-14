@@ -45,8 +45,9 @@
         Tempo:  <input type="number" name="tem" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
 
-       <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar-->
-    </div> <br>
+       <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar--><br>
+       <br>
+    </div> 
 
 <?php
 
