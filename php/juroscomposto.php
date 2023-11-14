@@ -40,9 +40,9 @@
     <h1 id="jurosc">JUROS COMPOSTO</h1>    
 
      <h4 id="inserir">   <!-- tamanho do texto-->
-        Capital <input type="number" name="cap" id="inserir1" ><br>  <!--valor inicial do juros, c1=caixa entrada-->
-        Taxa de Juros <input type="number" name="tax" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
-        Tempo  <input type="number" name="tem" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
+        Capital <input type="number" name="cap" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->
+        Taxa de Juros <input type="number" name="tax" id="inserir2"> <!--taxa de juros, c2=caixa entrada-->
+        Tempo  <input type="number" name="tem" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
 
        <input type="submit" value="Enviar" id="botao1">  <!--Botão de enviar--><br>
