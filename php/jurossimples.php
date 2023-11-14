@@ -29,8 +29,8 @@
         
         <div class="containerlista"> 
             <div class="row">
-                <a class="texto" href="../php/multiplicação.php"> Multiplicação</a> <br>
-                <a class="texto" href="../php/divisao.php"> Divisão</a> <br>
+                <a class="texto" href="../php/multiplicação.php"> Multiplicação</a> <br> <!--Link de navegação para outra página-->
+                <a class="texto" href="../php/divisao.php"> Divisão</a> <br> <!--Link de navegação para outra página-->
             </div>
         </div>
     </div>
@@ -50,25 +50,25 @@
 
 <?php
 
-    $v1 = isset($_POST['v1']) ? floatval($_POST['v1']) : 0;
-    $t2 = isset($_POST['t2']) ? floatval($_POST['t2']) : 0;
-    $n3 = isset($_POST['n3']) ? floatval($_POST['n3']) : 0;
+    $v1 = isset($_POST['v1']) ? floatval($_POST['v1']) : 0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $t2 = isset($_POST['t2']) ? floatval($_POST['t2']) : 0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $n3 = isset($_POST['n3']) ? floatval($_POST['n3']) : 0; /*Armazena as informações da variável e verifica se nela existe valor*/
 
-    if ($v1 != 0 && $t2 != 0 && $n3 != 0) {
+    if ($v1 != 0 && $t2 != 0 && $n3 != 0) { /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
         $taxa = $t2 / 100;
         $resultado = $v1 * $taxa * $n3;
         $total = $v1 + $resultado; 
 
-        echo '<div class = "resultado">';
-        echo "Valor inicial:R$$v1";
-        echo "Juros:R$$resultado";
-        echo "Valor final:R$$total";
+        echo '<div class = "resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
+        echo "Valor inicial:R$$v1"; /*Mostra o resultado obtido por meio do cálculo*/
+        echo "Juros:R$$resultado"; /*Mostra o resultado obtido por meio do cálculo*/
+        echo "Valor final:R$$total"; /*Mostra o resultado obtido por meio do cálculo*/
         echo '</div>';
 
     } 
     else {
-        echo '<div class="else">';
-        echo "Preencha os campos corretamente";
+        echo '<div class="else">'; /*Faz com que o echo possa ser editado por meio do css*/
+        echo "Preencha os campos corretamente"; /*Mensagem que irá aparecer na tela de exibição*/
         echo '</div>';
     }
 

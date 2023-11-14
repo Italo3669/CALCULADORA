@@ -29,8 +29,8 @@
         
         <div class="containerlista"> 
             <div class="row">
-                <a class="texto" href="../php/multiplicação.php"> Multiplicação</a> <br>
-                <a class="texto" href="../php/subtração.php"> Subtração</a> <br>
+                <a class="texto" href="../php/multiplicação.php"> Multiplicação</a> <br> <!--Link de navegação para outra página-->
+                <a class="texto" href="../php/subtração.php"> Subtração</a> <br> <!--Link de navegação para outra página-->
             </div>
         </div>
     </div> 
@@ -46,20 +46,20 @@
 
 <?php
 
-    $div1 = isset ($_POST["div1"]) ? floatval($_POST["div1"]) :0;
-    $div2 = isset ($_POST["div2"]) ? floatval($_POST["div2"]) :0;
+    $div1 = isset ($_POST["div1"]) ? floatval($_POST["div1"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $div2 = isset ($_POST["div2"]) ? floatval($_POST["div2"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
     
 
-    if ($div1 != 0 && $div2 != 0 ){
-        $resultado = $div1 / $div2;
-        echo '<div class="resultado">';
-        echo "Resultado: $resultado";
+    if ($div1 != 0 && $div2 != 0 ){ /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
+        $resultado = $div1 / $div2; /*Recebe as duas variáveis e divide elas*/
+        echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
+        echo "Resultado: $resultado"; /*Mostra o resultado obtido por meio do cálculo*/
         echo '</div>';
     }
 
     else {
-        echo '<div class="else">';
-        echo "Preencha os campos corretamente";
+        echo '<div class="else">'; /*Faz com que o echo possa ser editado por meio do css*/
+        echo "Preencha os campos corretamente"; /*Mensagem que irá aparecer na tela de exibição*/
         echo '</div>';
     }
 

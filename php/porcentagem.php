@@ -29,8 +29,8 @@
         
         <div class="containerlista"> 
             <div class="row">
-                <a class="texto" href="../php/adicao.php"> Adição</a> <br>
-                <a class="texto" href="../php/hipoteca.php"> Hipoteca</a> <br>
+                <a class="texto" href="../php/adicao.php"> Adição</a> <br> <!--Link de navegação para outra página-->
+                <a class="texto" href="../php/hipoteca.php"> Hipoteca</a> <br> <!--Link de navegação para outra página-->
             </div>
         </div>
     </div>
@@ -56,27 +56,27 @@
 
 <?php
 
-    $por1 = isset ($_POST["por1"]) ? floatval($_POST["por1"]) :0;
-    $por2 = isset ($_POST["por2"]) ? floatval($_POST["por2"]) :0;
-    $num1 = isset ($_POST["num1"]) ? floatval($_POST["num1"]) :0;
-    $num2 = isset ($_POST["num2"]) ? floatval($_POST["num2"]) :0;
+    $por1 = isset ($_POST["por1"]) ? floatval($_POST["por1"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $por2 = isset ($_POST["por2"]) ? floatval($_POST["por2"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $num1 = isset ($_POST["num1"]) ? floatval($_POST["num1"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $num2 = isset ($_POST["num2"]) ? floatval($_POST["num2"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
 
-    if ($por1 != 0 && $por2 != 0 && $num1 == 0  && $num2 == 0) {
+    if ($por1 != 0 && $por2 != 0 && $num1 == 0  && $num2 == 0) { /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
     $resultado = ($por1 * $por2) / 100;
-    echo "Resultado: $resultado";
+    echo "Resultado: $resultado"; /*Mostra o resultado obtido por meio do cálculo*/
     }
 
-    elseif ($num1 != 0 && $num2 != 0 && $por1 == 0 && $por2 == 0 ){
-    $resultado1 = ($num1 * 100) / $num2;
+    elseif ($num1 != 0 && $num2 != 0 && $por1 == 0 && $por2 == 0 ){ /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
+    $resultado1 = ($num1 * 100) / $num2; /*Mostra o resultado obtido por meio do cálculo*/
 
-    echo '<div class="resultado">';
-    echo "Resultado: $resultado1";
+    echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
+    echo "Resultado: $resultado1"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>';
     }
 
     else {
-        echo '<div class="else">';
-        echo "Preencha os campos corretamente";
+        echo '<div class="else">'; /*Faz com que o echo possa ser editado por meio do css*/
+        echo "Preencha os campos corretamente"; /*Mensagem que irá aparecer na tela de exibição*/
         echo '</div>';
 
     }

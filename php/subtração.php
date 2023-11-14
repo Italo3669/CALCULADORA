@@ -29,8 +29,8 @@
         
         <div class="containerlista"> 
             <div class="row">
-                <a class="texto" href="../php/jurossimples.php"> Juros Simples</a> <br>
-                <a class="texto" href="../php/investimento.php"> Investimento</a> <br>
+                <a class="texto" href="../php/jurossimples.php"> Juros Simples</a> <br> <!--Link de navegação para outra página-->
+                <a class="texto" href="../php/investimento.php"> Investimento</a> <br> <!--Link de navegação para outra página-->
             </div>
         </div>
     </div> 
@@ -49,21 +49,21 @@
 
 <?php
 
-    $sub1 = isset ($_POST["sub1"]) ? floatval($_POST["sub1"]) :0;
-    $sub2 = isset ($_POST["sub2"]) ? floatval($_POST["sub2"]) :0;
+    $sub1 = isset ($_POST["sub1"]) ? floatval($_POST["sub1"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $sub2 = isset ($_POST["sub2"]) ? floatval($_POST["sub2"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
 
 
-    if ($sub1 != 0 && $sub2 != 0 ){
-    $resultado = $sub1 - $sub2;
+    if ($sub1 != 0 && $sub2 != 0 ){ /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
+    $resultado = $sub1 - $sub2; /*Recebe as duas variáveis e subtrai elas*/
 
-    echo '<div class="resultado">';
-    echo "Resultado: $resultado";
+    echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
+    echo "Resultado: $resultado"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>';
     }
 
     else {
-        echo '<div class="else">';
-        echo "Preencha os campos corretamente";
+        echo '<div class="else">'; /*Faz com que o echo possa ser editado por meio do css*/
+        echo "Preencha os campos corretamente"; /*Mensagem que irá aparecer na tela de exibição*/
         echo '</div>';
     }
 
