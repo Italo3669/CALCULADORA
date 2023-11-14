@@ -66,6 +66,13 @@ body{
 
 #juross {
     color: white;
+    text-align: center;
+}
+
+#inserir { /* Para mexer nos três inserir */
+    position: relative;
+    top: 5px;
+    font-size: 20px;
 }
 
 #inserir1 {
@@ -90,10 +97,12 @@ body{
     border-color: black ;
 }
 #botao1 {
+    position: relative;
     display: inline-block;
     padding: 10px 20px;
     background-color: black;
     color: #fff;
+    top: 20%;
     border: none;
     border-radius: 10px;
     text-align: center;
@@ -173,9 +182,12 @@ footer {
     width: 100px;
 }
 .else {
+    text-align: center;
+    position: relative;
     color:black;
     padding: 10px;
     background-color: white;
     border-radius: 15px;
-    width: 100px;
+    width: 20%;
+    border: black;
 }

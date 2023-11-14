@@ -44,7 +44,9 @@
 
 
      <input type="submit" value="enviar" id="botao1"> <!--Botão de enviar-->
-    </div> <br>
+    </div> 
+    <br>
+    <br>
 
 <?php
 

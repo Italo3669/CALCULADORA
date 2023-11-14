@@ -65,11 +65,12 @@ body{
 
 #por {
     color: white;
+    text-align: center;
 }
 
 #inserir { /* Para mexer nos dois inserir */
     position: relative;
-    top: 110px;
+    top: 5px;
     font-size: 20px;
 }
 #inserir1 {
@@ -88,7 +89,7 @@ body{
 }
 #inserir34{ /*Mexer nos inserir "3" e "4"*/
     position: relative;
-    top: 120px;
+    top: 10px;
     font-size: 20px;
 }
 #inserir3 {
@@ -111,7 +112,7 @@ body{
     padding: 10px 20px;
     background-color: black;
     color: #fff;
-    bottom: 15px;
+    top: 20%;
     border: none;
     border-radius: 10px;
     text-align: center;
@@ -130,9 +131,9 @@ body{
         padding: 10px 20px;
         background-color: black;
         color: #fff;
+        top: 20%;
         border: none;
         border-radius: 10px;
-        bottom: 15px;
         text-align: center;
         text-decoration: none;
         transition: background-color 0.3s, transform 0.3s; /* Adiciona a  animação */
@@ -207,9 +208,12 @@ footer {
     width: 100px;
 }
 .else {
+    text-align: center;
+    position: relative;
     color:black;
     padding: 10px;
     background-color: white;
     border-radius: 15px;
-    width: 100px;
+    width: 20%;
+    border: black;
 }

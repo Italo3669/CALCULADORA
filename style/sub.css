@@ -66,11 +66,12 @@ body{
 
 #sub {
     color: white;
+    text-align: center;
 }
 
 #inserir { /* Para mexer nos dois inserir */
     position: relative;
-    top: 110px;
+    top: 5px;
     font-size: 20px;
 }
 #inserir1 {
@@ -93,7 +94,7 @@ body{
     padding: 10px 20px;
     background-color: black;
     color: #fff;
-    top: 90px;
+    top: 20%;
     border: none;
     border-radius: 10px;
     text-align: center;
@@ -127,7 +128,7 @@ body{
 .containerrodape{
     position: absolute;
     background-color: black;
-    top: 800px;
+    top: 1000px;
     height: 100px;
 }
                         
@@ -170,9 +171,12 @@ footer {
     width: 100px;
 }
 .else {
+    text-align: center;
+    position: relative;
     color:black;
     padding: 10px;
     background-color: white;
     border-radius: 15px;
-    width: 100px;
+    width: 20%;
+    border: black;;
 }

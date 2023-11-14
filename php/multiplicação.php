@@ -38,7 +38,7 @@
     <h1 id="mul">MULTIPLICAÇÃO</h1>
 
     <div>   
-     <h4>   
+     <h4 id="inserir">   
         Insira seu número: <input type="number" name="mul1" placeholder="*" id="inserir1">   <!--caixa de resposta da Multiplicação-->
         a quantidade: <input type="number" name="mul2" id="inserir2"><br> <!--caixa de resposta da multiplicação-->
      </h4>

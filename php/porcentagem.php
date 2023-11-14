@@ -51,7 +51,9 @@
             é qual porcentagem de:<input type="number" name="num2" id="inserir4">  <!--caixa de resposta da porcentagem-->
         </h4>
         <input type="submit" value="enviar" id="botao2"> <!--Botão de enviar-->
-    </div> <br>
+    </div> 
+    <br>
+    <br>
 
 <?php
 
