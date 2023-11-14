@@ -38,9 +38,9 @@
         <h1 id="hipoteca">HIPOTECA</h1>
 
     <h4 id="inserir">   <!-- tamanho do texto-->
-        Valor do empréstimo: <input type="number" name="valor" id="inserir1" ><br>  <!--valor inicial do juros, c1=caixa entrada-->
-        Taxa de juros anual: <input type="number" name="taxa" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
-        Quantidade de anos:  <input type="number" name="ano" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
+        Valor do empréstimo <input type="number" name="valor" id="inserir1"><br>  <!--valor inicial do juros, c1=caixa entrada-->
+        Taxa de juros anual <input type="number" name="taxa" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
+        Quantidade de anos  <input type="number" name="ano" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
     <input type="submit" value="enviar" id="botao1"> </br> <!--Botão de enviar-->
     <br>
