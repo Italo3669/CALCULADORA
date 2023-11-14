@@ -43,7 +43,8 @@
         Insira um número: <input type="number" name="adi1" placeholder="+" id=inserir1><br>   <!--caixa de resposta da adição-->
         Insira outro número: <input type="number" name="adi2" id=inserir2><br> <!--caixa de resposta da adição-->
     </h4>
-    <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar--> <br>
+    <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar--> 
+    <br>
     <br>
     </div>
 <?php

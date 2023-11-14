@@ -43,9 +43,10 @@
      </h4>
 
 
-     <input type="submit" value="enviar" id="botao1"> <!--Botão de enviar--><br>
-     <br>
+     <input type="submit" value="enviar" id="botao1"> <!--Botão de enviar-->
     </div> 
+    <br>
+    <br>
 
 <?php
 

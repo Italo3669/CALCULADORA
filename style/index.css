@@ -4,16 +4,16 @@ body{
 .cabeçalho { /*Cabeçalho do Site*/
     background-color: white;
     position: relative;
-    border-bottom: 3px solid black;
+    border-bottom: 5px solid black;
     left: -10px;
     bottom: 7px;
     width: 99vw;
-    height: 80px;
+    height: 100px;
 }
 
 #logo{ /*Logo do Site "Calculator" */
     position: relative;
-    bottom: 55px;
+    bottom: 45px;
     right: 50px;
     height: 200px;
     width: 300px;
@@ -22,11 +22,13 @@ body{
     text-align: center;
     color: white;
     font-weight: 700;
+    font-size: 40px;
+    text-shadow: 0 7px 0px rgba(0, 0, 0, 0.1);
 }
 
 .containerlista {
     position: relative;
-    bottom: 160px;
+    bottom: 220px;
     text-align: center;
     height: 100vh;
     flex-direction: column;
@@ -74,7 +76,7 @@ body{
 .containertexto{
     position: relative;
     background-color: white;
-    bottom: 190px;
+    bottom: 280px;
     border-radius: 50px;
     width: 90vw;
     left: 50px;
