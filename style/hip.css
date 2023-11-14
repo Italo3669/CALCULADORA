@@ -23,7 +23,7 @@ body{
     color: black;
     font-size: 23px;
     font-weight: 600;
-    left: 66%;
+    left: 59%;
     width: 20vw;
     bottom: 202px;
 }
@@ -31,8 +31,9 @@ body{
 .containerlista{
     position: relative;
     bottom: 262px;
-    left: 75vw;
-    width: 305px;
+    left: 70vw;
+    width: 320px;
+    height: 100px;
 }
 
 .row {
@@ -48,15 +49,15 @@ body{
     display: inline-block;
     border-radius: 25px;
     transition: transform 0.3s;
-    height: 20px;
-    width: 100px; /* Reduz a largura */
+    height: 25px;
+    width: 130px; /* Reduz a largura */
     max-width: 100%; /* Garante que os textos não ultrapassem o contêiner */
     text-align: center; /* Centraliza o texto horizontalmente */
     align-items: center;
     background-color: white;
     color: black;
     box-shadow: 0 30px 45px rgba(0, 0, 0, 0.1);
-    font-size: 20px;
+    font-size: 17px;
     border-color: black;
 }
 .texto:hover{
@@ -65,10 +66,11 @@ body{
 
 #hipoteca{
     color: white;
+    text-align: center;
 }
 #inserir { /* Para mexer nos dois inserir */
     position: relative;
-    top: 110px;
+    top: 5px;
     font-size: 20px;
 }
 
@@ -92,7 +94,7 @@ body{
     padding: 10px 20px;
     background-color: black;
     color: #fff;
-    top: 90px;
+    top: 20%;
     border: none;
     border-radius: 10px;
     text-align: center;
@@ -126,7 +128,7 @@ body{
 .containerrodape{
     position: absolute;
     background-color: black;
-    top: 1000px;
+    top: 1100px;
     height: 100px;
 }
     
@@ -162,16 +164,19 @@ footer {
 }
 
 .resultado{
-    color:black;
-    padding: 5px;
-    background-color: white;
-    border-radius: 15px;
-    width: 100px;
+        color:black;
+        padding: 5px;
+        background-color: white;
+        border-radius: 15px;
+        width: 100px;
 }
 .else {
+    text-align: center;
+    position: relative;
     color:black;
     padding: 10px;
     background-color: white;
     border-radius: 15px;
-    width: 100px;
+    width: 20%;
+    border: black;
 }

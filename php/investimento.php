@@ -28,8 +28,8 @@
         
         <div class="containerlista"> 
             <div class="row">
-                <a class="texto" href="../php/adicao.php"> Adição</a> <br>
-                <a class="texto" href="../php/porcentagem.php"> Porcentagem</a> <br>
+                <a class="texto" href="../php/adicao.php"> Adição</a> <br> <!--Link de navegação para outra página-->
+                <a class="texto" href="../php/porcentagem.php"> Porcentagem</a> <br> <!--Link de navegação para outra página-->
             </div>
         </div>
     </div> 
@@ -39,7 +39,7 @@
     <h1 id="investimento">INVESTIMENTO</h1>
 
     <div>   
-    <h4>  <!-- tamanho do texto-->
+    <h4 id="inserir">  <!-- tamanho do texto-->
         Valor inicial do investimento: <input type="number" name="valor" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->
         Valor investido por mês: <input type="number" name="cdi" id="inserir2"> <!--taxa de juros, c2=caixa entrada-->
         Tempo investido em meses:  <input type="number" name="tempo" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
@@ -51,27 +51,27 @@
 
 <?php
 
-    $valor = isset ($_POST["valor"]) ? floatval($_POST["valor"]) :0;
-    $cdi = isset ($_POST["cdi"]) ? floatval($_POST["cdi"]) :0;
-    $tempo = isset ($_POST["tempo"]) ? floatval($_POST["tempo"]) :0;
+    $valor = isset ($_POST["valor"]) ? floatval($_POST["valor"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $cdi = isset ($_POST["cdi"]) ? floatval($_POST["cdi"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $tempo = isset ($_POST["tempo"]) ? floatval($_POST["tempo"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
 
 
-    if ($valor != 0 && $cdi != 0 && $tempo != 0) {
+    if ($valor != 0 && $cdi != 0 && $tempo != 0) { /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
     $imposto =  58/100;
     $cdi1 = $valor + ($cdi * $tempo);
     $imposto = $cdi1 * $imposto;
     $resultado = $imposto + $cdi1;
 
-    echo '<div class="resultado">';
-    echo "Valor Inicial: $cdi1<br/>";    
-    echo "Lucro obtido: $imposto<br/>";
-    echo "Valor final investido: $resultado";
-    echo '</div>';
+    echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
+    echo "Valor Inicial: $cdi1<br/>"; /*Mostra o resultado obtido por meio do cálculo*/    
+    echo "Lucro obtido: $imposto<br/>"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo "Valor final investido: $resultado"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo '</div>'; 
     }
 
     else {
-        echo '<div class="else">';
-        echo "Preencha os campos corretamente";
+        echo '<div class="else">'; /*Faz com que o echo possa ser editado por meio do css*/
+        echo "Preencha os campos corretamente"; /*Mensagem que irá aparecer na tela de exibição*/
         echo '</div>';
     }
 

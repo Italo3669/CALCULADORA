@@ -29,8 +29,8 @@
         
         <div class="containerlista"> 
             <div class="row">
-                <a class="texto" href="../php/juroscomposto.php"> Juros Composto</a> <br>
-                <a class="texto" href="../php/jurossimples.php"> Juros Simples</a> <br>
+                <a class="texto" href="../php/juroscomposto.php"> Juros Composto</a> <br> <!--Link de navegação para outra página-->
+                <a class="texto" href="../php/jurossimples.php"> Juros Simples</a> <br> <!--Link de navegação para outra página-->
             </div>
         </div>
     </div>
@@ -47,23 +47,23 @@
 
 <?php
 
-    $valor = isset ($_POST["valor"]) ? floatval($_POST["valor"]) :0;
-    $taxa = isset ($_POST["taxa"]) ? floatval($_POST["taxa"]) :0;
-    $ano = isset ($_POST["ano"]) ? floatval($_POST["ano"]) :0;
+    $valor = isset ($_POST["valor"]) ? floatval($_POST["valor"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $taxa = isset ($_POST["taxa"]) ? floatval($_POST["taxa"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $ano = isset ($_POST["ano"]) ? floatval($_POST["ano"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
 
-    if ($valor != 0 && $taxa != 0 && $ano != 0 ){
+    if ($valor != 0 && $taxa != 0 && $ano != 0 ){ /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
     $taxa1 = ($taxa / 12) / 10;
     $ano1 = $ano * 12;
     $resultado = ($valor * ($taxa1 * (1 + $taxa1)**$ano1)) / ((1 + $taxa1)**$ano1 - 1);
     
-    echo '<div class="resultado">';
-    echo "Pagamento mensal da hipoteca: $resultado";
+    echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
+    echo "Pagamento mensal da hipoteca: $resultado"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>';
     }
 
     else {
-        echo '<div class="else">';
-        echo "Preencha os campos corretamente";
+        echo '<div class="else">'; /*Faz com que o echo possa ser editado por meio do css*/
+        echo "Preencha os campos corretamente"; /*Mensagem que irá aparecer na tela de exibição*/
         echo '</div>';
     }
 ?>

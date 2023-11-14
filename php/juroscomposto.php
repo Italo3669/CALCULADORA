@@ -29,8 +29,8 @@
         
         <div class="containerlista"> 
             <div class="row">
-                <a class="texto" href="../php/hipoteca.php"> Hipoteca</a> <br>
-                <a class="texto" href="../php/investimento.php"> Investimento</a> <br>
+                <a class="texto" href="../php/hipoteca.php"> Hipoteca</a> <br> <!--Link de navegação para outra página-->
+                <a class="texto" href="../php/investimento.php"> Investimento</a> <br> <!--Link de navegação para outra página-->
             </div>
         </div>
     </div>
@@ -39,7 +39,7 @@
 
     <h1 id="jurosc">JUROS COMPOSTO</h1>    
 
-     <h4>   <!-- tamanho do texto-->
+     <h4 id="inserir">   <!-- tamanho do texto-->
         Capital: <input type="number" name="cap" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->
         Taxa de Juros: <input type="number" name="tax" id="inserir2"> <!--taxa de juros, c2=caixa entrada-->
         Tempo:  <input type="number" name="tem" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
@@ -51,21 +51,21 @@
 
 <?php
 
-    $cap = isset ($_POST["cap"]) ? floatval($_POST["cap"]) :0;
-    $tax = isset ($_POST["tax"]) ? floatval($_POST["tax"]) :0;
-    $tem = isset ($_POST["tem"]) ? floatval($_POST["tem"]) :0;
+    $cap = isset ($_POST["cap"]) ? floatval($_POST["cap"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $tax = isset ($_POST["tax"]) ? floatval($_POST["tax"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $tem = isset ($_POST["tem"]) ? floatval($_POST["tem"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
 
-    if ($cap != 0 && $tax != 0 && $tem != 0 ){
+    if ($cap != 0 && $tax != 0 && $tem != 0 ){ /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
     $resultado = $cap * (1 + $tax/100)**$tem;
    
-    echo '<div class="resultado">';    
-    echo "Montante: $resultado";
+    echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/   
+    echo "Montante: $resultado"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>';
     }
 
     else {
-        echo '<div class="else">';
-        echo "Preencha os campos corretamente";
+        echo '<div class="else">'; /*Faz com que o echo possa ser editado por meio do css*/
+        echo "Preencha os campos corretamente"; /*Mensagem que irá aparecer na tela de exibição*/
         echo '</div>';
 
     }
