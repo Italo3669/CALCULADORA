@@ -42,7 +42,7 @@
         Insira seu número <input type="number" name="mul1" placeholder="*" id="inserir1"><br>   <!--caixa de resposta da Multiplicação-->
         A quantidade <input type="number" name="mul2" id="inserir2"><br> <!--caixa de resposta da multiplicação-->
      </h4>
-     <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar--><br>
+     <input type="submit" value="Enviar" id="botao1">  <!--Botão de enviar--><br>
      <br>
     </div> 
 

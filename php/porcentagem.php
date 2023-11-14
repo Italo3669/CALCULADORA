@@ -50,7 +50,7 @@
             o valor <input type="number" name="num1" id="inserir3">  <!--caixa de resposta da porcetagem-->
             é qual porcentagem de <input type="number" name="num2" id="inserir4">  <!--caixa de resposta da porcentagem-->
         </h4>
-        <input type="submit" value="enviar" id="botao2"> <!--Botão de enviar-->
+        <input type="submit" value="Enviar" id="botao2"> <!--Botão de enviar-->
     </div> 
     <br>
     <br>
