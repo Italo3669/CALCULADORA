@@ -84,7 +84,7 @@
                 <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
             </div>
             <div id="footer-redessociais"> <!-- Separação do conteúdo (Redes Sociais) -->
-                <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/logogithub.png" alt="github" id="githubp"> </a>
+                <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/github.png" alt="github" id="githubp"> </a>
             </div>
         </div> <!-- Fechamento do Conteúdo do rodapé-->
     </footer> <!-- Fechamento do Rodapé -->

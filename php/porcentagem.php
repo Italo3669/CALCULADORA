@@ -64,13 +64,16 @@
 
     if ($por1 != 0 && $por2 != 0 && $num1 == 0  && $num2 == 0) { /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
     $resultado = ($por1 * $por2) / 100;
+
+    echo '<div class="result">'; /*Faz com que o echo possa ser editado por meio do css*/
     echo "Resultado: $resultado"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo '</div>';
     }
 
     elseif ($num1 != 0 && $num2 != 0 && $por1 == 0 && $por2 == 0 ){ /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
     $resultado1 = ($num1 * 100) / $num2; /*Mostra o resultado obtido por meio do cálculo*/
 
-    echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
+    echo '<div class="resultado1">'; /*Faz com que o echo possa ser editado por meio do css*/
     echo "Resultado: $resultado1"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>';
     }
@@ -99,7 +102,7 @@
                 <p>PDV-Prime devs <br>©2023 - <b>PDV - Suporte</b></p>
             </div>
             <div id="footer-redessociais"> <!-- Separação do conteúdo (Redes Sociais) -->
-                <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/logogithub.png" alt="github" id="githubp"> </a>
+                <a href="https://github.com/Italo3669/CALCULADORA"> <img src="../img/github.png" alt="github" id="githubp"> </a>
             </div>
         </div> <!-- Fechamento do Conteúdo do rodapé-->
     </footer> <!-- Fechamento do Rodapé -->
