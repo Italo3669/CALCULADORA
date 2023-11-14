@@ -200,7 +200,15 @@ footer {
     bottom: 10px;
 }
 
-.resultado{
+.resultado1{
+    color:black;
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.result{
     color:black;
     padding: 5px;
     background-color: white;
