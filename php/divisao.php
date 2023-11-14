@@ -38,10 +38,10 @@
         <h1 id="divisao">DIVISÃO</h1>
      
         <h4 id="inserir">   
-        Insira o divisor: <input type="number" name="div1" placeholder="/" id=inserir1>   <!--caixa de resposta da divisão-->
-        Insira o dividendo : <input type="number" name="div2" id=inserir2><br>  <!--caixa de resposta da Divisão-->
+        Insira o divisor: <input type="number" name="div1" id=inserir1>   <!--caixa de resposta da divisão-->
+        Insira o dividendo : <input type="number" name="div2"  placeholder="/" id=inserir2><br>  <!--caixa de resposta da Divisão-->
      </h4>
-     <input type="submit" value="enviar" id="botao1">  <!--Botão de enviar--><br>
+     <input type="submit" value="Enviar" id="botao1">  <!--Botão de enviar--><br>
      <br>
      <br>
 
