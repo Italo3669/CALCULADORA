@@ -40,8 +40,9 @@
 
     <div>   
     <h4 id="inserir">  <!-- tamanho do texto-->
+        Taxa de rendimento 58%.<br>
         Valor inicial do investimento: <input type="number" name="valor" id="inserir1" ><br>  <!--valor inicial do juros, c1=caixa entrada-->
-        Valor investido por mês: <input type="number" name="cdi" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
+        Valor investido por mês: <input type="number" name="mes" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
         Tempo investido em meses:  <input type="number" name="tempo" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
 
@@ -52,20 +53,21 @@
 <?php
 
     $valor = isset ($_POST["valor"]) ? floatval($_POST["valor"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
-    $cdi = isset ($_POST["cdi"]) ? floatval($_POST["cdi"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
+    $mes = isset ($_POST["mes"]) ? floatval($_POST["mes"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
     $tempo = isset ($_POST["tempo"]) ? floatval($_POST["tempo"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
 
 
-    if ($valor != 0 && $cdi != 0 && $tempo != 0) { /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
+    if ($valor != 0 && $mes != 0 && $tempo != 0) { /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
     $imposto =  58/100;
-    $cdi1 = $valor + ($cdi * $tempo);
-    $imposto = $cdi1 * $imposto;
-    $resultado = $imposto + $cdi1;
+    $vi = $valor + ($mes * $tempo); /*Valor total investido*/
+    $imposto1 = $vi * $imposto; /*Valor total aplicado o imposto*/
+    $resultado = $imposto1 + $vi;
+    $lucro = $resultado - $vi;
 
     echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
-    echo "Valor Inicial: $cdi1<br/>"; /*Mostra o resultado obtido por meio do cálculo*/    
-    echo "Lucro obtido: $imposto<br/>"; /*Mostra o resultado obtido por meio do cálculo*/
-    echo "Valor final investido: $resultado"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo "Total investido: R$$vi<br/>"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo "Valor obtido: R$$resultado<br/>"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo "Rendimento: R$$lucro<br/>"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>'; 
     }
 

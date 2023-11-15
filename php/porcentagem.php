@@ -39,16 +39,16 @@
 
     <div id="inserir">
      <h4>   
-         quanto é <input type="number" name="por1" placeholder="%" id="inserir1">   <!--caixa de resposta da porcentagem-->
-         de <input type="number" name="por2" id="inserir2"><br> <!--caixa de resposta da porcentagem-->
+         Quanto é: <input type="number" name="por1" placeholder="%" id="inserir1">   <!--caixa de resposta da porcentagem-->
+         De: <input type="number" name="por2" id="inserir2"><br> <!--caixa de resposta da porcentagem-->
      </h4>
      <input type="submit" value="enviar" id="botao1"> <!--Botão de enviar-->
     </div> 
 
     <div id="inserir34">
         <h4>
-            o valor <input type="number" name="num1" id="inserir3">  <!--caixa de resposta da porcetagem-->
-            é qual porcentagem de <input type="number" name="num2" id="inserir4">  <!--caixa de resposta da porcentagem-->
+            O valor: <input type="number" name="num1" id="inserir3">  <!--caixa de resposta da porcetagem-->
+            É qual porcentagem de: <input type="number" name="num2" id="inserir4">  <!--caixa de resposta da porcentagem-->
         </h4>
         <input type="submit" value="Enviar" id="botao2"> <!--Botão de enviar-->
     </div> 
@@ -74,7 +74,7 @@
     $resultado1 = ($num1 * 100) / $num2; /*Mostra o resultado obtido por meio do cálculo*/
 
     echo '<div class="resultado1">'; /*Faz com que o echo possa ser editado por meio do css*/
-    echo "Resultado: $resultado1"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo "Resultado: $resultado1%"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>';
     }
 
