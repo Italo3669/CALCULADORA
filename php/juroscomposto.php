@@ -59,8 +59,8 @@
     $resultado = $cap * ((1 + ($tax/100))**$tem);
    
     echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/  
-    echo "Capital inicial: $cap<br>"; /*Mostra o resultado obtido por meio do cálculo*/
-    echo "Montante: $resultado"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo "Capital inicial: R$$cap<br>"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo "Montante: R$$resultado"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>';
     }
 
