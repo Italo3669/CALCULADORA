@@ -39,16 +39,16 @@
 
     <div id="inserir">
      <h4>   
-         Quanto é: <input type="number" name="por1" placeholder="%" id="inserir1">   <!--caixa de resposta da porcentagem-->
-         De: <input type="number" name="por2" id="inserir2"><br> <!--caixa de resposta da porcentagem-->
+         Quanto é: <input type="number" name="por1" step="0.01" placeholder="%" id="inserir1">   <!--caixa de resposta da porcentagem-->
+         De: <input type="number" name="por2" step="0.01" step="0.01" id="inserir2"><br> <!--caixa de resposta da porcentagem-->
      </h4>
      <input type="submit" value="enviar" id="botao1"> <!--Botão de enviar-->
     </div> 
 
     <div id="inserir34">
         <h4>
-            O valor: <input type="number" name="num1" id="inserir3">  <!--caixa de resposta da porcetagem-->
-            É qual porcentagem de: <input type="number" name="num2" id="inserir4">  <!--caixa de resposta da porcentagem-->
+            O valor: <input type="number" name="num1" step="0.01"  id="inserir3">  <!--caixa de resposta da porcetagem-->
+            É qual porcentagem de: <input type="number" name="num2" step="0.01" id="inserir4">  <!--caixa de resposta da porcentagem-->
         </h4>
         <input type="submit" value="Enviar" id="botao2"> <!--Botão de enviar-->
     </div> 

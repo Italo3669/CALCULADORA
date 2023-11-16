@@ -57,7 +57,7 @@
     $resultado = ($valor * ($taxa1 * (1 + $taxa1)**$ano1)) / ((1 + $taxa1)**$ano1 - 1);
     
     echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
-    echo "Pagamento mensal da hipoteca: $resultado"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo "Pagamento mensal da hipoteca: R$$resultado"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>';
     }
 
