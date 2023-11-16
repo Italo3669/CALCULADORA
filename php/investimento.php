@@ -61,8 +61,8 @@
     $imposto =  58/100;
     $vi = $valor + ($mes * $tempo); /*Valor total investido*/
     $imposto1 = $vi * $imposto; /*Valor total aplicado o imposto*/
-    $resultado = $imposto1 + $vi;
-    $lucro = $resultado - $vi;
+    $resultado = $imposto1 + $vi; /*Valor obtido*/
+    $lucro = $resultado - $vi; /*Rendimento*/
 
     echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
     echo "Total investido: R$$vi<br/>"; /*Mostra o resultado obtido por meio do cálculo*/
