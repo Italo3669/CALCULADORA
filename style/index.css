@@ -101,9 +101,9 @@ body{
     width: 100% ;
     height: 600px;
     margin: 0;
+    border-radius: 10px;
    
 }
-
 #containeredesG{
     position: relative;
     text-align: center;
@@ -118,7 +118,6 @@ body{
     width: 64px;
     height: 64px;
 }
-
 #containeredesI{
     
     text-align: center;
@@ -134,8 +133,6 @@ body{
     width: 64px;
     height: 64px;
 }
-
-
 #containeredesA{
     
     text-align: center;
@@ -146,20 +143,17 @@ body{
     height: 400px;
     left: 60%;
     bottom: 720px;
-
 }
 #githubA{
     width: 64px;
     height: 64px;
 }
-
 .containerrodape{
     position: absolute;
     background-color: black;
     top: 2300px;
     height: 100px;
 }
-
 footer {
     position: absolute;
     height: 10vh;
@@ -167,7 +161,6 @@ footer {
     left: -9px;
     top: 0;
 }
-
 #footer-content{
     position: sticky;
     width: 97.7vw;
@@ -176,7 +169,6 @@ footer {
     display: flex;
     padding: 1.5rem 0.5rem;
 }
-
 #footer-criador{
     font-size: 15px;
     position: relative;
@@ -184,7 +176,6 @@ footer {
     top: 20px;
     left: 45%;
 }
-
 #footer-redessociais {
     position: relative;
     left: 85%;
