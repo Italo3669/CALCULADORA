@@ -78,8 +78,8 @@
 
 ?>
 
-    <div class="conteudo">
-        <h3>Investimento é qualquer valor capar de gerar lucro com prazos curtos, médios e longos.<br> O investimento varia muito dado o objetivo a ser alcançado, seja a curto prazo  para servir como uma<br> reserva de emergência. Seja a médio prazo para uma viajem ou casamento.<br> E até mesmo a longom prazo, como a aposentadoria por exemplo.<br/>
+    <div class="containertexto">
+        <h3 id="frase">Investimento é qualquer valor capar de gerar lucro com prazos curtos, médios e longos.<br> O investimento varia muito dado o objetivo a ser alcançado, seja a curto prazo  para servir como uma<br> reserva de emergência. Seja a médio prazo para uma viajem ou casamento.<br> E até mesmo a longom prazo, como a aposentadoria por exemplo.<br/>
         Deve ser levado em consideração a CDI (taxa de referência de juros no Brasil que é frequentemente usada em investimentos.)<br/>
         A inflação (A inflação afeta o poder de compra do dinheiro ao longo do tempo).<br/>
         Os impostos (Dependendo do tipo de investimento, podem haver impostos a <br>serem pagos sobre os rendimentos.)<br/>

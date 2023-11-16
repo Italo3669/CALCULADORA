@@ -40,9 +40,9 @@
     <h1 id="jurosc">JUROS COMPOSTO</h1>    
 
      <h4 id="inserir">   <!-- tamanho do texto-->
-        Capital <input type="number" name="cap" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->
-        Taxa de Juros <input type="number" name="tax" id="inserir2"> <!--taxa de juros, c2=caixa entrada-->
-        Tempo  <input type="number" name="tem" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
+        Capital: <input type="number" name="cap" id="inserir1" >  <!--valor inicial do juros, c1=caixa entrada-->
+        Taxa de Juros: <input type="number" name="tax" id="inserir2"> <!--taxa de juros, c2=caixa entrada-->
+        Tempo:  <input type="number" name="tem" id="inserir3" > <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
 
        <input type="submit" value="Enviar" id="botao1">  <!--Botão de enviar--><br>
@@ -71,8 +71,8 @@
     }
 ?>
 
-    <div class="conteudo">
-        <h4>   <!-- tamanho do texto-->
+    <div class="containertexto">
+        <h3 id="frase">   <!-- tamanho do texto-->
         Juros compostos são uma forma de calcular os juros de um investimento ou empréstimo, em que os juros são aplicados<br>não apenas ao valor inicial, mas também aos juros acumulados ao longo do tempo.
         A principal diferença entre juros  composto e juros simples é:<br/>
         Juros simples: incidem apenas sobre o valor inicial (capital)<br/>
@@ -83,7 +83,7 @@
         C = capital<br/>
         i = taxa de juros<br/>
         t = tempo
-         </h4>
+        </h3>
     </div>
 
     <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->

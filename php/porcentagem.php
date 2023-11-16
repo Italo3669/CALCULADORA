@@ -47,8 +47,8 @@
 
     <div id="inserir34">
         <h4>
-            o valor <input type="number" name="num1" id="inserir3">  <!--caixa de resposta da porcetagem-->
-            é qual porcentagem de <input type="number" name="num2" id="inserir4">  <!--caixa de resposta da porcentagem-->
+            o valor: <input type="number" name="num1" id="inserir3">  <!--caixa de resposta da porcetagem-->
+            é qual porcentagem de: <input type="number" name="num2" id="inserir4">  <!--caixa de resposta da porcentagem-->
         </h4>
         <input type="submit" value="Enviar" id="botao2"> <!--Botão de enviar-->
     </div> 
@@ -87,10 +87,10 @@
 
 ?>
 
-    <div class="conteudo">
-        <h3>A porcentagem, representada pelo símbolo "%", é uma medida utilizada para expressar uma proporção ou relação em relação a um todo de 100 partes iguais. É uma maneira de descrever uma parte de algo em relação ao seu todo. A palavra "porcentagem" deriva de "por cento", que significa "por cada cento".   
-         </h3>
-        <b >Por exemplo, 25% é o mesmo que 25/100, que é igual a 1/4.</b>
+    <div class="containertexto">
+        <h3 id="frase"><b>A porcentagem, representada pelo símbolo "%", é uma medida utilizada para expressar uma proporção ou relação em relação a um todo de 100 partes iguais. É uma maneira de descrever uma parte de algo em relação ao seu todo. A palavra "porcentagem" deriva de "por cento", que significa "por cada cento".
+        Por exemplo, 25% é o mesmo que 25/100, que é igual a 1/4.</b>
+        </h3>
     </div>
 
     <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->

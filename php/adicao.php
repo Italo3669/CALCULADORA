@@ -40,8 +40,8 @@
 
     <div>
     <h4 id="inserir">   
-        Insira um número <input type="number" name="adi1" placeholder="+" id=inserir1><br>   <!--caixa de resposta da adição-->
-        Insira outro número <input type="number" name="adi2" id=inserir2><br> <!--caixa de resposta da adição-->
+        Insira um número: <input type="number" name="adi1" placeholder="+" id=inserir1><br>   <!--caixa de resposta da adição-->
+        Insira outro número: <input type="number" name="adi2" id=inserir2><br> <!--caixa de resposta da adição-->
     </h4>
     <input type="submit" value="Enviar" id="botao1">  <!--Botão de enviar--> 
     <br>
@@ -67,16 +67,18 @@
     }
 ?>
 
-    <div class="conteudo">
-        <h3> adição é uma operação matemática básica que envolve a combinação</br>
+    
+    <div class="containertexto">
+        <h3 id="frase"> adição é uma operação matemática básica que envolve a combinação</br>
          de dois ou mais números para encontrar o resultado, resultado esse que chamamos de soma.</br> Na adição pode - se somar os valores de qualquer modo, uma vez que a ordem nao afeta o resultado.<br>
-        É uma das formas mais primitivas de se usar a matemática,<br> quando se houve a necessidade de integrar um valor ao outro.</h3>
+        É uma das formas mais primitivas de se usar a matemática,<br> quando se houve a necessidade de integrar um valor ao outro.
         <b>Para somar usa - se " + ".<br>
         Você faz: (valor qualquer) + (valor qualquer) = (soma).<br>
         Exemplo: 7 + 5 = 12.<br></b>  <!--informações da pagina-->
+        </h3>
+        
+        <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
     </div>
-
-    <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
 
     <div class="containerrodape">
     <footer> <!-- Rodapé -->

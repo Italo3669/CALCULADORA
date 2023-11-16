@@ -115,30 +115,43 @@ body{
     text-decoration: none;
     transition: background-color 0.3s, transform 0.3s; /* Adiciona a  animação */
 }
-    #botao1:hover {
-        color:black;
-        background-color: white;
-        transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
+#botao1:hover {
+    color:black;
+    background-color: white;
+    transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
 
-    }
-    #equacao {
-        width: 250px;
-        height: 250px;
-      
-    }
-    .conteudo{
-        color: white;
-        width: 650px; /* Define a largura desejada para o retângulo */
-        margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
-        padding: 30px;
-    }
+}
+.containertexto{
+    position: relative;
+    background-color: gray;
+    top: 70px;
+    border-radius: 50px;
+    width: 90vw;
+    left: 60px;
+    border: 2px solid black;
+}
+#frase{
+    color: white;
+    width: 650px; /* Define a largura desejada para o retângulo */
+    margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
+    padding: 30px;
+}
+#equacao {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    float: right; /* Alinha a imagem no canto direito */
+    margin: 10px;
+    bottom: 50px;
+    right: 5%;
+    margin-top: -15%;
+}    
 .containerrodape{
     position: absolute;
     background-color: black;
     top: 800px;
     height: 100px;
-}
-            
+} 
 footer {
     position: absolute;
     height: 10vh;

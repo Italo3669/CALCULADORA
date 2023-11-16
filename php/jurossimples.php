@@ -39,9 +39,9 @@
 
     <div>
      <h4 id="inserir">   <!-- tamanho do texto-->
-        Valor inicial<input type="number" name="v1" id="inserir1" ><br> <!--valor inicial do juros, c1=caixa entrada-->
-        Taxa de Juros <input type="number" name="t2" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
-        N° de meses  <input type="number" name="n3" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
+        Valor inicial: <input type="number" name="v1" id="inserir1" ><br> <!--valor inicial do juros, c1=caixa entrada-->
+        Taxa de Juros: <input type="number" name="t2" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
+        N° de meses:  <input type="number" name="n3" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
         
        <input type="submit" value="Enviar" id="botao1" >  <!--Botão de enviar--><br>
@@ -74,13 +74,13 @@
 
 ?>
 
-    <div class="conteudo">
-        <h4>
+    <div class="containertexto">
+        <h3 id="frase">
         Os juros simples são uma forma de cálculo de juros em que os juros são calculados apenas sobre o valor principal do empréstimo ou investimento durante todo o período de tempo. Nesse sistema, os juros não são reinvestidos nem capitalizados ao longo do tempo. Isso significa que os juros são calculados sempre com base no valor inicial do principal, sem levar em consideração os juros acumulados anteriormente.
         <br>
         Por exemplo, calcula - se:<br>
         1000 (Valor inicial) * 2 (Taxa de juros) * 4 (Número de meses) = 1080 (Valor total = Valor inicial + Juros)
-        </h4>
+        </h3>
     </div>
 
     <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
