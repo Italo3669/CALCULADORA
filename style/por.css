@@ -165,7 +165,7 @@ body{
     height: 300px;
     float: right; /* Alinha a imagem no canto direito */
     margin: 10px;
-    bottom: 2%;
+    top: 23px;
     right: 5%;
     margin-top: -15%;
 }    
