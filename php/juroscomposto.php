@@ -56,9 +56,10 @@
     $tem = isset ($_POST["tem"]) ? floatval($_POST["tem"]) :0; /*Armazena as informações da variável e verifica se nela existe valor*/
 
     if ($cap != 0 && $tax != 0 && $tem != 0 ){ /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
-    $resultado = $cap * (1 + $tax/100)**$tem;
+    $resultado = $cap * ((1 + ($tax/100))**$tem);
    
-    echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/   
+    echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/  
+    echo "Capital inicial: $cap<br>"; /*Mostra o resultado obtido por meio do cálculo*/
     echo "Montante: $resultado"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>';
     }
