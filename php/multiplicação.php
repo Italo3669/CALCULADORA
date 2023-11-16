@@ -39,8 +39,8 @@
 
     <div>   
      <h4 id="inserir">   
-        Insira um número: <input type="number" name="mul1" id="inserir1"><br>   <!--caixa de resposta da Multiplicação-->
-        Insira um número: <input type="number" name="mul2" placeholder="*" id="inserir2"><br> <!--caixa de resposta da multiplicação-->
+        Insira seu número: <input type="number" name="mul1" placeholder="*" id="inserir1"><br>   <!--caixa de resposta da Multiplicação-->
+        A quantidade: <input type="number" name="mul2" id="inserir2"><br> <!--caixa de resposta da multiplicação-->
      </h4>
      <input type="submit" value="Enviar" id="botao1">  <!--Botão de enviar--><br>
      <br>
@@ -68,11 +68,12 @@
     }
 ?>    
 
-    <div class="conteudo">
-        <h3>A multiplicação é uma operação matemática fundamental que envolve uma combinação de dois ou mais números para determinar um valor, valor esse que chamamos de produto. Seu objetivo é fazer com que as contas sejam executadas de maneira mais rápida e possibilite trabalhar com a repetição de números.<br>
+    <div class="containertexto">
+        <h3 id="frase">A multiplicação é uma operação matemática fundamental que envolve uma combinação de dois ou mais números para determinar um valor, valor esse que chamamos de produto. Seu objetivo é fazer com que as contas sejam executadas de maneira mais rápida e possibilite trabalhar com a repetição de números.<br>
         Usa - se <b>" * "," . " e " X "</b> como sinais de multiplicação.<br>
         Antes se calculava<b> "4 + 4 + 4 = 12"</b>, entretanto, com a multiplicação passamos a calcular da seguinte maneira: o número desejado repetido pela quantidade de vez indicada.<br>
-        Exemplo: 4 (número) x 3 (repetição) = 12 (produto) </h3> <!--informações da pagina-->
+        Exemplo: 4 (número) x 3 (repetição) = 12 (produto) 
+        </h3> <!--informações da pagina-->
     </div>
 
     <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->

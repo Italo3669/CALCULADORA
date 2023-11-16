@@ -38,8 +38,8 @@
         <h1 id="divisao">DIVISÃO</h1>
      
         <h4 id="inserir">   
-        Insira o divisor: <input type="number" name="div1"  id=inserir1><br>   <!--caixa de resposta da divisão-->
-        Insira o dividendo:<input type="number" name="div2" placeholder="/" id=inserir2><br>  <!--caixa de resposta da Divisão-->
+        Insira o divisor: <input type="number" name="div1" placeholder="/" id=inserir1><br>   <!--caixa de resposta da divisão-->
+        Insira o dividendo: <input type="number" name="div2" id=inserir2><br>  <!--caixa de resposta da Divisão-->
      </h4>
      <input type="submit" value="Enviar" id="botao1">  <!--Botão de enviar--><br>
      <br>
@@ -65,15 +65,16 @@
 
 ?>
 
-    <div class="conteudo">
-        <h3>A divisão é uma operação matemática fundamental que envolve a distribuição de um número em partes iguais.<br>
+    <div class="containertexto">
+        <h3 id="frase">A divisão é uma operação matemática fundamental que envolve a distribuição de um número em partes iguais.<br>
          Usa - se ela para saber   quantas vezes um número (divisor) cabe dentro do outro (dividendo).<br>
         o resultado da divisão chama - se quociente e pode ser inteiro ou   não.<br>
          Um número inteiro é quando o dividendo é divisível pelo divisor, resultando sempre em 1.<br>
-        Ou também pode gerar valores decimais ou fraccionário.</h3>
+        Ou também pode gerar valores decimais ou fraccionário.
         <b>Para dividir usa - se a " / ".<br>
         Exemplo: 27 (divisor) / 9 (dividendo) = 3 (quociente).<br>
         Logo o número 9 cabe três vezes dentro de 27.</b> <!--informações da pagina-->
+        </h3>
     </div>
 
     <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->

@@ -38,8 +38,8 @@
     <h1 id="sub">SUBTRAÇÃO</h1>
 
     <h4 id="inserir">   
-        Insira um número: <input type="number" name="sub1" id="inserir1"><br>   <!--caixa de resposta da subtração-->
-        Insira um número: <input type="number" name="sub2" placeholder="-" id="inserir2"><br> <!--caixa de resposta da subtração-->
+        Insira um número: <input type="number" name="sub1" placeholder="-" id="inserir1"><br>   <!--caixa de resposta da subtração-->
+        Insira outro número: <input type="number" name="sub2" id="inserir2"><br> <!--caixa de resposta da subtração-->
      </h4>
 
 
@@ -70,17 +70,17 @@
 
 ?>
 
-    <div class="conteudo">
-    <h3>A subtração é uma operação matemática fundamental que envolve a retirada ou diminuição<br> de um número de outro número para encontrar a diferença entre eles. <br>
+    <div class="containertexto">
+    <h3 id="frase">A subtração é uma operação matemática fundamental que envolve a retirada ou diminuição<br> de um número de outro número para encontrar a diferença entre eles. <br>
      o número do qual você está retirando outro número é chamado de "minuendo" e o número que está sendo retirado é chamado de "subtraendo".<br>
-      O resultado da operação é chamado de “diferença”.<br>
+    O resultado da operação é chamado de “diferença”.<br>
     Com o passar dos tempos criou -se a necessidade de diminuir as quantidades, como por exemplo: quando se matava uma galinha do galinheiro.<br>
-    Ou de pagamento de dividas e ainda ficava - se devendo.</h3>
+    Ou de pagamento de dividas e ainda ficava - se devendo.
     <b>Para subtrair usa - se " - ".<br>
     Exemplo: 10 galinhas (minuendo) - 1 galinhas (subtraendo) = 9 galinhas (diferença).<br>
     exemplo: eu devo R$ 20,00. Tenho R$ 5,00 (minuendo) - 20 (subtranedo) = -15 (diferença).<br>
-     Logo ainda estou devendo R$ -15,00</b>   <!--informações da pagina-->
-
+    Logo ainda estou devendo R$ -15,00</b>   <!--informações da pagina-->
+    </h3>
     </div>
 
     <img src="../img/equacaologo.png" alt="calculadora" id="equacao">   <!--icone da equação-->
