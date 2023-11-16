@@ -47,8 +47,8 @@
 
     <div id="inserir34">
         <h4>
-            o valor: <input type="number" name="num1" id="inserir3">  <!--caixa de resposta da porcetagem-->
-            é qual porcentagem de: <input type="number" name="num2" id="inserir4">  <!--caixa de resposta da porcentagem-->
+            O valor: <input type="number" name="num1" id="inserir3">  <!--caixa de resposta da porcetagem-->
+            É qual porcentagem de: <input type="number" name="num2" id="inserir4">  <!--caixa de resposta da porcentagem-->
         </h4>
         <input type="submit" value="Enviar" id="botao2"> <!--Botão de enviar-->
     </div> 

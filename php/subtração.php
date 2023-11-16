@@ -38,8 +38,8 @@
     <h1 id="sub">SUBTRAÇÃO</h1>
 
     <h4 id="inserir">   
-        Insira um número: <input type="number" name="sub1" placeholder="-" id="inserir1"><br>   <!--caixa de resposta da subtração-->
-        Insira outro número: <input type="number" name="sub2" id="inserir2"><br> <!--caixa de resposta da subtração-->
+        Insira um número: <input type="number" name="sub1" id="inserir1"><br>   <!--caixa de resposta da subtração-->
+        Insira um número: <input type="number" name="sub2" placeholder="-"  id="inserir2"><br> <!--caixa de resposta da subtração-->
      </h4>
 
 

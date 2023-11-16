@@ -77,6 +77,8 @@ body{
 }
 
 #inserir1 {
+    position: relative;
+    left: 0%;
     font-size: 14px;  /*tamanho da fonte interna*/
     border-radius: 10px; /*tamnho e formato das bordas*/
     border-color: white; /*cor das bordas*/
@@ -85,7 +87,7 @@ body{
 }
 #inserir2 {
     position: relative;
-    left: 3%;
+    left: 2.9%;
     font-size: 14px;
     border-radius: 10px;
     border-color: white ;
@@ -95,7 +97,7 @@ body{
 }
 #inserir3 {
     position: relative;
-    left: 0.6%;
+    left: 0.7%;
     font-size: 14px;
     border-radius: 10px;
     border-color: white;
