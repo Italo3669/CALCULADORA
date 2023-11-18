@@ -76,7 +76,7 @@ body{
     font-size: 20px;
 }
 
-#inserir1 {
+#inserir1 {  /* personalização dos inserir */
     position: relative;
     left: 0%;
     font-size: 14px;  /*tamanho da fonte interna*/
@@ -85,7 +85,7 @@ body{
     width: 90px; /*tamanho do input*/
     text-align: center; /* texto no meio do input*/
 }
-#inserir2 {
+#inserir2 { /* personalização dos inserir */
     position: relative;
     left: 2.9%;
     font-size: 14px;
@@ -95,7 +95,7 @@ body{
     text-align: center;
     
 }
-#inserir3 {
+#inserir3 {  /* personalização dos inserir */
     position: relative;
     left: 0.7%;
     font-size: 14px;
@@ -105,7 +105,7 @@ body{
     text-align: center;
 }
 
-#botao1 {
+#botao1 { /* personalização do botão */
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -118,7 +118,7 @@ body{
     text-decoration: none;
     transition: background-color 0.3s, transform 0.3s; /* Adiciona a  animação */
 }
-#botao1:hover {
+#botao1:hover { /* personalização do botão */
     color:black;
     background-color: white;
     transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */

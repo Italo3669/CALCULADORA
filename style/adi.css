@@ -28,7 +28,7 @@ body{
     bottom: 202px;
 }
 
-.containerlista{
+.containerlista{ /* container com as opções da pagina*/
     position: relative;
     bottom: 262px;
     left: 70vw;
@@ -60,22 +60,22 @@ body{
     font-size: 20px;
     border-color: black;
 }
-.texto:hover{
+.texto:hover{ /* animação dos botões*/
     transform: scale(1.1);
 }
 
-#adicao {
+#adicao { 
     color: white;
     text-align: center;
 }
 
-#inserir { /* Para mexer nos dois inserir */
+#inserir {  /* personalização dos inserir */
     position: relative;
     top: 5px;
     font-size: 20px;
 }
 
-#inserir1 {
+#inserir1 {  /* personalização dos inserir */
     position: relative;
     left: 0;
     font-size: 14px;
@@ -84,7 +84,7 @@ body{
     width: 90px;
     text-align: center;
 }
-#inserir2 {
+#inserir2 { /* personalização dos inserir */
     font-size: 14px;
     border-radius: 10px;
     border-color: white;
@@ -92,7 +92,7 @@ body{
     text-align: center;
 }
 
-#botao1 {
+#botao1 { /* personalização do botão */
     position: relative;
     display: inline-block;
     padding: 10px 20px;
