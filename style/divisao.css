@@ -1,7 +1,6 @@
 body{ /*Corpo da página */
     font-family: 'poppins-bold', sans-serif !important; /*Fonte usada em toda a página*/
 }
-
 .cabeçalho2 { /*Cabeçalho do Site*/
     background-color: white; /*Cor do background*/
     position: relative; /*Tipo de posicionamento*/
@@ -62,7 +61,6 @@ body{ /*Corpo da página */
 .texto:hover{
     transform: scale(1.1); /*Escala da animação*/
 }
-
 #divisao{
     color: white; /*Cor das letras*/
     text-align: center; /* Centraliza o texto horizontalmente */

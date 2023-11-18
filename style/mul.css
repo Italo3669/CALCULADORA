@@ -1,204 +1,187 @@
-body{
-    font-family: 'poppins-bold', sans-serif !important;
+body{ /*Corpo da página */
+    font-family: 'poppins-bold', sans-serif !important; /*Fonte usada em toda a página*/
 }
 
 .cabeçalho2 { /*Cabeçalho do Site*/
-    background-color: white;
-    position: relative;
-    border-bottom: 3px solid black;
-    left: -10px;
-    bottom: 7px;
-    width: 99vw;
-    height: 80px;
+    background-color: white; /*Cor do background*/
+    position: relative; /*Tipo de posicionamento*/
+    border-bottom: 3px solid black; /*Borda do cabeçalho*/
+    left: -10px; /*Movimenta para a esquerda*/
+    bottom: 7px; /*Movimenta para baixo */
+    width: 99vw; /*Regula largura*/
+    height: 80px; /*Regula altura*/
 }
 #logo2{ /*Logo do Site "Calculator" */
-    position: relative;
-    bottom: 55px;
-    right: 50px;
-    height: 200px;
-    width: 300px;
+    position: relative; /*Tipo de posicionamento*/
+    bottom: 55px; /*Movimenta para baixo */
+    right: 50px; /*Movimenta para a direita*/
+    height: 200px; /*Regula altura*/
+    width: 300px; /*Regula largura*/
 }
 #veja-tambem{ /*Nome "Veja Também no cabeçalho */
-    position: relative;
-    color: black;
-    font-size: 23px;
-    font-weight: 600;
-    left: 59%;
-    width: 20vw;
-    bottom: 202px;
-}
-
+    position: relative; /*Tipo de posicionamento*/
+    color: black; /*Cor das letras*/
+    font-size: 23px; /*Tamanho da fonte*/
+    font-weight: 600; /*Largura da fonte*/
+    left: 59%; /*Movimenta para a esquerda*/
+    width: 20vw; /*Regula largura*/
+    bottom: 202px; /*Movimenta para baixo */
+} 
 .containerlista{
-    position: relative;
-    bottom: 262px;
-    left: 70vw;
-    width: 320px;
-    height: 100px;
-}
-
+    position: relative; /*Tipo de posicionamento*/
+    bottom: 262px; /*Movimenta para baixo */
+    left: 70vw; /*Movimenta para a esquerda*/
+    width: 320px; /*Regula largura*/
+    height: 100px; /*Regula altura*/
+} 
 .row {
-    display: flex;
+    display: flex; /*Display para deixar os elementos em "grade" */
     flex-wrap: wrap; /* Permite que os itens de uma linha quebrem para a próxima linha */
-    justify-content: center;
+    justify-content: center; /* Alinha os itens ao centro do container */
 }
 
 .texto {
     margin: 7px; /* Reduz a margem */
-    padding: 5px;
-    border: 1px solid #ccc;
-    display: inline-block;
-    border-radius: 25px;
-    transition: transform 0.3s;
-    height: 25px;
+    padding: 5px; /*Define a distância entre o elemento e suas bordas*/
+    border: 1px solid #ccc; /*Borda*/
+    display: inline-block; /*Alinhar o texto*/
+    border-radius: 25px; /*Curvatura da borda */
+    transition: transform 0.3s; /*Tempo da animação */
+    height: 25px; /*Regula altura*/
     width: 130px; /* Reduz a largura */
     max-width: 100%; /* Garante que os textos não ultrapassem o contêiner */
     text-align: center; /* Centraliza o texto horizontalmente */
-    align-items: center;
-    background-color: white;
-    color: black;
-    box-shadow: 0 30px 45px rgba(0, 0, 0, 0.1);
-    font-size: 20px;
-    border-color: black;
+    align-items: center; /*Centraliza os itens*/
+    background-color: white; /*Cor do background*/
+    color: black; /*Cor das letras*/
+    box-shadow: 0 30px 45px rgba(0, 0, 0, 0.1); /*Sombra da Caixa*/
+    font-size: 20px; /*Tamanho da fonte*/
+    border-color: black; /*Cor das bordas*/
 }
 .texto:hover{
-    transform: scale(1.1);
+    transform: scale(1.1); /*Escala da animação*/
 }
-
 #mul{
-    color: white;
-    text-align: center;
+    color: white; /*Cor das letras*/
+    text-align: center; /* Centraliza o texto horizontalmente */
 }
-
-#equacao {
-    position: relative;
-    width: 400px;
-    height: 300px;
-    float: right; /* Alinha a imagem no canto direito */
-    margin: 10px;
-    right: 0;
-    bottom: 100px;
-    margin-top: -15%;
-}
-
 #inserir { /* Para mexer nos dois inserir */
-    position: relative;
-    top: 5px;
-    font-size: 20px;
+    position: relative; /*Tipo de posicionamento*/
+    top: 5px; /*Movimenta para cima */
+    font-size: 20px; /*Tamanho da fonte*/
 }
-
 #inserir1 {  /* personalização dos inserir */
-    font-size: 14px;
-    left: 0%;
-    border-radius: 10px;
-    border-color: white;
-    width: 90px;
-    text-align: center;
+    font-size: 14px; /*Tamanho da fonte*/
+    left: 0%; /*Movimenta para a esquerda*/
+    border-radius: 10px; /*Curvatura da borda */
+    border-color: white; /*Cor das bordas*/
+    width: 90px; /*Regula largura*/
+    text-align: center; /* Centraliza o texto horizontalmente */
 }
 #inserir2 { /* personalização dos inserir */
-    position: relative;
-    left: 0%;
-    font-size: 14px;
-    border-radius: 10px;
-    border-color: white;
-    width: 90px;
-    text-align: center;
+    position: relative; /*Tipo de posicionamento*/
+    left: 0%; /*Movimenta para a esquerda*/
+    font-size: 14px; /*Tamanho da fonte*/
+    border-radius: 10px; /*Curvatura da borda */
+    border-color: white; /*Cor das bordas*/
+    width: 90px; /*Regula largura*/
+    text-align: center; /* Centraliza o texto horizontalmente */
 }
 #botao1 { /* personalização do botão */
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: black;
-    color: #fff;
-    top: 20%;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: none;
+    position: relative; /*Tipo de posicionamento*/
+    display: inline-block;  /*Alinhar o texto*/
+    padding: 10px 20px; /*Define a distância entre o elemento e suas bordas*/
+    background-color: black; /*Cor do background*/
+    color: #fff; /*Cor das letras*/
+    top: 20%; /*Movimenta para cima */
+    border: none; /*Borda*/
+    border-radius: 10px; /*Curvatura da borda */
+    text-align: center; /*Centraliza o texto horizontalmente */
+    text-decoration: none; /*Definir a formatação do texto */
     transition: background-color 0.3s, transform 0.3s; /* Adiciona a  animação */
 }
 #botao1:hover { /* personalização do botão */
-    color:black;
-    background-color: white;
+    color:black; /*Cor das letras*/
+    background-color: white; /*Cor do background*/
     transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
 
 }
 .containertexto{
-    position: relative;
-    background-color: white;
-    top: 70px;
-    border-radius: 50px;
-    width: 90vw;
-    left: 60px;
-    border: 2px solid black;
+    position: relative; /*Tipo de posicionamento*/
+    background-color: white; /*Cor do background*/
+    top: 70px; /*Movimenta para cima */
+    border-radius: 50px; /*Curvatura da borda */
+    width: 90vw; /*Regula largura*/
+    left: 60px; /*Movimenta para a esquerda*/
+    border: 2px solid black; /*Borda*/
 }
 #frase{
-    color: black;
+    color: black; /*Cor das letras*/
     width: 650px; /* Define a largura desejada para o retângulo */
     margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
-    padding: 30px;
+    padding: 30px; /*Define a distância entre o elemento e suas bordas*/
 }
 #equacao {
-    position: relative;
-    width: 400px;
-    height: 300px;
+    position: relative; /*Tipo de posicionamento*/
+    width: 400px; /*Regula largura*/
+    height: 300px; /*Regula altura*/
     float: right; /* Alinha a imagem no canto direito */
-    margin: 10px;
-    bottom: 50px;
-    right: 5%;
-    margin-top: -15%;
+    margin: 10px; /*Centraliza o retângulo horizontalmente na tela*/
+    bottom: 50px; /*Movimenta para baixo */
+    right: 5%; /*Movimenta para a direita*/
+    margin-top: -15%; /* Reduz a margem no topo*/
 }    
 .containerrodape{
-    position: absolute;
-    background-color: black;
-    top: 800px;
-    height: 100px;
+    position: absolute; /*Tipo de posicionamento*/
+    background-color: black; /*Cor do background*/
+    top: 800px; /*Movimenta para cima */
+    height: 100px; /*Regula altura*/
 } 
 footer {
-    position: absolute;
-    height: 10vh;
-    color: white;
-    left: -9px;
-    top: 0;
+    position: absolute; /*Tipo de posicionamento*/
+    height: 10vh; /*Regula altura*/
+    color: white; /*Cor das letras*/
+    left: -9px; /*Movimenta para a esquerda*/
+    top: 0; /*Movimenta para cima */
 }
             
 #footer-content{
-    position: sticky;
-    width: 97.7vw;
-    height: -10vh;
-    background-color: rgb(18, 18, 20);
-    display: flex;
-    padding: 1.5rem 0.5rem;
-}
+    position: sticky; /*Tipo de posicionamento*/
+    width: 97.7vw; /*Regula largura*/
+    height: -10vh; /*Regula altura*/
+    background-color: rgb(18, 18, 20); /*Cor do background*/
+    display: flex; /*Display para deixar os elementos em "grade" */
+    padding: 1.5rem 0.5rem; /*Define a distância entre o elemento e suas bordas*/
+} 
             
 #footer-criador{
-    font-size: 15px;
-    position: relative;
-    text-align: center;
-    top: 20px;
-    left: 45%;
+    font-size: 15px; /*Tamanho da fonte*/
+    position: relative; /*Tipo de posicionamento*/
+    text-align: center; /* Centraliza o texto horizontalmente */
+    top: 20px; /*Movimenta para cima */
+    left: 45%; /*Movimenta para a esquerda*/
 }
             
 #footer-redessociais {
-    position: relative;
-    left: 85%;
-    bottom: 10px;
+    position: relative; /*Tipo de posicionamento*/
+    left: 85%; /*Movimenta para a esquerda*/
+    bottom: 10px; /*Movimenta para baixo */
 }
-
 .resultado{
-    text-align: center;
-    color:black;
-    padding: 5px;
-    background-color: white;
-    border-radius: 15px;
-    width: 15%;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color:black; /*Cor das letras*/
+    padding: 5px; /*Define a distância entre o elemento e suas bordas*/
+    background-color: white; /*Cor do background*/
+    border-radius: 15px; /*Curvatura da borda */
+    width: 15%; /*Regula largura*/
 }
 .else {
-    text-align: center;
-    position: relative;
-    color:black;
-    padding: 10px;
-    background-color: white;
-    border-radius: 15px;
-    width: 20%;
-    border: black;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    position: relative; /*Tipo de posicionamento*/
+    color:black; /*Cor das letras*/
+    padding: 10px; /*Define a distância entre o elemento e suas bordas*/
+    background-color: white; /*Cor do background*/
+    border-radius: 15px; /*Curvatura da borda */
+    width: 20%; /*Regula largura*/
+    border: black; /*Borda*/
 }

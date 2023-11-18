@@ -135,7 +135,7 @@ body{ /*Corpo da página */
     height: 300px; /*Regula altura*/
     float: right; /* Alinha a imagem no canto direito */
     margin: 10px; /* Reduz a margem */
-    bottom: 120px; /*Movimenta para baixo */
+    bottom: 90px; /*Movimenta para baixo */
     right: 0; /*Movimenta para direita*/
     margin-top: -16%; /* Reduz a margem no topo*/
 }

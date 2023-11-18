@@ -1,183 +1,180 @@
-body{
-    font-family: 'poppins-bold', sans-serif !important;
+body{ /*Corpo da página */
+    font-family: 'poppins-bold', sans-serif !important;  /*Fonte usada em toda a página*/
 }
 .cabeçalho { /*Cabeçalho do Site*/
-    background-color: white;
-    position: relative;
-    border-bottom: 5px solid black;
-    left: -10px;
-    bottom: 7px;
-    width: 99vw;
-    height: 100px;
+    background-color: white; /*Cor do background*/
+    position: relative; /*Tipo de posicionamento*/
+    border-bottom: 5px solid black;  /*Borda do cabeçalho*/
+    left: -10px; /*Movimenta para a esquerda*/
+    bottom: 7px; /*Movimenta para baixo */
+    width: 99vw; /*Regula largura*/
+    height: 100px; /*Regula altura*/
 }
-
 #logo{ /*Logo do Site "Calculator" */
-    position: relative;
-    bottom: 45px;
-    right: 50px;
-    height: 200px;
-    width: 300px;
+    position: relative; /*Tipo de posicionamento*/
+    bottom: 45px; /*Movimenta para baixo */
+    right: 50px; /*Movimenta para a direita*/
+    height: 200px; /*Regula altura*/
+    width: 300px; /*Regula largura*/
 }
 #bemvindo{
-    text-align: center;
-    color: white;
-    font-weight: 700;
-    font-size: 40px;
-    text-shadow: 0 7px 0px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: white; /*Cor das letras*/
+    font-weight: 700; /*Largura da fonte*/
+    font-size: 40px; /*Tamanho da fonte*/
+    text-shadow: 0 7px 0px rgba(0, 0, 0, 0.1); /*Sombra da caixa*/
 }
 
 .containerlista {
-    position: relative;
-    bottom: 220px;
-    text-align: center;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
+    position: relative; /*Tipo de posicionamento*/
+    bottom: 220px; /*Movimenta para baixo */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    height: 100vh; /*Regula altura*/
+    flex-direction: column; /*Coloca a lista em coluna*/
+    justify-content: center; /* Alinha os itens ao centro do container */
+    display: flex; /*Display para deixar os elementos em "grade" */
 }
 
 .row {
-    display: flex;
+    display: flex; /*Display para deixar os elementos em "grade" */
     flex-wrap: wrap; /* Permite que os itens de uma linha quebrem para a próxima linha */
-    justify-content: center;
+    justify-content: center; /* Alinha os itens ao centro do container */
 }
 
 .texto {
     margin: 20px; /* Reduz a margem */
-    padding: 5px;
-    border: 1px solid #ccc;
-    display: inline-block;
-    border-radius: 25px;
-    transition: transform 0.3s;
-    height: 45px;
+    padding: 5px; /*Define a distância entre o elemento e suas bordas*/
+    border: 1px solid #ccc; /*Borda*/
+    display: inline-block; /*Alinhar o texto*/
+    border-radius: 25px; /*Curvatura da borda */
+    transition: transform 0.3s; /*Tempo da animação */
+    height: 45px; /*Regula altura*/
     width: 250px; /* Reduz a largura */
     max-width: 100%; /* Garante que os textos não ultrapassem o contêiner */
     text-align: center; /* Centraliza o texto horizontalmente */
-    align-items: center;
-    background-color: white;
+    align-items: center; /*Centraliza os itens*/
+    background-color: white; /*Cor do background*/
     box-shadow: 0 30px 45px rgba(0, 0, 0, 0.1);
-    font-size: 30px;
+    font-size: 30px; /*Tamanho da fonte*/
 }
 
 .texto:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); /*Escala da animação*/
 }
 
 .lista{ /*Lista de nomes das operações aritméticas*/
-    position: relative;
-    bottom: 200px;
-    line-height: 2.0;
+    position: relative; /*Tipo de posicionamento*/
+    bottom: 200px;  /*Movimenta para baixo */
+    line-height: 2.0; /*Altura da linha*/
 }
 
 #icone{ /*ícone do Site*/
-    width: 100px;
+    width: 100px; /*Regula largura*/
 }
 
 .containertexto{
-    position: relative;
-    background-color: white;
-    bottom: 280px;
-    border-radius: 50px;
-    width: 90vw;
-    left: 50px;
+    position: relative; /*Tipo de posicionamento*/
+    background-color: white; /*Cor do background*/
+    bottom: 280px;  /*Movimenta para baixo */
+    border-radius: 50px; /*Curvatura da borda */
+    width: 90vw; /*Regula largura*/
+    left: 50px; /*Movimenta para a esquerda*/
 }
 
 #bonequinho{
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 72%;
-    bottom: -30px;
+    position: absolute; /*Tipo de posicionamento*/
+    width: 400px; /*Regula largura*/
+    height: 400px; /*Regula altura*/
+    left: 72%; /*Movimenta para a esquerda*/
+    bottom: -30px;  /*Movimenta para baixo */
 }
 #frase{
-    position: relative;
-    height: 300px;
-    left: 40px;
-    top: 60px;
-    font-size: 24px;
+    position: relative; /*Tipo de posicionamento*/
+    height: 300px; /*Regula altura*/
+    left: 40px; /*Movimenta para a esquerda*/
+    top: 60px; /*Movimenta para cima*/
+    font-size: 24px; /*Tamanho da fonte*/
 }
 .redessociais{
-    background-color: black;
-    width: 100% ;
-    height: 600px;
+    background-color: black; /*Cor do background*/
+    width: 100%; /*Regula largura*/
+    height: 600px; /*Regula altura*/
     margin: 0;
-    border-radius: 10px;
+    border-radius: 10px; /*Curvatura da borda */
    
 }
 #containeredesG{
-    position: relative;
-    text-align: center;
-    background-color: white;
-    border-radius: 10px;
-    width: 250px;
-    height: 400px;
-    left: 4%;
-    top: 100px;
+    position: relative; /*Tipo de posicionamento*/
+    text-align: center; /* Centraliza o texto horizontalmente */
+    background-color: white; /*Cor do background*/
+    border-radius: 10px; /*Curvatura da borda */
+    width: 250px; /*Regula largura*/
+    height: 400px; /*Regula altura*/
+    left: 4%; /*Movimenta para a esquerda*/
+    top: 100px; /*Movimenta para cima*/
 }
 #githubG{
-    width: 64px;
-    height: 64px;
+    width: 64px; /*Regula largura*/
+    height: 64px; /*Regula altura*/
 }
 #containeredesI{
-    
-    text-align: center;
-    position: relative;
-    background-color: white;
-    border-radius: 10px;
-    width: 250px;
-    height: 400px;
-    left: 35%;
-    bottom: 300px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    position: relative; /*Tipo de posicionamento*/
+    background-color: white; /*Cor do background*/
+    border-radius: 10px; /*Curvatura da borda */
+    width: 250px; /*Regula largura*/
+    height: 400px; /*Regula altura*/
+    left: 35%; /*Movimenta para a esquerda*/
+    bottom: 300px;  /*Movimenta para baixo */
 }
 #githubI{
-    width: 64px;
-    height: 64px;
+    width: 64px; /*Regula largura*/
+    height: 64px; /*Regula altura*/
 }
 #containeredesA{
-    
-    text-align: center;
-    position: relative;
-    background-color: white;
-    border-radius: 10px;
-    width: 250px;
-    height: 400px;
-    left: 60%;
-    bottom: 720px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    position: relative; /*Tipo de posicionamento*/
+    background-color: white; /*Cor do background*/
+    border-radius: 10px; /*Curvatura da borda */
+    width: 250px; /*Regula largura*/
+    height: 400px; /*Regula altura*/
+    left: 60%; /*Movimenta para a esquerda*/
+    bottom: 720px;  /*Movimenta para baixo */
 }
 #githubA{
-    width: 64px;
-    height: 64px;
+    width: 64px; /*Regula largura*/
+    height: 64px; /*Regula altura*/
 }
 .containerrodape{
-    position: absolute;
-    background-color: black;
-    top: 2300px;
-    height: 100px;
+    position: absolute; /*Tipo de posicionamento*/
+    background-color: black; /*Cor do background*/
+    top: 2300px; /*Movimenta para cima*/
+    height: 100px; /*Regula altura*/
 }
 footer {
-    position: absolute;
-    height: 10vh;
-    color: white;
-    left: -9px;
-    top: 0;
+    position: absolute; /*Tipo de posicionamento*/
+    height: 10vh; /*Regula altura*/
+    color: white; /*Cor das letras*/
+    left: -9px; /*Movimenta para a esquerda*/
+    top: 0; /*Movimenta para cima*/
 }
 #footer-content{
-    position: sticky;
-    width: 97.7vw;
-    height: -10vh;
+    position: sticky; /*Tipo de posicionamento*/
+    width: 97.7vw; /*Regula largura*/
+    height: -10vh; /*Regula altura*/
     background-color: rgb(18, 18, 20);
-    display: flex;
-    padding: 1.5rem 0.5rem;
+    display: flex; /*Display para deixar os elementos em "grade" */
+    padding: 1.5rem 0.5rem; /*Define a distância entre o elemento e suas bordas*/
 }
 #footer-criador{
-    font-size: 15px;
-    position: relative;
-    text-align: center;
-    top: 20px;
-    left: 45%;
+    font-size: 15px; /*Tamanho da fonte*/
+    position: relative; /*Tipo de posicionamento*/
+    text-align: center; /* Centraliza o texto horizontalmente */
+    top: 20px; /*Movimenta para cima*/
+    left: 45%; /*Movimenta para a esquerda*/
 }
 #footer-redessociais {
-    position: relative;
-    left: 85%;
-    bottom: 10px;
+    position: relative; /*Tipo de posicionamento*/
+    left: 85%; /*Movimenta para a esquerda*/
+    bottom: 10px;  /*Movimenta para baixo */
 }
