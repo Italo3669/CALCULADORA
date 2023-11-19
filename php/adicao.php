@@ -40,8 +40,8 @@
 
     <div>
     <h4 id="inserir">   
-        Insira um número: <input type="number" name="adi1" id=inserir1><br>   <!--caixa de resposta da adição-->
-        Insira um número: <input type="number" name="adi2" placeholder="+" id=inserir2><br> <!--caixa de resposta da adição-->
+        Insira um número: <input type="number" name="adi1" step="0.01" id=inserir1><br>   <!--caixa de resposta da adição-->
+        Insira um número: <input type="number" name="adi2" step="0.01" placeholder="+" id=inserir2><br> <!--caixa de resposta da adição-->
     </h4>
     <input type="submit" value="Enviar" id="botao1">  <!--Botão de enviar--> 
     <br>

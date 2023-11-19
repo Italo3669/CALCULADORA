@@ -39,9 +39,9 @@
 
     <div>
      <h4 id="inserir">   <!-- tamanho do texto-->
-        Valor inicial: <input type="number" name="v1" id="inserir1" ><br> <!--valor inicial do juros, c1=caixa entrada-->
-        Taxa de Juros: <input type="number" name="t2" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
-        N° de meses:  <input type="number" name="n3" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
+        Valor inicial: <input type="number" name="v1" step="0.01" id="inserir1" ><br> <!--valor inicial do juros, c1=caixa entrada-->
+        Taxa de Juros: <input type="number" name="t2" step="0.01" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
+        N° de meses:  <input type="number" name="n3" step="0.01" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
         
        <input type="submit" value="Enviar" id="botao1" >  <!--Botão de enviar--><br>
@@ -60,9 +60,12 @@
         $total = $v1 + $resultado; 
 
         echo '<div class = "resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
-        echo "Valor inicial:R$$v1"; /*Mostra o resultado obtido por meio do cálculo*/
-        echo "Juros:R$$resultado"; /*Mostra o resultado obtido por meio do cálculo*/
-        echo "Valor final:R$$total"; /*Mostra o resultado obtido por meio do cálculo*/
+        $formatted_v1 = number_format($v1, 2, ',', '.'); /*formata a exibição do resultado*/
+        $formatted_resultado = number_format($resultado, 2, ',', '.'); /*formata a exibição do resultado*/
+        $formatted_total = number_format($total, 2, ',', '.'); /*formata a exibição do resultado*/
+        echo "Valor inicial: R$ $formatted_v1<br>"; /*Mostra o resultado obtido por meio do cálculo*/
+        echo "Juros: R$ $formatted_resultado<br>"; /*Mostra o resultado obtido por meio do cálculo*/
+        echo "Valor final: R$ $formatted_total<br>"; /*Mostra o resultado obtido por meio do cálculo*/
         echo '</div>';
 
     } 
@@ -79,7 +82,7 @@
         Os juros simples são uma forma de cálculo de juros em que os juros são calculados apenas sobre o valor principal do empréstimo ou investimento durante todo o período de tempo. Nesse sistema, os juros não são reinvestidos nem capitalizados ao longo do tempo. Isso significa que os juros são calculados sempre com base no valor inicial do principal, sem levar em consideração os juros acumulados anteriormente.
         <br>
         Por exemplo, calcula - se:<br>
-        1000 (Valor inicial) * 2 (Taxa de juros) * 4 (Número de meses) = 1080 (Valor total = Valor inicial + Juros)
+        1000 (Valor inicial) * 2/100 (Taxa de juros mensal) * 4 (Nº de meses) = 1080 (Valor total = Valor inicial + Juros)
         </h3>
     </div>
 
