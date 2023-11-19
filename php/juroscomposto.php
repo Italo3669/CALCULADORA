@@ -40,9 +40,9 @@
     <h1 id="jurosc">JUROS COMPOSTO</h1>    
 
      <h4 id="inserir">   <!-- tamanho do texto-->
-        Capital Inicial: <input type="number" name="cap" id="inserir1" ><br>  <!--valor inicial do juros, c1=caixa entrada-->
-        Taxa de Juros: <input type="number" name="tax" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
-        Tempo definido: <input type="number" name="tem" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
+        Capital Inicial: <input type="number" name="cap" step="0.01" id="inserir1" ><br>  <!--valor inicial do juros, c1=caixa entrada-->
+        Taxa de Juros: <input type="number" name="tax" step="0.01" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
+        Tempo definido: <input type="number" name="tem" step="0.01" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
 
        <input type="submit" value="Enviar" id="botao1">  <!--Botão de enviar--><br>
@@ -57,10 +57,12 @@
 
     if ($cap != 0 && $tax != 0 && $tem != 0 ){ /*Condição para que não seja efetuado o cálculo em caso de variável vazia*/
     $resultado = $cap * ((1 + ($tax/100))**$tem);
-   
+    
     echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/  
-    echo "Capital inicial: R$$cap<br>"; /*Mostra o resultado obtido por meio do cálculo*/
-    echo "Montante: R$$resultado"; /*Mostra o resultado obtido por meio do cálculo*/
+    $formatted_resultado = number_format($resultado, 2, ',', '.'); /*formata a exibição do resultado*/
+    $formatted_cap = number_format($cap, 2, ',', '.'); /*formata a exibição do resultado*/
+    echo "Capital inicial: R$ $formatted_cap<br>"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo "Montante: R$ $formatted_resultado"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>';
     }
 
@@ -82,8 +84,8 @@
         Juros compostos: incidem sobre o montante total (capital mais juros acumulados).<br/>
         M = montante final<br/>
         C = capital<br/>
-        i = taxa de juros<br/>
-        t = tempo
+        i = taxa de juros anual<br/>
+        t = tempo em anos
         </h3>
     </div>
 

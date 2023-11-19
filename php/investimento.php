@@ -41,9 +41,9 @@
     <div>   
     <h4 id="inserir">  <!-- tamanho do texto-->
         Taxa de rendimento 58%.<br>
-        Valor inicial do investimento: <input type="number" name="valor" id="inserir1" ><br>  <!--valor inicial do juros, c1=caixa entrada-->
-        Valor investido por mês: <input type="number" name="mes" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
-        Tempo investido em meses:  <input type="number" name="tempo" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
+        Valor inicial do investimento: <input type="number" name="valor" step="0.01" id="inserir1" ><br>  <!--valor inicial do juros, c1=caixa entrada-->
+        Valor investido por mês: <input type="number" name="mes" step="0.01" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
+        Tempo investido em meses:  <input type="number" name="tempo" step="0.01" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
 
      <input type="submit" value="Enviar" id="botao1">  <!--Botão de enviar--><br>
@@ -65,9 +65,12 @@
     $lucro = $resultado - $vi; /*Rendimento*/
 
     echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
-    echo "Total investido: R$$vi<br/>"; /*Mostra o resultado obtido por meio do cálculo*/
-    echo "Valor obtido: R$$resultado<br/>"; /*Mostra o resultado obtido por meio do cálculo*/
-    echo "Rendimento: R$$lucro<br/>"; /*Mostra o resultado obtido por meio do cálculo*/
+    $formatted_vi = number_format($vi, 2, ',', '.'); /*formata a exibição do resultado*/
+    $formatted_resultado = number_format($resultado, 2, ',', '.'); /*formata a exibição do resultado*/    
+    $formatted_lucro = number_format($lucro, 2, ',', '.'); /*formata a exibição do resultado*/
+    echo "Total investido: R$ $formatted_vi<br/>"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo "Valor obtido: R$ $formatted_resultado<br/>"; /*Mostra o resultado obtido por meio do cálculo*/
+    echo "Rendimento: R$ $formatted_lucro<br/>"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>'; 
     }
 

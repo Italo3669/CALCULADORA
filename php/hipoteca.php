@@ -38,9 +38,9 @@
         <h1 id="hipoteca">HIPOTECA</h1>
 
     <h4 id="inserir">   <!-- tamanho do texto-->
-        Valor do empréstimo: <input type="number" name="valor" id="inserir1"><br>  <!--valor inicial do juros, c1=caixa entrada-->
-        Taxa de juros anual: <input type="number" name="taxa" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
-        Quantidade de anos:  <input type="number" name="ano" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
+        Valor do empréstimo: <input type="number" name="valor" step="0.01" id="inserir1"><br>  <!--valor inicial do juros, c1=caixa entrada-->
+        Taxa de juros anual: <input type="number" name="taxa" step="0.01" id="inserir2"><br> <!--taxa de juros, c2=caixa entrada-->
+        Quantidade de anos:  <input type="number" name="ano" step="0.01" id="inserir3" ><br> <!--numero de meses dos juros, c3=caixa entrada-->
     </h4>   <!-- tamanho do texto-->
     <input type="submit" value="Enviar" id="botao1"> </br> <!--Botão de enviar-->
     <br>
@@ -57,7 +57,8 @@
     $resultado = ($valor * ($taxa1 * (1 + $taxa1)**$ano1)) / ((1 + $taxa1)**$ano1 - 1);
     
     echo '<div class="resultado">'; /*Faz com que o echo possa ser editado por meio do css*/
-    echo "Pagamento mensal da hipoteca: R$$resultado"; /*Mostra o resultado obtido por meio do cálculo*/
+    $formatted_resultado = number_format($resultado, 2, ',', '.'); /*formata a exibição do resultado*/
+    echo "Pagamento mensal da hipoteca: R$ $formatted_resultado"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>';
     }
 
