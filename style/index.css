@@ -57,21 +57,17 @@ body{ /*Corpo da página */
     box-shadow: 0 30px 45px rgba(0, 0, 0, 0.1);
     font-size: 30px; /*Tamanho da fonte*/
 }
-
 .texto:hover {
     transform: scale(1.1); /*Escala da animação*/
 }
-
 .lista{ /*Lista de nomes das operações aritméticas*/
     position: relative; /*Tipo de posicionamento*/
     bottom: 200px;  /*Movimenta para baixo */
     line-height: 2.0; /*Altura da linha*/
 }
-
 #icone{ /*ícone do Site*/
     width: 100px; /*Regula largura*/
 }
-
 .containertexto{
     position: relative; /*Tipo de posicionamento*/
     background-color: white; /*Cor do background*/
@@ -80,7 +76,6 @@ body{ /*Corpo da página */
     width: 90vw; /*Regula largura*/
     left: 50px; /*Movimenta para a esquerda*/
 }
-
 #bonequinho{
     position: absolute; /*Tipo de posicionamento*/
     width: 400px; /*Regula largura*/
@@ -111,6 +106,15 @@ body{ /*Corpo da página */
     height: 400px; /*Regula altura*/
     left: 6%; /*Movimenta para a esquerda*/
     bottom: 19%; /*Movimenta para baixo*/
+}
+#gustavofoto{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    top: 8%;
+    left: 19%;
+
 }
 #githubG{
     position: absolute; /*Tipo de posicionamento*/
@@ -155,6 +159,14 @@ body{ /*Corpo da página */
     font-size: 30px; /*Tamanho da fonte*/
     font-weight: 600; /*Largura da fonte*/
 }
+#italofoto{
+    position: absolute;
+    left: 19%;
+    top: 8%;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
 #githubI{ 
     position: absolute; /*Tipo de posicionamento*/
     width: 54px; /*Regula largura*/
@@ -185,6 +197,14 @@ body{ /*Corpo da página */
     height: 400px; /*Regula altura*/
     left: 76%; /*Movimenta para a esquerda*/
     bottom: 19%;  /*Movimenta para baixo */
+}
+#arthurfoto{
+    position: absolute;
+    left: 19%;
+    top: 8%;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
 }
 #githubA{
     position: absolute; /*Tipo de posicionamento*/

@@ -109,9 +109,7 @@ body{ /*Corpo da página */
     color:black; /*Cor das letras*/
     background-color: white; /*Cor do background*/
     transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
-
 }
-
 .containertexto{
     position: relative; /*Tipo de posicionamento*/
     background-color: white; /*Cor do background*/
@@ -121,14 +119,12 @@ body{ /*Corpo da página */
     left: 60px; /*Movimenta para a esquerda*/
     border: 2px solid black ; /*Borda*/
 }
-
 #frase{
     color: black; /*Cor das letras*/
     width: 650px; /*Regula largura*/
     margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
     padding: 30px; /*Define a distância entre o elemento e suas bordas*/
 }
-
 #equacao {
     position: relative; /*Tipo de posicionamento*/
     width: 400px; /*Regula largura*/
@@ -139,7 +135,6 @@ body{ /*Corpo da página */
     right: 0; /*Movimenta para direita*/
     margin-top: -16%; /* Reduz a margem no topo*/
 }
-
 .resultado{
     text-align: center; /* Centraliza o texto horizontalmente */
     color:black; /*Cor das letras*/
@@ -148,7 +143,6 @@ body{ /*Corpo da página */
     border-radius: 15px; /*Curvatura da borda */
     width: 15%; /*Regula largura*/
 }
-
 .else {
     text-align: center; /* Centraliza o texto horizontalmente */
     position: relative; /*Tipo de posicionamento*/
@@ -159,14 +153,12 @@ body{ /*Corpo da página */
     width: 20%; /*Regula largura*/
     border: black; /*Borda*/
 }
-
 .containerrodape{
     position: absolute; /*Tipo de posicionamento*/
     background-color: black; /*Cor do background*/
     top: 800px; /*Movimenta para cima */
     height: 100px; /*Regula altura*/
 }
-
 footer {
     position: absolute; /*Tipo de posicionamento*/
     height: 10vh; /*Regula altura*/
@@ -174,7 +166,6 @@ footer {
     left: -9px; /*Movimenta para a esquerda*/
     top: 0; /*Movimenta para cima */
 }
-
 #footer-content{
     position: sticky; /*Tipo de posicionamento*/
     width: 97.7vw; /*Regula largura*/
@@ -183,7 +174,6 @@ footer {
     display: flex; /*Display para deixar os elementos em "grade" */
     padding: 1.5rem 0.5rem; /*Define a distância entre o elemento e suas bordas*/
 }
-
 #footer-criador{
     font-size: 15px; /*Tamanho da fonte*/
     position: relative; /*Tipo de posicionamento*/
@@ -191,7 +181,6 @@ footer {
     top: 20px; /*Movimenta para cima */
     left: 45%; /*Movimenta para a esquerda*/
 }
-
 #footer-redessociais {
     position: relative; /*Tipo de posicionamento*/
     left: 85%; /*Movimenta para a esquerda*/
