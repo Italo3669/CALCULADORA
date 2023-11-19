@@ -27,20 +27,20 @@ body{ /*Corpo da página */
     width: 20vw; /*Regula largura*/
     bottom: 202px; /*Movimenta para baixo */
 } 
-.containerlista{
+.containerlista{ /*Container com as sugestões*/
     position: relative; /*Tipo de posicionamento*/
     bottom: 262px; /*Movimenta para baixo */
     left: 70vw; /*Movimenta para a esquerda*/
     width: 320px; /*Regula largura*/
     height: 100px; /*Regula altura*/
 } 
-.row {
+.row { /*Classe que tem as opções da página*/
     display: flex; /*Display para deixar os elementos em "grade" */
     flex-wrap: wrap; /* Permite que os itens de uma linha quebrem para a próxima linha */
     justify-content: center; /* Alinha os itens ao centro do container */
 }
 
-.texto {
+.texto { /*Classe do texto das opções*/
     margin: 7px; /* Reduz a margem */
     padding: 5px; /*Define a distância entre o elemento e suas bordas*/
     border: 1px solid #ccc; /*Borda*/
@@ -58,10 +58,10 @@ body{ /*Corpo da página */
     font-size: 20px; /*Tamanho da fonte*/
     border-color: black; /*Cor das bordas*/
 }
-.texto:hover{
+.texto:hover{ /* animação dos botões*/
     transform: scale(1.1); /*Escala da animação*/
 }
-#mul{
+#mul{ /*Nome branco chamado "Multiplicação" */
     color: white; /*Cor das letras*/
     text-align: center; /* Centraliza o texto horizontalmente */
 }
@@ -106,7 +106,7 @@ body{ /*Corpo da página */
     transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
 
 }
-.containertexto{
+.containertexto{ /*container do texto de explicação*/
     position: relative; /*Tipo de posicionamento*/
     background-color: white; /*Cor do background*/
     top: 70px; /*Movimenta para cima */
@@ -115,29 +115,29 @@ body{ /*Corpo da página */
     left: 60px; /*Movimenta para a esquerda*/
     border: 2px solid black; /*Borda*/
 }
-#frase{
+#frase{ /*texto de explicação*/
     color: black; /*Cor das letras*/
     width: 650px; /* Define a largura desejada para o retângulo */
     margin: 0 ; /* Centraliza o retângulo horizontalmente na tela */
     padding: 30px; /*Define a distância entre o elemento e suas bordas*/
 }
-#equacao {
-    position: relative; /*Tipo de posicionamento*/
+#equacao { /*Imagem de uma equação*/
+    position: absolute; /*Tipo de posicionamento*/
     width: 400px; /*Regula largura*/
     height: 300px; /*Regula altura*/
     float: right; /* Alinha a imagem no canto direito */
     margin: 10px; /*Centraliza o retângulo horizontalmente na tela*/
-    bottom: 50px; /*Movimenta para baixo */
+    top: 90%; /*Movimenta para baixo */
     right: 5%; /*Movimenta para a direita*/
     margin-top: -15%; /* Reduz a margem no topo*/
 }    
-.containerrodape{
+.containerrodape{ /*container do rodapé*/
     position: absolute; /*Tipo de posicionamento*/
     background-color: black; /*Cor do background*/
     top: 800px; /*Movimenta para cima */
     height: 100px; /*Regula altura*/
 } 
-footer {
+footer { /*rodapé*/
     position: absolute; /*Tipo de posicionamento*/
     height: 10vh; /*Regula altura*/
     color: white; /*Cor das letras*/
@@ -145,7 +145,7 @@ footer {
     top: 0; /*Movimenta para cima */
 }
             
-#footer-content{
+#footer-content{ /*conteúdo dentro do rodapé*/
     position: sticky; /*Tipo de posicionamento*/
     width: 97.7vw; /*Regula largura*/
     height: -10vh; /*Regula altura*/
@@ -154,7 +154,7 @@ footer {
     padding: 1.5rem 0.5rem; /*Define a distância entre o elemento e suas bordas*/
 } 
             
-#footer-criador{
+#footer-criador{ /*criadores da página dentro do rodapé*/
     font-size: 15px; /*Tamanho da fonte*/
     position: relative; /*Tipo de posicionamento*/
     text-align: center; /* Centraliza o texto horizontalmente */
@@ -162,12 +162,12 @@ footer {
     left: 45%; /*Movimenta para a esquerda*/
 }
             
-#footer-redessociais {
+#footer-redessociais { /*GitHub dentro do rodapé*/
     position: relative; /*Tipo de posicionamento*/
     left: 85%; /*Movimenta para a esquerda*/
     bottom: 10px; /*Movimenta para baixo */
 }
-.resultado{
+.resultado{ /*Resultado do cálculo*/
     text-align: center; /* Centraliza o texto horizontalmente */
     color:black; /*Cor das letras*/
     padding: 5px; /*Define a distância entre o elemento e suas bordas*/
@@ -175,7 +175,7 @@ footer {
     border-radius: 15px; /*Curvatura da borda */
     width: 15%; /*Regula largura*/
 }
-.else {
+.else { /*Else aparecendo se acontecer algo de errado*/
     text-align: center; /* Centraliza o texto horizontalmente */
     position: relative; /*Tipo de posicionamento*/
     color:black; /*Cor das letras*/

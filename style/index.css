@@ -17,7 +17,7 @@ body{ /*Corpo da página */
     height: 200px; /*Regula altura*/
     width: 300px; /*Regula largura*/
 }
-#bemvindo{
+#bemvindo{ /*Nome Branco escrito "Bem vindo a calculadora online*/
     text-align: center; /* Centraliza o texto horizontalmente */
     color: white; /*Cor das letras*/
     font-weight: 700; /*Largura da fonte*/
@@ -25,7 +25,7 @@ body{ /*Corpo da página */
     text-shadow: 0 7px 0px rgba(0, 0, 0, 0.1); /*Sombra da caixa*/
 }
 
-.containerlista {
+.containerlista { /* container com as opções da pagina*/
     position: relative; /*Tipo de posicionamento*/
     bottom: 220px; /*Movimenta para baixo */
     text-align: center; /* Centraliza o texto horizontalmente */
@@ -35,13 +35,13 @@ body{ /*Corpo da página */
     display: flex; /*Display para deixar os elementos em "grade" */
 }
 
-.row {
+.row { /*Classe que tem as opções da página*/
     display: flex; /*Display para deixar os elementos em "grade" */
     flex-wrap: wrap; /* Permite que os itens de uma linha quebrem para a próxima linha */
     justify-content: center; /* Alinha os itens ao centro do container */
 }
 
-.texto {
+.texto { /*Classe do texto das opções*/
     margin: 20px; /* Reduz a margem */
     padding: 5px; /*Define a distância entre o elemento e suas bordas*/
     border: 1px solid #ccc; /*Borda*/
@@ -57,7 +57,7 @@ body{ /*Corpo da página */
     box-shadow: 0 30px 45px rgba(0, 0, 0, 0.1);
     font-size: 30px; /*Tamanho da fonte*/
 }
-.texto:hover {
+.texto:hover { /* animação dos botões*/
     transform: scale(1.1); /*Escala da animação*/
 }
 .lista{ /*Lista de nomes das operações aritméticas*/
@@ -68,7 +68,7 @@ body{ /*Corpo da página */
 #icone{ /*ícone do Site*/
     width: 100px; /*Regula largura*/
 }
-.containertexto{
+.containertexto{ /*Container que fica o texto explicativo*/
     position: relative; /*Tipo de posicionamento*/
     background-color: white; /*Cor do background*/
     bottom: 280px;  /*Movimenta para baixo */
@@ -76,28 +76,28 @@ body{ /*Corpo da página */
     width: 90vw; /*Regula largura*/
     left: 50px; /*Movimenta para a esquerda*/
 }
-#bonequinho{
+#bonequinho{ /*Boneco com Gif dentro do container*/
     position: absolute; /*Tipo de posicionamento*/
     width: 400px; /*Regula largura*/
     height: 400px; /*Regula altura*/
     left: 72%; /*Movimenta para a esquerda*/
     bottom: -30px;  /*Movimenta para baixo */
 }
-#frase{
+#frase{ /*texto explicativo da calculadora*/
     position: relative; /*Tipo de posicionamento*/
     height: 300px; /*Regula altura*/
     left: 40px; /*Movimenta para a esquerda*/
     top: 60px; /*Movimenta para cima*/
     font-size: 24px; /*Tamanho da fonte*/
 }
-.redessociais{
+.redessociais{ /*Container com a foto de todo mundo que fez o site*/
     position: absolute;
     background-color: #130c16; /*Cor do background*/
     width: 99vw; /*Regula largura*/
     height: 600px; /*Regula altura*/
     left: 0; /*Movimenta para esquerda*/
 }
-#containeredesG{
+#containeredesG{ /*Container de Gustavo*/
     position: absolute; /*Tipo de posicionamento*/
     text-align: center; /* Centraliza o texto horizontalmente */
     background-color: white; /*Cor do background*/
@@ -107,42 +107,42 @@ body{ /*Corpo da página */
     left: 6%; /*Movimenta para a esquerda*/
     bottom: 19%; /*Movimenta para baixo*/
 }
-#gustavofoto{
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    top: 8%;
-    left: 19%;
+#gustavofoto{ /*Foto de Gustavo*/
+    position: absolute; /*Tipo de posicionamento*/
+    width: 160px; /*Regula largura*/
+    height: 160px; /*Regula altura*/
+    border-radius: 50%; /*Curvatura da borda */
+    top: 8%; /*Movimenta para cima*/
+    left: 19%; /*Movimenta para a esquerda*/
 
 }
-#githubG{
+#githubG{ /*GitHub de Gustavo*/
     position: absolute; /*Tipo de posicionamento*/
     right: 38%; /*Movimenta para direita*/
     bottom: 17%; /*Movimenta para baixo*/
     width: 54px; /*Regula largura*/
     height: 54px; /*Regula altura*/
 }
-#instagramG{
+#instagramG{ /*Instagram de Gustavo*/
     position: absolute; /*Tipo de posicionamento*/
     width: 54px; /*Regula largura*/
     height: 54px; /*Regula altura*/
     bottom: 17%; /*Movimenta para baixo*/
     right: 8%; /*Movimenta para a esquerda*/
 }
-#linkedinG{
+#linkedinG{ /*Linkedin de Gustavo*/
     position: absolute; /*Tipo de posicionamento*/
     bottom: 15.5%; /*Movimenta para baixo*/
     left: 11%; /*Movimenta para a esquerda*/
 }
-#gustavo{
+#gustavo{ /*Nome de Gustavo*/
     position: absolute; /*Tipo de posicionamento*/
     bottom: 30%; /*Movimenta para baixo*/
     left: 7%; /*Movimenta para a esquerda*/
     font-size: 29px; /*Tamanho da fonte*/
     font-weight: 600; /*Largura da fonte*/
 }
-#containeredesI{
+#containeredesI{ /*Container de Italo*/
     text-align: center; /* Centraliza o texto horizontalmente */
     position: absolute; /*Tipo de posicionamento*/
     background-color: white; /*Cor do background*/
@@ -152,43 +152,43 @@ body{ /*Corpo da página */
     left: 41%; /*Movimenta para a esquerda*/
     bottom: 19%;  /*Movimenta para baixo */
 }
-#italo{
+#italo{ /*Nome de Italo*/
     position: absolute; /*Tipo de posicionamento*/
     bottom: 30%; /*Movimenta para baixo */
     left: 17%; /*Movimenta para a esquerda*/
     font-size: 30px; /*Tamanho da fonte*/
     font-weight: 600; /*Largura da fonte*/
 }
-#italofoto{
-    position: absolute;
-    left: 19%;
-    top: 8%;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
+#italofoto{ /*Foto de Italo*/
+    position: absolute; /*Tipo de posicionamento*/
+    left: 19%; /*Movimenta para a esquerda*/
+    top: 8%; /*Movimenta para cima */
+    width: 160px; /*Regula largura*/
+    height: 160px; /*Regula altura*/
+    border-radius: 50%; /*Curvatura da borda */
 }
-#githubI{ 
+#githubI{  /*GitHub de Italo*/
     position: absolute; /*Tipo de posicionamento*/
     width: 54px; /*Regula largura*/
     height: 54px; /*Regula altura*/
     right: 38%; /*Movimenta para a direita*/
     bottom: 17%; /*Movimenta para baixo */
 }
-#instagramI{
+#instagramI{ /*Instagram de Italo*/
     position: absolute; /*Tipo de posicionamento*/
     width: 54px; /*Regula largura*/
     height: 54px; /*Regula altura*/
     bottom: 17%; /*Movimenta para baixo */
     right: 8%; /*Movimenta para a direita*/
 }
-#linkedinI{
+#linkedinI{ /*Linkedin de italo*/
     position: absolute; /*Tipo de posicionamento*/
     width: 62px; /*Regula largura*/
     height: 62px; /*Regula altura*/
     bottom: 16%; /*Movimenta para baixo */
     left: 10%; /*Movimenta para a esquerda*/
 }
-#containeredesA{
+#containeredesA{ /*Container de Arthur*/
     text-align: center; /* Centraliza o texto horizontalmente */
     position: absolute; /*Tipo de posicionamento*/
     background-color: white; /*Cor do background*/
@@ -198,54 +198,54 @@ body{ /*Corpo da página */
     left: 76%; /*Movimenta para a esquerda*/
     bottom: 19%;  /*Movimenta para baixo */
 }
-#arthurfoto{
-    position: absolute;
-    left: 19%;
-    top: 8%;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
+#arthurfoto{ /*Foto de Arthur*/
+    position: absolute; /*Tipo de posicionamento*/
+    left: 19%; /*Movimenta para a esquerda*/
+    top: 8%; /*Movimenta para cima */
+    width: 160px; /*Regula largura*/
+    height: 160px; /*Regula altura*/
+    border-radius: 50%; /*Curvatura da borda */
 }
-#githubA{
+#githubA{ /*GitHub de Arthur*/
     position: absolute; /*Tipo de posicionamento*/
     bottom: 17%; /*Movimenta para baixo */
     left: 42%; /*Movimenta para a esquerda*/
     width: 54px; /*Regula largura*/
     height: 54px; /*Regula altura*/
 }
-#instagramA{
+#instagramA{ /*Instagram de Arthur*/
     position: absolute; /*Tipo de posicionamento*/
     bottom: 17%; /*Movimenta para baixo */
     right: 8%; /*Movimenta para a direita*/
     width: 54px; /*Regula largura*/
     height: 54px; /*Regula altura*/
 }
-#linkedinA{
+#linkedinA{ /*Linkedin de Arthur*/
     position: absolute; /*Tipo de posicionamento*/
     bottom: 15.5%; /*Movimenta para baixo */
     left: 12%; /*Movimenta para a esquerda*/
 }
-#arthur{
+#arthur{ /*Foto de Arthur*/
     position: absolute; /*Tipo de posicionamento*/
     bottom: 28%; /*Movimenta para baixo */
     left: 10%; /*Movimenta para a esquerda*/
     font-size: 30px; /*Tamanho da fonte*/
     font-weight: 600; /*Largura da fonte*/
 }
-.containerrodape{
+.containerrodape{ /*container do rodapé*/
     position: absolute; /*Tipo de posicionamento*/
     background-color: black; /*Cor do background*/
     top: 2300px; /*Movimenta para cima*/
     height: 100px; /*Regula altura*/
-}
-footer {
+} 
+footer { /*rodapé*/
     position: absolute; /*Tipo de posicionamento*/
     height: 10vh; /*Regula altura*/
     color: white; /*Cor das letras*/
     left: -9px; /*Movimenta para a esquerda*/
     top: 0; /*Movimenta para cima*/
 }
-#footer-content{
+#footer-content{ /*conteúdo dentro do rodapé*/
     position: sticky; /*Tipo de posicionamento*/
     width: 98vw; /*Regula largura*/
     height: -10vh; /*Regula altura*/
@@ -253,14 +253,14 @@ footer {
     display: flex; /*Display para deixar os elementos em "grade" */
     padding: 1.5rem 0.5rem; /*Define a distância entre o elemento e suas bordas*/
 }
-#footer-criador{
+#footer-criador{ /*criadores da página dentro do rodapé*/
     font-size: 15px; /*Tamanho da fonte*/
     position: relative; /*Tipo de posicionamento*/
     text-align: center; /* Centraliza o texto horizontalmente */
     top: 20px; /*Movimenta para cima*/
     left: 45%; /*Movimenta para a esquerda*/
 }
-#footer-redessociais {
+#footer-redessociais { /*GitHub dentro do rodapé*/
     position: relative; /*Tipo de posicionamento*/
     left: 85%; /*Movimenta para a esquerda*/
     bottom: 10px;  /*Movimenta para baixo */
