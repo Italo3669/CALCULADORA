@@ -26,7 +26,7 @@ body{ /*Corpo da página */
     width: 20vw; /*Regula largura*/
     bottom: 202px; /*Movimenta para baixo */
 }
-.containerlista{
+.containerlista{ 
     position: relative; /*Tipo de posicionamento*/
     bottom: 262px; /*Movimenta para baixo */
     left: 70vw; /*Movimenta para a esquerda*/

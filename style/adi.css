@@ -64,7 +64,7 @@ body{ /*Corpo da página */
     transform: scale(1.1); /*Escala da animação*/
 }
 
-#adicao { 
+#adicao { /*Nome branco chamado "adição" */
     color: white; /*Cor das letras*/
     text-align: center; /* Centraliza o texto horizontalmente */
 }
@@ -105,12 +105,12 @@ body{ /*Corpo da página */
     text-decoration: none; /*Definir a formatação do texto */
     transition: background-color 0.3s, transform 0.3s; /* Adiciona a  animação */
 }
-    #botao1:hover {
-        color:black; /*Cor das letras*/
-        background-color: white; /*Cor do background*/
-        transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
+#botao1:hover { /*Animação do botão*/
+    color:black; /*Cor das letras*/
+    background-color: white; /*Cor do background*/
+    transform: scale(1.1); /* aumenta o botão em 10% quando o mouse passa em cima dele */
 
-    }
+}
 
 .containertexto{
     position: relative; /*Tipo de posicionamento*/

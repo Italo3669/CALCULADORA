@@ -96,54 +96,121 @@ body{ /*Corpo da página */
     font-size: 24px; /*Tamanho da fonte*/
 }
 .redessociais{
-    background-color: black; /*Cor do background*/
-    width: 100%; /*Regula largura*/
+    position: absolute;
+    background-color: #130c16; /*Cor do background*/
+    width: 99vw; /*Regula largura*/
     height: 600px; /*Regula altura*/
-    margin: 0;
-    border-radius: 10px; /*Curvatura da borda */
-   
+    left: 0; /*Movimenta para esquerda*/
 }
 #containeredesG{
-    position: relative; /*Tipo de posicionamento*/
+    position: absolute; /*Tipo de posicionamento*/
     text-align: center; /* Centraliza o texto horizontalmente */
     background-color: white; /*Cor do background*/
-    border-radius: 10px; /*Curvatura da borda */
+    border-radius: 30px; /*Curvatura da borda */
     width: 250px; /*Regula largura*/
     height: 400px; /*Regula altura*/
-    left: 4%; /*Movimenta para a esquerda*/
-    top: 100px; /*Movimenta para cima*/
+    left: 6%; /*Movimenta para a esquerda*/
+    bottom: 19%; /*Movimenta para baixo*/
 }
 #githubG{
-    width: 64px; /*Regula largura*/
-    height: 64px; /*Regula altura*/
+    position: absolute; /*Tipo de posicionamento*/
+    right: 38%; /*Movimenta para direita*/
+    bottom: 17%; /*Movimenta para baixo*/
+    width: 54px; /*Regula largura*/
+    height: 54px; /*Regula altura*/
+}
+#instagramG{
+    position: absolute; /*Tipo de posicionamento*/
+    width: 54px; /*Regula largura*/
+    height: 54px; /*Regula altura*/
+    bottom: 17%; /*Movimenta para baixo*/
+    right: 8%; /*Movimenta para a esquerda*/
+}
+#linkedinG{
+    position: absolute; /*Tipo de posicionamento*/
+    bottom: 15.5%; /*Movimenta para baixo*/
+    left: 11%; /*Movimenta para a esquerda*/
+}
+#gustavo{
+    position: absolute; /*Tipo de posicionamento*/
+    bottom: 30%; /*Movimenta para baixo*/
+    left: 7%; /*Movimenta para a esquerda*/
+    font-size: 29px; /*Tamanho da fonte*/
+    font-weight: 600; /*Largura da fonte*/
 }
 #containeredesI{
     text-align: center; /* Centraliza o texto horizontalmente */
-    position: relative; /*Tipo de posicionamento*/
+    position: absolute; /*Tipo de posicionamento*/
     background-color: white; /*Cor do background*/
-    border-radius: 10px; /*Curvatura da borda */
+    border-radius: 30px; /*Curvatura da borda */
     width: 250px; /*Regula largura*/
     height: 400px; /*Regula altura*/
-    left: 35%; /*Movimenta para a esquerda*/
-    bottom: 300px;  /*Movimenta para baixo */
+    left: 41%; /*Movimenta para a esquerda*/
+    bottom: 19%;  /*Movimenta para baixo */
 }
-#githubI{
-    width: 64px; /*Regula largura*/
-    height: 64px; /*Regula altura*/
+#italo{
+    position: absolute; /*Tipo de posicionamento*/
+    bottom: 30%; /*Movimenta para baixo */
+    left: 17%; /*Movimenta para a esquerda*/
+    font-size: 30px; /*Tamanho da fonte*/
+    font-weight: 600; /*Largura da fonte*/
+}
+#githubI{ 
+    position: absolute; /*Tipo de posicionamento*/
+    width: 54px; /*Regula largura*/
+    height: 54px; /*Regula altura*/
+    right: 38%; /*Movimenta para a direita*/
+    bottom: 17%; /*Movimenta para baixo */
+}
+#instagramI{
+    position: absolute; /*Tipo de posicionamento*/
+    width: 54px; /*Regula largura*/
+    height: 54px; /*Regula altura*/
+    bottom: 17%; /*Movimenta para baixo */
+    right: 8%; /*Movimenta para a direita*/
+}
+#linkedinI{
+    position: absolute; /*Tipo de posicionamento*/
+    width: 62px; /*Regula largura*/
+    height: 62px; /*Regula altura*/
+    bottom: 16%; /*Movimenta para baixo */
+    left: 10%; /*Movimenta para a esquerda*/
 }
 #containeredesA{
     text-align: center; /* Centraliza o texto horizontalmente */
-    position: relative; /*Tipo de posicionamento*/
+    position: absolute; /*Tipo de posicionamento*/
     background-color: white; /*Cor do background*/
-    border-radius: 10px; /*Curvatura da borda */
+    border-radius: 30px; /*Curvatura da borda */
     width: 250px; /*Regula largura*/
     height: 400px; /*Regula altura*/
-    left: 60%; /*Movimenta para a esquerda*/
-    bottom: 720px;  /*Movimenta para baixo */
+    left: 76%; /*Movimenta para a esquerda*/
+    bottom: 19%;  /*Movimenta para baixo */
 }
 #githubA{
-    width: 64px; /*Regula largura*/
-    height: 64px; /*Regula altura*/
+    position: absolute; /*Tipo de posicionamento*/
+    bottom: 17%; /*Movimenta para baixo */
+    left: 42%; /*Movimenta para a esquerda*/
+    width: 54px; /*Regula largura*/
+    height: 54px; /*Regula altura*/
+}
+#instagramA{
+    position: absolute; /*Tipo de posicionamento*/
+    bottom: 17%; /*Movimenta para baixo */
+    right: 8%; /*Movimenta para a direita*/
+    width: 54px; /*Regula largura*/
+    height: 54px; /*Regula altura*/
+}
+#linkedinA{
+    position: absolute; /*Tipo de posicionamento*/
+    bottom: 15.5%; /*Movimenta para baixo */
+    left: 12%; /*Movimenta para a esquerda*/
+}
+#arthur{
+    position: absolute; /*Tipo de posicionamento*/
+    bottom: 28%; /*Movimenta para baixo */
+    left: 10%; /*Movimenta para a esquerda*/
+    font-size: 30px; /*Tamanho da fonte*/
+    font-weight: 600; /*Largura da fonte*/
 }
 .containerrodape{
     position: absolute; /*Tipo de posicionamento*/
@@ -160,7 +227,7 @@ footer {
 }
 #footer-content{
     position: sticky; /*Tipo de posicionamento*/
-    width: 97.7vw; /*Regula largura*/
+    width: 98vw; /*Regula largura*/
     height: -10vh; /*Regula altura*/
     background-color: rgb(18, 18, 20);
     display: flex; /*Display para deixar os elementos em "grade" */
