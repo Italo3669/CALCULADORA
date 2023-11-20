@@ -69,7 +69,7 @@
 
     
     <div class="containertexto">
-        <h3 id="frase"> adição é uma operação matemática básica que envolve a combinação</br>
+        <h3 id="frase"> Adição é uma operação matemática básica que envolve a combinação</br>
          de dois ou mais números para encontrar o resultado, resultado esse que chamamos de soma.</br> Na adição pode - se somar os valores de qualquer modo, uma vez que a ordem nao afeta o resultado.<br>
         É uma das formas mais primitivas de se usar a matemática,<br> quando se houve a necessidade de integrar um valor ao outro.
         <b>Para somar usa - se " + ".<br>
