@@ -215,7 +215,7 @@ footer { /*rodapé*/
     border-radius: 15px; /*Curvatura da borda */
     width: 15%; /*Regula largura*/
 }
-.resultado{ /*Resultado do cálculo*/
+.resultado1{ /*Resultado do cálculo*/
     text-align: center; /* Centraliza o texto horizontalmente */
     color:black; /*Cor das letras*/
     padding: 5px; /*Define a distância entre o elemento e suas bordas*/
