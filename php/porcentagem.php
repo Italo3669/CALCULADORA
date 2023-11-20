@@ -74,7 +74,8 @@
     $resultado1 = ($num1 * 100) / $num2; /*Mostra o resultado obtido por meio do cálculo*/
 
     echo '<div class="resultado1">'; /*Faz com que o echo possa ser editado por meio do css*/
-    echo "Resultado: $resultado1%"; /*Mostra o resultado obtido por meio do cálculo*/
+    $formatted_resultado1 = number_format($resultado1, 2, ',', '.'); /*formata a exibição do resultado*/
+    echo "Resultado: $formatted_resultado1%"; /*Mostra o resultado obtido por meio do cálculo*/
     echo '</div>';
     }
 
